@@ -22,8 +22,5 @@
     "congregator-jsonfetcher": "eiriklv/congregator-jsonfetcher",
     "hearsay-common": "eiriklv/hearsay-common"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Eirik Vullum <evullum@gmail.com> (http://www.evconsult.no/)"
 }
