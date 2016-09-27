@@ -19,6 +19,7 @@ exports = module.exports = function (scraper, rssReader, jsonFetcher, config) {
                     async.forever(scraper.run.bind(scraper), callback);
                 },
                 runRssFeedParser: function (callback) {
+                    debugger
                     async.forever(rssReader.run.bind(rssReader), callback);
                 },
                 runJsonFetcherAndMapper: function (callback) {
