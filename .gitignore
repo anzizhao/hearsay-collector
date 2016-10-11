@@ -33,3 +33,5 @@ node_modules
 
 # development scripts
 *.sh
+
+npm-debug.log
