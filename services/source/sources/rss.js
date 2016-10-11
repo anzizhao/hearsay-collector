@@ -67,7 +67,7 @@ exports = module.exports = [
         name: '阮一峰网络日志',
         url: 'http://www.ruanyifeng.com/blog/atom.xml',
         linkref: 'url',
-        category: ['blogs', '阮一峰'],
+        category: ['blogs', 'ruanyifeng'],
         format: 'desktop',
         body: true,
         template: {
