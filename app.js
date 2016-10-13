@@ -29,7 +29,7 @@ var rssReader = new RssReader({
     getSources: services.source.getFeeds,
     handleEntry: services.entry.save,
     sockets: 15,
-    waitTime: 12 * 3600 *1000, // 半天获取一次
+    waitTime: 13 * 3600 *1000 + 1200 * 1000 , // 半天获取一次
     timeout: 10000
 });
 
@@ -38,7 +38,7 @@ var jsonFetcher = new JsonFetcher({
     getSources: services.source.getMappings,
     handleEntry: services.entry.save,
     sockets: 15,
-    waitTime: 12 * 3600 *1000, // 半天获取一次
+    waitTime: 12 * 3600 *1000 + 2400 * 1000, // 半天获取一次
     timeout: 10000
 });
 
