@@ -7,20 +7,23 @@ exports = module.exports = function (Entry, config) {
             // check if article exists
             function (callback) {
                 Entry.findOne({ guid: entry.guid }, function (err, result) {
-                    callback(err, !!result);
+                    callback(err, !!result, result);
                 });
             },
             // create new entry in db, or update existing (when using upsert, the defaults are ignored, hence the use of findOne/update/save)
-            function (exists, callback) {
+            function (exists, result,  callback) {
                 if (exists) {
-                    //entry.createdAt = new Date();
-
-                    //Entry.update({ guid: entry.guid }, entry, { upsert: true }, function (err, numberAffected, raw) {
-                        //callback(err, false);
-                    //});
+                    if( !! result.content ) {
+                        callback(err, false) 
+                    } else {
+                        entry.createdAt = new Date();
+                        Entry.update({ guid: entry.guid }, entry, { upsert: true }, function (err, numberAffected, raw) {
+                            callback(err, false);
+                        });
+                    }
                 } else {
 
-                    entry.createdAt = new Date();
+                    //entry.createdAt = new Date();
                     entry.posted = new Date(); // overwrite
 
                     var newEntry = new Entry(entry);
