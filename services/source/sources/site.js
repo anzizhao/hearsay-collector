@@ -1,6 +1,6 @@
 exports = module.exports = [
     {
-        active: false,
+        active: true,
         origin: 'site',
         name: 'Wired Science',
         url: 'http://www.wired.com/science',
@@ -11,14 +11,14 @@ exports = module.exports = [
         template: {
             containers: [
                 {
-                    selector: 'article',
+                    selector: 'div[role=article]',
                     elements: [
                         {
                             name: 'guid',
                             type: 'url',
                             items: [
                                 {
-                                    selector: 'h2 a',
+                                    selector: 'a',
                                     attribute: 'href'
                                 }
                             ]
@@ -28,7 +28,7 @@ exports = module.exports = [
                             type: 'url',
                             items: [
                                 {
-                                    selector: 'h2 a',
+                                    selector: 'a',
                                     attribute: 'href'
                                 }
                             ]
@@ -38,16 +38,7 @@ exports = module.exports = [
                             required: true,
                             items: [
                                 {
-                                    selector: 'h2 a'
-                                }
-                            ]
-                        },
-                        {
-                            name: 'description',
-                            items: [
-                                {
-                                    selector: 'div.excertp p',
-                                    delimiter: '\n'
+                                    selector: 'h2'
                                 }
                             ]
                         },
@@ -57,7 +48,7 @@ exports = module.exports = [
                             fallback: 'http://www.wired.com/wp-content/themes/wired/assets/images/post_wired_logo_150x60.gif',
                             items: [
                                 {
-                                    selector: 'div.thumbnail a img',
+                                    selector: 'picture img',
                                     attribute: 'src'
                                 }
                             ]
@@ -189,6 +180,120 @@ exports = module.exports = [
                             items: [
                                 {
                                     selector: 'div.img-thumb a img',
+                                    attribute: 'src'
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        active: false,
+        origin: 'site',
+        name: 'Tv2 Nettavisen',
+        url: 'http://www.nettavisen.no/',
+        linkref: 'url',
+        category: ['news'],
+        format: 'desktop',
+        body: false,
+        template: {
+            containers: [
+                {
+                    selector: '.article-content',
+                    elements: [
+                        {
+                            name: 'guid',
+                            type: 'url',
+                            required: true,
+                            items: [
+                                {
+                                    selector: 'h5 a',
+                                    attribute: 'href'
+                                },
+                                {
+                                    selector: 'h4 a',
+                                    attribute: 'href'
+                                },
+                                {
+                                    selector: 'h3 a',
+                                    attribute: 'href'
+                                },
+                                {
+                                    selector: 'h2 a',
+                                    attribute: 'href'
+                                },
+                                {
+                                    selector: 'h1 a',
+                                    attribute: 'href'
+                                }
+                            ]
+                        },
+                        {
+                            name: 'url',
+                            type: 'url',
+                            required: true,
+                            items: [
+                                {
+                                    selector: 'h5 a',
+                                    attribute: 'href'
+                                },
+                                {
+                                    selector: 'h4 a',
+                                    attribute: 'href'
+                                },
+                                {
+                                    selector: 'h3 a',
+                                    attribute: 'href'
+                                },
+                                {
+                                    selector: 'h2 a',
+                                    attribute: 'href'
+                                },
+                                {
+                                    selector: 'h1 a',
+                                    attribute: 'href'
+                                }
+                            ]
+                        },
+                        {
+                            name: 'title',
+                            required: true,
+                            items: [
+                                {
+                                    selector: 'h5 a'
+                                },
+                                {
+                                    selector: 'h4 a'
+                                },
+                                {
+                                    selector: 'h3 a'
+                                },
+                                {
+                                    selector: 'h2 a'
+                                },
+                                {
+                                    selector: 'h1 a'
+                                }
+                            ]
+                        },
+                        {
+                            name: 'description',
+                            items: [
+                                {
+                                    selector: 'span.df-img-container-inner a img',
+                                    attribute: 'alt'
+                                }
+                            ]
+                        },
+                        {
+                            name: 'image',
+                            type: 'url',
+                            fallback: 'http://someimageurl.comm/1.png',
+                            items: [
+                                {
+                                    selector: 'span.df-img-container-inner a img',
                                     attribute: 'src'
                                 }
                             ]
@@ -351,240 +456,6 @@ exports = module.exports = [
             ]
         }
     },
-    {
-        active: false,
-        origin: 'site',
-        name: 'Tv2 Nettavisen',
-        url: 'http://www.nettavisen.no/',
-        linkref: 'url',
-        category: ['news'],
-        format: 'desktop',
-        body: false,
-        template: {
-            containers: [
-                {
-                    selector: '.article-content',
-                    elements: [
-                        {
-                            name: 'guid',
-                            type: 'url',
-                            required: true,
-                            items: [
-                                {
-                                    selector: 'h5 a',
-                                    attribute: 'href'
-                                },
-                                {
-                                    selector: 'h4 a',
-                                    attribute: 'href'
-                                },
-                                {
-                                    selector: 'h3 a',
-                                    attribute: 'href'
-                                },
-                                {
-                                    selector: 'h2 a',
-                                    attribute: 'href'
-                                },
-                                {
-                                    selector: 'h1 a',
-                                    attribute: 'href'
-                                }
-                            ]
-                        },
-                        {
-                            name: 'url',
-                            type: 'url',
-                            required: true,
-                            items: [
-                                {
-                                    selector: 'h5 a',
-                                    attribute: 'href'
-                                },
-                                {
-                                    selector: 'h4 a',
-                                    attribute: 'href'
-                                },
-                                {
-                                    selector: 'h3 a',
-                                    attribute: 'href'
-                                },
-                                {
-                                    selector: 'h2 a',
-                                    attribute: 'href'
-                                },
-                                {
-                                    selector: 'h1 a',
-                                    attribute: 'href'
-                                }
-                            ]
-                        },
-                        {
-                            name: 'title',
-                            required: true,
-                            items: [
-                                {
-                                    selector: 'h5 a'
-                                },
-                                {
-                                    selector: 'h4 a'
-                                },
-                                {
-                                    selector: 'h3 a'
-                                },
-                                {
-                                    selector: 'h2 a'
-                                },
-                                {
-                                    selector: 'h1 a'
-                                }
-                            ]
-                        },
-                        {
-                            name: 'description',
-                            items: [
-                                {
-                                    selector: 'span.df-img-container-inner a img',
-                                    attribute: 'alt'
-                                }
-                            ]
-                        },
-                        {
-                            name: 'image',
-                            type: 'url',
-                            fallback: 'http://someimageurl.comm/1.png',
-                            items: [
-                                {
-                                    selector: 'span.df-img-container-inner a img',
-                                    attribute: 'src'
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        }
-    },
-    //{
-        //active: false,
-        //origin: 'site',
-        //name: 'sol.no',
-        //url: 'http://www.sol.no/',
-        //linkref: 'url',
-        //category: ['news'],
-        //format: 'desktop',
-        //body: false,
-        //template: {
-            //containers: [
-                //{
-                    //selector: '.article-content',
-                    //elements: [
-                        //{
-                            //name: 'guid',
-                            //type: 'url',
-                            //required: true,
-                            //items: [
-                                //{
-                                    //selector: 'h5 a',
-                                    //attribute: 'href'
-                                //},
-                                //{
-                                    //selector: 'h4 a',
-                                    //attribute: 'href'
-                                //},{
-                                    //selector: 'h3 a',
-                                    //attribute: 'href'
-                                //},
-                                //{
-                                    //selector: 'h2 a',
-                                    //attribute: 'href'
-                                //},
-                                //{
-                                    //selector: 'h1 a',
-                                    //attribute: 'href'
-                                //}
-                            //]
-                        //},
-                        //{
-                            //name: 'url',
-                            //type: 'url',
-                            //required: true,
-                            //items: [
-                                //{
-                                    //selector: 'h5 a',
-                                    //attribute: 'href'
-                                //},
-                                //{
-                                    //selector: 'h4 a',
-                                    //attribute: 'href'
-                                //},{
-                                    //selector: 'h3 a',
-                                    //attribute: 'href'
-                                //},
-                                //{
-                                    //selector: 'h2 a',
-                                    //attribute: 'href'
-                                //},
-                                //{
-                                    //selector: 'h1 a',
-                                    //attribute: 'href'
-                                //}
-                            //]
-                        //},
-                        //{
-                            //name: 'title',
-                            //required: true,
-                            //items: [
-                                //{
-                                    //selector: 'h5 a'
-                                //},
-                                //{
-                                    //selector: 'h4 a'
-                                //},
-                                //{
-                                    //selector: 'h3 a'
-                                //},
-                                //{
-                                    //selector: 'h2 a'
-                                //},
-                                //{
-                                    //selector: 'h1 a'
-                                //}
-                            //]
-                        //},
-                        //{
-                            //name: 'description',
-                            //items: [
-                                //{
-                                    //selector: 'span.df-img-container-inner a img',
-                                    //attribute: 'alt'
-                                //}
-                            //]
-                        //},
-                        //{
-                            //name: 'image',
-                            //type: 'url',
-                            //fallback: null,
-                            //items: [
-                                //{
-                                    //selector: 'span.df-img-container-inner a img',
-                                    //attribute: 'data-echo'
-                                //},
-                                //{
-                                    //selector: 'span.df-img-container-inner a img',
-                                    //attribute: 'data-src'
-                                //},
-                                //{
-                                    //selector: 'span.df-img-container-inner a img',
-                                    //attribute: 'src'
-                                //}
-                            //]
-                        //}
-                    //]
-                //}
-            //]
-        //}
-    //},
     {
         active: false,
         origin: 'site',

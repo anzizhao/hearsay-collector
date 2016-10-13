@@ -19,11 +19,15 @@ exports = module.exports = function (scraper, rssReader, jsonFetcher, config) {
                     async.forever(scraper.run.bind(scraper), callback);
                 },
                 runRssFeedParser: function (callback) {
-                    debugger
-                    async.forever(rssReader.run.bind(rssReader), callback);
+                    setTimeout(function(){
+                        async.forever(rssReader.run.bind(rssReader), callback);
+                    },  2 * 60 * 1000 ) // 开启后2分钟抓取
                 },
                 runJsonFetcherAndMapper: function (callback) {
-                    async.forever(jsonFetcher.run.bind(jsonFetcher), callback);
+                    setTimeout(function(){
+                        async.forever(jsonFetcher.run.bind(jsonFetcher), callback);
+                    },  20 * 60 * 1000 ) // 20分钟抓取
+
                 }
             }, callback);
         }
