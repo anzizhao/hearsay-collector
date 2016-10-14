@@ -18,13 +18,12 @@ exports = module.exports = function (scraper, rssReader, jsonFetcher, config) {
                 runSiteScraper: function (callback) {
                     async.forever(scraper.run.bind(scraper), callback);
                 },
-                runRssFeedParser: function (callback) {
-                    debugger
-                    async.forever(rssReader.run.bind(rssReader), callback);
-                },
-                runJsonFetcherAndMapper: function (callback) {
-                    async.forever(jsonFetcher.run.bind(jsonFetcher), callback);
-                }
+                //runRssFeedParser: function (callback) {
+                    //async.forever(rssReader.run.bind(rssReader), callback);
+                //},
+                //runJsonFetcherAndMapper: function (callback) {
+                    //async.forever(jsonFetcher.run.bind(jsonFetcher), callback);
+                //}
             }, callback);
         }
     }, function (err, results) {
