@@ -9,7 +9,6 @@ var debug = require('debug')('hearsay:collector:app');
 var SiteScraper = require('congregator-sitescraper');
 var RssReader = require('congregator-rssreader');
 var JsonFetcher = require('congregator-jsonfetcher');
-
 // create connection to db
 setup.db(mongoose, config);
 
@@ -25,7 +24,6 @@ var siteScraper = new SiteScraper({
     waitTime: 12 * 3600 *1000, // 半天获取一次
     timeout: 30000
 });
-
 // rss feed reader/parser
 var rssReader = new RssReader({
     getSources: services.source.getFeeds,

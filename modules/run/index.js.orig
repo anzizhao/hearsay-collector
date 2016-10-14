@@ -18,6 +18,14 @@ exports = module.exports = function (scraper, rssReader, jsonFetcher, config) {
                 runSiteScraper: function (callback) {
                     async.forever(scraper.run.bind(scraper), callback);
                 },
+<<<<<<< HEAD
+                //runRssFeedParser: function (callback) {
+                    //async.forever(rssReader.run.bind(rssReader), callback);
+                //},
+                //runJsonFetcherAndMapper: function (callback) {
+                    //async.forever(jsonFetcher.run.bind(jsonFetcher), callback);
+                //}
+=======
                 runRssFeedParser: function (callback) {
                     setTimeout(function(){
                         async.forever(rssReader.run.bind(rssReader), callback);
@@ -29,6 +37,7 @@ exports = module.exports = function (scraper, rssReader, jsonFetcher, config) {
                     },  20 * 60 * 1000 ) // 20分钟抓取
 
                 }
+>>>>>>> origin/master
             }, callback);
         }
     }, function (err, results) {

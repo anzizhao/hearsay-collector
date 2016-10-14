@@ -248,7 +248,7 @@ exports = module.exports = [
     },
     // 十年踪迹博客
     {
-        active: true,
+        active: false,
         origin: 'feed',
         name: '十年踪迹博客',
         url: 'https://www.h5jun.com/rss.html',
@@ -672,312 +672,311 @@ exports = module.exports = [
                 }
             ]
         }
-    } 
+    }, 
     //freeburner 国内无法访问 
-    
-    //{
-        //active: true,
-        //origin: 'feed',
-        //name: 'TechCrunch',
-        //url: 'http://feeds.feedburner.com/TechCrunch/',
-        //linkref: 'url',
-        //category: ['technology', 'techcrunch'],
-        //format: 'desktop',
-        //body: true,
-        //template: {
-            //elements: [
-                //{
-                    //name: 'guid',
-                    //type: 'url',
-                    //required: true,
-                    //items: [
-                        //{
-                            //selector: 'guid'
-                        //},
-                        //{
-                            //selector: 'link'
-                        //},
-                        //{
-                            //selector: 'title',
-                            //decode: true
-                        //}
-                    //]
-                //},
-                //{
-                    //name: 'title',
-                    //required: true,
-                    //items: [
-                        //{
-                            //selector: 'title',
-                            //decode: true
-                        //}
-                    //]
-                //},
-                //{
-                    //name: 'url',
-                    //type: 'url',
-                    //required: true,
-                    //items: [
-                        //{
-                            //selector: 'link'
-                        //}
-                    //]
-                //},
-                //{
-                    //name: 'image',
-                    //type: 'url',
-                    //items: [
-                        //{
-                            //selector: 'enclosures[0].url'
-                        //}
-                    //],
-                    //fallback: 'http://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/logo.svg'
-                //}
-            //]
-        //}
-    //},
-    //{
-        //active: true,
-        //origin: 'feed',
-        //name: 'TheAtlantic - Technology',
-        //url: 'http://feeds.feedburner.com/atlanticscienceandtechnology',
-        //linkref: 'url',
-        //category: ['technology', 'theatlantic'],
-        //format: 'desktop',
-        //body: true,
-        //template: {
-            //elements: [
-                //{
-                    //name: 'guid',
-                    //type: 'url',
-                    //required: true,
-                    //items: [
-                        //{
-                            //selector: 'guid'
-                        //},
-                        //{
-                            //selector: 'link'
-                        //},
-                        //{
-                            //selector: 'title',
-                            //decode: true
-                        //}
-                    //]
-                //},
-                //{
-                    //name: 'title',
-                    //required: true,
-                    //items: [
-                        //{
-                            //selector: 'title',
-                            //decode: true
-                        //}
-                    //]
-                //},
-                //{
-                    //name: 'url',
-                    //type: 'url',
-                    //required: true,
-                    //items: [
-                        //{
-                            //selector: 'link'
-                        //}
-                    //]
-                //},
-                //{
-                    //name: 'image',
-                    //type: 'url',
-                    //items: [
-                        //{
-                            //selector: 'enclosures[0].url'
-                        //}
-                    //],
-                    //fallback: 'http://cdn.theatlantic.com/static/front/images/logo/213x70.png'
-                //}
-            //]
-        //}
-    //},
-    //{
-        //active: true,
-        //origin: 'feed',
-        //name: 'Entrepreneur.com',
-        //url: 'http://feeds.feedburner.com/entrepreneur/latest',
-        //linkref: 'url',
-        //category: ['career', 'entrepreneur'],
-        //format: 'desktop',
-        //body: true,
-        //template: {
-            //elements: [
-                //{
-                    //name: 'guid',
-                    //type: 'url',
-                    //required: true,
-                    //items: [
-                        //{
-                            //selector: 'guid'
-                        //},
-                        //{
-                            //selector: 'link'
-                        //},
-                        //{
-                            //selector: 'title',
-                            //decode: true
-                        //}
-                    //]
-                //},
-                //{
-                    //name: 'title',
-                    //required: true,
-                    //items: [
-                        //{
-                            //selector: 'title',
-                            //decode: true
-                        //}
-                    //]
-                //},
-                //{
-                    //name: 'url',
-                    //type: 'url',
-                    //required: true,
-                    //items: [
-                        //{
-                            //selector: 'link'
-                        //}
-                    //]
-                //},
-                //{
-                    //name: 'image',
-                    //type: 'url',
-                    //items: [
-                        //{
-                            //selector: 'enclosures[0].url'
-                        //}
-                    //],
-                    //fallback: 'http://www.entrepreneur.com/assets/img/ent-logo-high.png'
-                //}
-            //]
-        //}
-    //},
-    //{
-        //active: true,
-        //origin: 'feed',
-        //name: 'Coding Horror (Jeff Atwood)',
-        //url: 'http://feeds.feedburner.com/codinghorror',
-        //linkref: 'url',
-        //category: ['blogs', 'codinghorror'],
-        //format: 'desktop',
-        //body: true,
-        //template: {
-            //elements: [
-                //{
-                    //name: 'guid',
-                    //type: 'url',
-                    //required: true,
-                    //items: [
-                        //{
-                            //selector: 'guid'
-                        //},
-                        //{
-                            //selector: 'link'
-                        //},
-                        //{
-                            //selector: 'title',
-                            //decode: true
-                        //}
-                    //]
-                //},
-                //{
-                    //name: 'title',
-                    //required: true,
-                    //items: [
-                        //{
-                            //selector: 'title',
-                            //decode: true
-                        //}
-                    //]
-                //},
-                //{
-                    //name: 'url',
-                    //type: 'url',
-                    //required: true,
-                    //items: [
-                        //{
-                            //selector: 'link'
-                        //}
-                    //]
-                //},
-                //{
-                    //name: 'image',
-                    //type: 'url',
-                    //items: [
-                        //{
-                            //selector: 'enclosures[0].url'
-                        //}
-                    //],
-                    //fallback: 'http://blog.codinghorror.com/assets/images/codinghorror-app-icon.png?v=0d085690dd'
-                //}
-            //]
-        //}
-    //},
-    //{
-        //active: true,
-        //origin: 'feed',
-        //name: 'KQED MindShift',
-        //url: 'http://feeds.feedburner.com/kqed/nHAK?format=xml',
-        //linkref: 'url',
-        //category: ['career', 'mindshift'],
-        //format: 'desktop',
-        //body: true,
-        //template: {
-            //elements: [
-                //{
-                    //name: 'guid',
-                    //type: 'url',
-                    //required: true,
-                    //items: [
-                        //{
-                            //selector: 'guid'
-                        //},
-                        //{
-                            //selector: 'link'
-                        //},
-                        //{
-                            //selector: 'title',
-                            //decode: true
-                        //}
-                    //]
-                //},
-                //{
-                    //name: 'title',
-                    //required: true,
-                    //items: [
-                        //{
-                            //selector: 'title',
-                            //decode: true
-                        //}
-                    //]
-                //},
-                //{
-                    //name: 'url',
-                    //type: 'url',
-                    //required: true,
-                    //items: [
-                        //{
-                            //selector: 'link'
-                        //}
-                    //]
-                //},
-                //{
-                    //name: 'image',
-                    //type: 'url',
-                    //items: [
-                        //{
-                            //selector: 'enclosures[0].url'
-                        //}
-                    //],
-                    //fallback: 'http://blogs.kqed.org/mindshift/wp-content/themes/MS-clear/img/logo-mindshift.png'
-                //}
-            //]
-        //}
-    //}
+    {
+        active: false,
+        origin: 'feed',
+        name: 'TechCrunch',
+        url: 'http://feeds.feedburner.com/TechCrunch/',
+        linkref: 'url',
+        category: ['technology', 'techcrunch'],
+        format: 'desktop',
+        body: true,
+        template: {
+            elements: [
+                {
+                    name: 'guid',
+                    type: 'url',
+                    required: true,
+                    items: [
+                        {
+                            selector: 'guid'
+                        },
+                        {
+                            selector: 'link'
+                        },
+                        {
+                            selector: 'title',
+                            decode: true
+                        }
+                    ]
+                },
+                {
+                    name: 'title',
+                    required: true,
+                    items: [
+                        {
+                            selector: 'title',
+                            decode: true
+                        }
+                    ]
+                },
+                {
+                    name: 'url',
+                    type: 'url',
+                    required: true,
+                    items: [
+                        {
+                            selector: 'link'
+                        }
+                    ]
+                },
+                {
+                    name: 'image',
+                    type: 'url',
+                    items: [
+                        {
+                            selector: 'enclosures[0].url'
+                        }
+                    ],
+                    fallback: 'http://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/logo.svg'
+                }
+            ]
+        }
+    },
+    {
+        active: false,
+        origin: 'feed',
+        name: 'TheAtlantic - Technology',
+        url: 'http://feeds.feedburner.com/atlanticscienceandtechnology',
+        linkref: 'url',
+        category: ['technology', 'theatlantic'],
+        format: 'desktop',
+        body: true,
+        template: {
+            elements: [
+                {
+                    name: 'guid',
+                    type: 'url',
+                    required: true,
+                    items: [
+                        {
+                            selector: 'guid'
+                        },
+                        {
+                            selector: 'link'
+                        },
+                        {
+                            selector: 'title',
+                            decode: true
+                        }
+                    ]
+                },
+                {
+                    name: 'title',
+                    required: true,
+                    items: [
+                        {
+                            selector: 'title',
+                            decode: true
+                        }
+                    ]
+                },
+                {
+                    name: 'url',
+                    type: 'url',
+                    required: true,
+                    items: [
+                        {
+                            selector: 'link'
+                        }
+                    ]
+                },
+                {
+                    name: 'image',
+                    type: 'url',
+                    items: [
+                        {
+                            selector: 'enclosures[0].url'
+                        }
+                    ],
+                    fallback: 'http://cdn.theatlantic.com/static/front/images/logo/213x70.png'
+                }
+            ]
+        }
+    },
+    {
+        active: false,
+        origin: 'feed',
+        name: 'Entrepreneur.com',
+        url: 'http://feeds.feedburner.com/entrepreneur/latest',
+        linkref: 'url',
+        category: ['career', 'entrepreneur'],
+        format: 'desktop',
+        body: true,
+        template: {
+            elements: [
+                {
+                    name: 'guid',
+                    type: 'url',
+                    required: true,
+                    items: [
+                        {
+                            selector: 'guid'
+                        },
+                        {
+                            selector: 'link'
+                        },
+                        {
+                            selector: 'title',
+                            decode: true
+                        }
+                    ]
+                },
+                {
+                    name: 'title',
+                    required: true,
+                    items: [
+                        {
+                            selector: 'title',
+                            decode: true
+                        }
+                    ]
+                },
+                {
+                    name: 'url',
+                    type: 'url',
+                    required: true,
+                    items: [
+                        {
+                            selector: 'link'
+                        }
+                    ]
+                },
+                {
+                    name: 'image',
+                    type: 'url',
+                    items: [
+                        {
+                            selector: 'enclosures[0].url'
+                        }
+                    ],
+                    fallback: 'http://www.entrepreneur.com/assets/img/ent-logo-high.png'
+                }
+            ]
+        }
+    },
+    {
+        active: false,
+        origin: 'feed',
+        name: 'Coding Horror (Jeff Atwood)',
+        url: 'http://feeds.feedburner.com/codinghorror',
+        linkref: 'url',
+        category: ['blogs', 'codinghorror'],
+        format: 'desktop',
+        body: true,
+        template: {
+            elements: [
+                {
+                    name: 'guid',
+                    type: 'url',
+                    required: true,
+                    items: [
+                        {
+                            selector: 'guid'
+                        },
+                        {
+                            selector: 'link'
+                        },
+                        {
+                            selector: 'title',
+                            decode: true
+                        }
+                    ]
+                },
+                {
+                    name: 'title',
+                    required: true,
+                    items: [
+                        {
+                            selector: 'title',
+                            decode: true
+                        }
+                    ]
+                },
+                {
+                    name: 'url',
+                    type: 'url',
+                    required: true,
+                    items: [
+                        {
+                            selector: 'link'
+                        }
+                    ]
+                },
+                {
+                    name: 'image',
+                    type: 'url',
+                    items: [
+                        {
+                            selector: 'enclosures[0].url'
+                        }
+                    ],
+                    fallback: 'http://blog.codinghorror.com/assets/images/codinghorror-app-icon.png?v=0d085690dd'
+                }
+            ]
+        }
+    },
+    {
+        active: false,
+        origin: 'feed',
+        name: 'KQED MindShift',
+        url: 'http://feeds.feedburner.com/kqed/nHAK?format=xml',
+        linkref: 'url',
+        category: ['career', 'mindshift'],
+        format: 'desktop',
+        body: true,
+        template: {
+            elements: [
+                {
+                    name: 'guid',
+                    type: 'url',
+                    required: true,
+                    items: [
+                        {
+                            selector: 'guid'
+                        },
+                        {
+                            selector: 'link'
+                        },
+                        {
+                            selector: 'title',
+                            decode: true
+                        }
+                    ]
+                },
+                {
+                    name: 'title',
+                    required: true,
+                    items: [
+                        {
+                            selector: 'title',
+                            decode: true
+                        }
+                    ]
+                },
+                {
+                    name: 'url',
+                    type: 'url',
+                    required: true,
+                    items: [
+                        {
+                            selector: 'link'
+                        }
+                    ]
+                },
+                {
+                    name: 'image',
+                    type: 'url',
+                    items: [
+                        {
+                            selector: 'enclosures[0].url'
+                        }
+                    ],
+                    fallback: 'http://blogs.kqed.org/mindshift/wp-content/themes/MS-clear/img/logo-mindshift.png'
+                }
+            ]
+        }
+    }
 ];

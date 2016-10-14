@@ -12,6 +12,7 @@ exports = module.exports = function (Entry, config) {
             },
             // create new entry in db, or update existing (when using upsert, the defaults are ignored, hence the use of findOne/update/save)
             function (exists, result,  callback) {
+<<<<<<< HEAD
                 //console.log( 'exists: ', exists )
                 if (exists) {
                     if( result.content ) {
@@ -19,6 +20,12 @@ exports = module.exports = function (Entry, config) {
                         callback(null, false);
                     } else {
                         //console.log( 'result.content false')
+=======
+                if (exists) {
+                    if( !! result.content ) {
+                        callback(err, false) 
+                    } else {
+>>>>>>> origin/master
                         entry.createdAt = new Date();
                         Entry.update({ guid: entry.guid }, entry, { upsert: true }, function (err, numberAffected, raw) {
                             callback(err, false);

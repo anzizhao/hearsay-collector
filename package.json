@@ -18,9 +18,9 @@
     "colors": "0.6.x",
     "convict": "0.4.2",
     "debug": "2.0.x",
-    "congregator-sitescraper": "eiriklv/congregator-sitescraper",
-    "congregator-rssreader": "eiriklv/congregator-rssreader",
-    "congregator-jsonfetcher": "eiriklv/congregator-jsonfetcher",
+    "congregator-sitescraper": "anzizhao/congregator-sitescraper",
+    "congregator-rssreader": "anzizhao/congregator-rssreader",
+    "congregator-jsonfetcher": "anzizhao/congregator-jsonfetcher",
     "hearsay-common": "eiriklv/hearsay-common"
   },
   "author": "Eirik Vullum <evullum@gmail.com> (http://www.evconsult.no/)"
