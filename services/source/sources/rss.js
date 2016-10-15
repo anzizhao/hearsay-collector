@@ -16,14 +16,7 @@ exports = module.exports = [
                     required: true,
                     items: [
                         {
-                            selector: 'guid'
-                        },
-                        {
                             selector: 'link'
-                        },
-                        {
-                            selector: 'title',
-                            decode: true
                         }
                     ]
                 },
@@ -43,7 +36,7 @@ exports = module.exports = [
                     required: true,
                     items: [
                         {
-                            selector: 'link'
+                            selector: 'links'
                         }
                     ]
                 },
@@ -81,9 +74,6 @@ exports = module.exports = [
                             selector: 'guid'
                         },
                         {
-                            selector: 'link'
-                        },
-                        {
                             selector: 'title',
                             decode: true
                         }
@@ -108,78 +98,6 @@ exports = module.exports = [
                             selector: 'link'
                         }
                     ]
-                },
-                {
-                    name: 'image',
-                    type: 'url',
-                    items: [
-                        {
-                            selector: 'enclosures[0].url'
-                        }
-                    ],
-                    fallback: 'http://www.ruanyifeng.com/blog/images/person2_s.jpg'
-                }
-            ]
-        }
-    },
-    // 天壤的博客
-    {
-        active: true,
-        origin: 'feed',
-        name: '天镶的博客',
-        url: 'http://www.lingyu.wang/atom.xml',
-        linkref: 'url',
-        category: ['blogs', 'tianyu'],
-        format: 'desktop',
-        body: true,
-        template: {
-            elements: [
-                {
-                    name: 'guid',
-                    type: 'url',
-                    required: true,
-                    items: [
-                        {
-                            selector: 'guid'
-                        },
-                        {
-                            selector: 'link'
-                        },
-                        {
-                            selector: 'title',
-                            decode: true
-                        }
-                    ]
-                },
-                {
-                    name: 'title',
-                    required: true,
-                    items: [
-                        {
-                            selector: 'title',
-                            decode: true
-                        }
-                    ]
-                },
-                {
-                    name: 'url',
-                    type: 'url',
-                    required: true,
-                    items: [
-                        {
-                            selector: 'link'
-                        }
-                    ]
-                },
-                {
-                    name: 'image',
-                    type: 'url',
-                    items: [
-                        {
-                            selector: 'enclosures[0].url'
-                        }
-                    ],
-                    fallback: 'https://avatars1.githubusercontent.com/u/2663351?v=3&s=460'
                 }
             ]
         }
@@ -248,7 +166,7 @@ exports = module.exports = [
     },
     // 十年踪迹博客
     {
-        active: false,
+        active: true,
         origin: 'feed',
         name: '十年踪迹博客',
         url: 'https://www.h5jun.com/rss.html',
@@ -285,26 +203,6 @@ exports = module.exports = [
                         }
                     ]
                 },
-                {
-                    name: 'url',
-                    type: 'url',
-                    required: true,
-                    items: [
-                        {
-                            selector: 'link'
-                        }
-                    ]
-                },
-                {
-                    name: 'image',
-                    type: 'url',
-                    items: [
-                        {
-                            selector: 'enclosures[0].url'
-                        }
-                    ],
-                    fallback: 'https://www.h5jun.com/static/upload/201603/logo.jpg'
-                }
             ]
         }
     },
@@ -673,70 +571,8 @@ exports = module.exports = [
             ]
         }
     }, 
-    //freeburner 国内无法访问 
     {
-        active: false,
-        origin: 'feed',
-        name: 'TechCrunch',
-        url: 'http://feeds.feedburner.com/TechCrunch/',
-        linkref: 'url',
-        category: ['technology', 'techcrunch'],
-        format: 'desktop',
-        body: true,
-        template: {
-            elements: [
-                {
-                    name: 'guid',
-                    type: 'url',
-                    required: true,
-                    items: [
-                        {
-                            selector: 'guid'
-                        },
-                        {
-                            selector: 'link'
-                        },
-                        {
-                            selector: 'title',
-                            decode: true
-                        }
-                    ]
-                },
-                {
-                    name: 'title',
-                    required: true,
-                    items: [
-                        {
-                            selector: 'title',
-                            decode: true
-                        }
-                    ]
-                },
-                {
-                    name: 'url',
-                    type: 'url',
-                    required: true,
-                    items: [
-                        {
-                            selector: 'link'
-                        }
-                    ]
-                },
-                {
-                    name: 'image',
-                    type: 'url',
-                    items: [
-                        {
-                            selector: 'enclosures[0].url'
-                        }
-                    ],
-                    fallback: 'http://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/logo.svg'
-                }
-            ]
-        }
-    },
-    {
-        active: false,
+        active: true,
         origin: 'feed',
         name: 'TheAtlantic - Technology',
         url: 'http://feeds.feedburner.com/atlanticscienceandtechnology',
@@ -752,7 +588,7 @@ exports = module.exports = [
                     required: true,
                     items: [
                         {
-                            selector: 'guid'
+                            selector: 'id'
                         },
                         {
                             selector: 'link'
@@ -797,7 +633,7 @@ exports = module.exports = [
         }
     },
     {
-        active: false,
+        active: true,
         origin: 'feed',
         name: 'Entrepreneur.com',
         url: 'http://feeds.feedburner.com/entrepreneur/latest',
@@ -858,7 +694,7 @@ exports = module.exports = [
         }
     },
     {
-        active: false,
+        active: true,
         origin: 'feed',
         name: 'Coding Horror (Jeff Atwood)',
         url: 'http://feeds.feedburner.com/codinghorror',
@@ -919,7 +755,7 @@ exports = module.exports = [
         }
     },
     {
-        active: false,
+        active: true,
         origin: 'feed',
         name: 'KQED MindShift',
         url: 'http://feeds.feedburner.com/kqed/nHAK?format=xml',
@@ -979,4 +815,67 @@ exports = module.exports = [
             ]
         }
     }
+            
+    //freeburner 国内无法访问 
+    //{
+        //active: false,
+        //origin: 'feed',
+        //name: 'TechCrunch',
+        //url: 'http://feeds.feedburner.com/TechCrunch/',
+        //linkref: 'url',
+        //category: ['technology', 'techcrunch'],
+        //format: 'desktop',
+        //body: true,
+        //template: {
+            //elements: [
+                //{
+                    //name: 'guid',
+                    //type: 'url',
+                    //required: true,
+                    //items: [
+                        //{
+                            //selector: 'guid'
+                        //},
+                        //{
+                            //selector: 'link'
+                        //},
+                        //{
+                            //selector: 'title',
+                            //decode: true
+                        //}
+                    //]
+                //},
+                //{
+                    //name: 'title',
+                    //required: true,
+                    //items: [
+                        //{
+                            //selector: 'title',
+                            //decode: true
+                        //}
+                    //]
+                //},
+                //{
+                    //name: 'url',
+                    //type: 'url',
+                    //required: true,
+                    //items: [
+                        //{
+                            //selector: 'link'
+                        //}
+                    //]
+                //},
+                //{
+                    //name: 'image',
+                    //type: 'url',
+                    //items: [
+                        //{
+                            //selector: 'enclosures[0].url'
+                        //}
+                    //],
+                    //fallback: 'http://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/logo.svg'
+                //}
+            //]
+        //}
+    //},
 ];
