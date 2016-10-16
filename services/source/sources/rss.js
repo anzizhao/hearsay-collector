@@ -151,16 +151,16 @@ exports = module.exports = [
                         }
                     ]
                 },
-                {
-                    name: 'image',
-                    type: 'url',
-                    items: [
-                        {
-                            selector: 'enclosures[0].url'
-                        }
-                    ],
-                    fallback: 'https://st.imququ.com/static/img/blog/ququ.jpg',
-                }
+                //{
+                    //name: 'image',
+                    //type: 'url',
+                    //items: [
+                        //{
+                            //selector: 'enclosures[0].url'
+                        //}
+                    //],
+                    //fallback: 'https://st.imququ.com/static/img/blog/ququ.jpg',
+                //}
             ]
         }
     },
@@ -200,6 +200,16 @@ exports = module.exports = [
                         {
                             selector: 'title',
                             decode: true
+                        }
+                    ]
+                },
+                {
+                    name: 'url',
+                    type: 'url',
+                    required: true,
+                    items: [
+                        {
+                            selector: 'link'
                         }
                     ]
                 },
@@ -498,15 +508,15 @@ exports = module.exports = [
                         }
                     ]
                 },
-                {
-                    name: 'image',
-                    type: 'url',
-                    items: [
-                        {
-                            selector: 'enclosures[0].url'
-                        }
-                    ]
-                }
+                //{
+                    //name: 'image',
+                    //type: 'url',
+                    //items: [
+                        //{
+                            //selector: 'enclosures[0].url'
+                        //}
+                    //]
+                //}
             ]
         }
     },
@@ -814,68 +824,57 @@ exports = module.exports = [
                 }
             ]
         }
+    },
+    {
+        active: true,
+        origin: 'feed',
+        name: 'node weekly',
+        url: 'http://nodeweekly.com/rss/16idejnb',
+        linkref: 'url',
+        originContent: true,
+        category: ['node', 'nodeweekly'],
+        format: 'desktop',
+        body: true,
+        template: {
+            elements: [
+                {
+                    name: 'guid',
+                    type: 'url',
+                    required: true,
+                    items: [
+                        {
+                            selector: 'guid'
+                        },
+                        {
+                            selector: 'link'
+                        },
+                        {
+                            selector: 'title',
+                            decode: true
+                        }
+                    ]
+                },
+                {
+                    name: 'title',
+                    required: true,
+                    items: [
+                        {
+                            selector: 'title',
+                            decode: true
+                        }
+                    ]
+                },
+                {
+                    name: 'url',
+                    type: 'url',
+                    required: true,
+                    items: [
+                        {
+                            selector: 'link'
+                        }
+                    ]
+                }
+            ]
+        }
     }
-            
-    //freeburner 国内无法访问 
-    //{
-        //active: false,
-        //origin: 'feed',
-        //name: 'TechCrunch',
-        //url: 'http://feeds.feedburner.com/TechCrunch/',
-        //linkref: 'url',
-        //category: ['technology', 'techcrunch'],
-        //format: 'desktop',
-        //body: true,
-        //template: {
-            //elements: [
-                //{
-                    //name: 'guid',
-                    //type: 'url',
-                    //required: true,
-                    //items: [
-                        //{
-                            //selector: 'guid'
-                        //},
-                        //{
-                            //selector: 'link'
-                        //},
-                        //{
-                            //selector: 'title',
-                            //decode: true
-                        //}
-                    //]
-                //},
-                //{
-                    //name: 'title',
-                    //required: true,
-                    //items: [
-                        //{
-                            //selector: 'title',
-                            //decode: true
-                        //}
-                    //]
-                //},
-                //{
-                    //name: 'url',
-                    //type: 'url',
-                    //required: true,
-                    //items: [
-                        //{
-                            //selector: 'link'
-                        //}
-                    //]
-                //},
-                //{
-                    //name: 'image',
-                    //type: 'url',
-                    //items: [
-                        //{
-                            //selector: 'enclosures[0].url'
-                        //}
-                    //],
-                    //fallback: 'http://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/logo.svg'
-                //}
-            //]
-        //}
-    //},
 ];

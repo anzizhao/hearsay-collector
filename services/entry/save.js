@@ -14,19 +14,21 @@ exports = module.exports = function (Entry, config) {
             function (exists, result,  callback) {
                 //console.log( 'exists: ', exists )
                 if (exists) {
-                    if( result.content ) {
+                    if( result.content ||  !entry.content  ) {
                         //console.log( 'result.content true')
                         callback(null, false);
                     } else {
                         //console.log( 'result.content false')
                         entry.createdAt = new Date();
+                        //将content title 赋值到外面的title  因为阮一峰的rss编码的原因  外面的title为乱码
+                        entry.title = entry.content.title; 
                         Entry.update({ guid: entry.guid }, entry, { upsert: true }, function (err, numberAffected, raw) {
                             callback(err, false);
                         });
-                    }
+                    } 
                 } else {
 
-                    //entry.createdAt = new Date();
+                    entry.createdAt = new Date();
                     entry.posted = new Date(); // overwrite
 
                     var newEntry = new Entry(entry);
