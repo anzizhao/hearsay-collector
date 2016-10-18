@@ -108,5 +108,51 @@ exports = module.exports = [
                 }
             ]
         }
-    }
+    },
+    {
+        "active": true,
+        "origin": "json",
+        "name": 'medium',
+        "url": 'https://medium.com/_/api/tags/javascript/stream',
+        "outside": true,
+        "listref": ['payload','references', 'Post'],
+        "linkref": "url",
+        "category": ['frontend', 'medium'],
+        "format": "desktop",
+        "body": true,
+        "template": {
+            "elements": [
+                {
+                    "name": "guid",
+                    "type": "url",
+                    "required": true,
+                    "items": [
+                        {
+                            "selector": "uniqueSlug"
+                        }
+                    ]
+                },
+                {
+                    "name": "title",
+                    "required": true,
+                    "items": [
+                        {
+                            "selector": "title"
+                        }
+                    ]
+                },
+                {
+                    "name": "url",
+                    "type": "url",
+                    "specail": "medium",   //根据具体网站  做的一些具体分析
+                    "required": true,
+                    "items": [
+                        {
+                            "selector": "uniqueSlug"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
 ];
