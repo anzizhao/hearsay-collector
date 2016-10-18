@@ -22,15 +22,18 @@ var siteScraper = new SiteScraper({
     handleEntry: services.entry.save,
     sockets: 15,
     waitTime: 12 * 3600 *1000, // 半天获取一次
-    timeout: 30000
+    //waitTime:  60 *1000, // 半天获取一次
+    timeout: 300000 // 5分钟
+    //timeout: 60000
 });
 // rss feed reader/parser
 var rssReader = new RssReader({
     getSources: services.source.getFeeds,
     handleEntry: services.entry.save,
     sockets: 15,
-    waitTime: 13 * 3600 *1000 + 1200 * 1000 , // 半天获取一次
-    timeout: 10000
+    waitTime: 12 * 3600 *1000, // 半天获取一次
+    //waitTime: 600 * 1000 , // 10分钟获取一次
+    timeout: 300000 // 5分钟
 });
 
 // json endpoint fetcher and mapper
@@ -38,8 +41,10 @@ var jsonFetcher = new JsonFetcher({
     getSources: services.source.getMappings,
     handleEntry: services.entry.save,
     sockets: 15,
-    waitTime: 12 * 3600 *1000 + 2400 * 1000, // 半天获取一次
-    timeout: 10000
+    waitTime: 12 * 3600 *1000 , // 半天获取一次
+    //waitTime: 60 * 1000 , // 半天获取一次
+    timeout: 300000 // 5分钟
+    //timeout: 60000
 });
 
 // run the process

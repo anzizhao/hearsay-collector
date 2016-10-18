@@ -1,4 +1,5 @@
 var async = require('async');
+var debug = require('debug')('hearsay:collector:services:save');
 
 exports = module.exports = function (Entry, config) {
     return function(entry, callback) {
@@ -12,13 +13,14 @@ exports = module.exports = function (Entry, config) {
             },
             // create new entry in db, or update existing (when using upsert, the defaults are ignored, hence the use of findOne/update/save)
             function (exists, result,  callback) {
-                //console.log( 'exists: ', exists )
+
                 if (exists) {
                     if( result.content ||  !entry.content  ) {
                         //console.log( 'result.content true')
+                        debug('exists noop %s', entry.guid )
                         callback(null, false);
                     } else {
-                        //console.log( 'result.content false')
+                        debug('exists update %s', entry.guid )
                         entry.createdAt = new Date();
                         //将content title 赋值到外面的title  因为阮一峰的rss编码的原因  外面的title为乱码
                         entry.title = entry.content.title; 
@@ -28,6 +30,7 @@ exports = module.exports = function (Entry, config) {
                     } 
                 } else {
 
+                    debug('exists new %s', entry.guid )
                     entry.createdAt = new Date();
                     entry.posted = new Date(); // overwrite
 
