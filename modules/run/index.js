@@ -15,15 +15,15 @@ exports = module.exports = function (scraper, rssReader, jsonFetcher, config) {
         },
         collectAndDistributeContent: function (callback) {
             async.parallel({
-                //runSiteScraper: function (callback) {
-                    //async.forever(scraper.run.bind(scraper), callback);
-                //},
+                runSiteScraper: function (callback) {
+                    async.forever(scraper.run.bind(scraper), callback);
+                },
                 runRssFeedParser: function (callback) {
                     
-                    async.forever(rssReader.run.bind(rssReader), callback);
-                    //setTimeout(function(){
-                        //async.forever(rssReader.run.bind(rssReader), callback);
-                    //},  2 * 60 * 1000 ) // 开启后2分钟抓取
+                    //async.forever(rssReader.run.bind(rssReader), callback);
+                    setTimeout(function(){
+                        async.forever(rssReader.run.bind(rssReader), callback);
+                    },  2 * 60 * 1000 ) // 开启后2分钟抓取
                 },
                 runJsonFetcherAndMapper: function (callback) {
                     setTimeout(function(){
