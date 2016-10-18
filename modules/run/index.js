@@ -16,7 +16,7 @@ exports = module.exports = function (scraper, rssReader, jsonFetcher, config) {
         collectAndDistributeContent: function (callback) {
             async.parallel({
                 runSiteScraper: function (callback) {
-                    async.forever(scraper.run.bind(scraper), callback);
+                    //async.forever(scraper.run.bind(scraper), callback);
                 },
                 runRssFeedParser: function (callback) {
                     //async.forever(rssReader.run.bind(rssReader), callback);
@@ -25,7 +25,7 @@ exports = module.exports = function (scraper, rssReader, jsonFetcher, config) {
                     //},  10 * 60 * 1000 ) // 开启后10分钟抓取
                 },
                 runJsonFetcherAndMapper: function (callback) {
-                    //async.forever(jsonFetcher.run.bind(jsonFetcher), callback);
+                    async.forever(jsonFetcher.run.bind(jsonFetcher), callback);
                     //setTimeout(function(){
                         //async.forever(jsonFetcher.run.bind(jsonFetcher), callback);
                     //},  30 * 60 * 1000 ) // 20分钟抓取

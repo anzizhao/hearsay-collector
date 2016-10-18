@@ -1,6 +1,6 @@
 exports = module.exports = [
     {
-        "active": true,
+        "active": false,
         "origin": "json",
         "name": "Mashable (must-reads)",
         "url": "http://mashable.com/category/must-reads/?format=json",
@@ -57,7 +57,7 @@ exports = module.exports = [
         }
     },
     {
-        "active": true,
+        "active": false,
         "origin": "json",
         "name": '稀金掘土',
         "url": 'https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-06T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex',
@@ -124,7 +124,7 @@ exports = module.exports = [
             "elements": [
                 {
                     "name": "guid",
-                    "type": "url",
+                    //"type": "url",
                     "required": true,
                     "items": [
                         {
@@ -144,7 +144,6 @@ exports = module.exports = [
                 {
                     "name": "url",
                     "type": "url",
-                    "specail": "medium",   //根据具体网站  做的一些具体分析
                     "required": true,
                     "items": [
                         {
