@@ -7,19 +7,15 @@ exports = module.exports = function (Entry, config) {
         async.waterfall([
             // check if article exists
             function (callback) {
-                debugger;
                 Entry.findOne({ guid: entry.guid }, function (err, result) {
                     callback(err, !!result, result);
                 });
             },
             // create new entry in db, or update existing (when using upsert, the defaults are ignored, hence the use of findOne/update/save)
             function (exists, result,  callback) {
-                debugger;
                 if (exists) {
-                    debugger;
                     if( result.content ||  !entry.content  ) {
                         debug('exists noop %s', entry.guid )
-                        debugger;
                         callback(null, false);
                     } else {
                         debug('exists update %s', entry.guid )
@@ -45,7 +41,6 @@ exports = module.exports = function (Entry, config) {
                 }
             }
         ], function (err, newEntry) {
-            debugger;
             callback(err, newEntry);
         });
     };
