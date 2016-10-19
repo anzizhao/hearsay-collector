@@ -16,19 +16,19 @@ exports = module.exports = function (scraper, rssReader, jsonFetcher, config) {
         collectAndDistributeContent: function (callback) {
             async.parallel({
                 runSiteScraper: function (callback) {
-                    async.forever(scraper.run.bind(scraper), callback);
+                    //async.forever(scraper.run.bind(scraper), callback);
                 },
                 runRssFeedParser: function (callback) {
                     //async.forever(rssReader.run.bind(rssReader), callback);
-                    setTimeout(function(){
-                        async.forever(rssReader.run.bind(rssReader), callback);
-                    },  10 * 60 * 1000 ) // 开启后10分钟抓取
+                    //setTimeout(function(){
+                        //async.forever(rssReader.run.bind(rssReader), callback);
+                    //},  10 * 60 * 1000 ) // 开启后10分钟抓取
                 },
                 runJsonFetcherAndMapper: function (callback) {
-                    //async.forever(jsonFetcher.run.bind(jsonFetcher), callback);
-                    setTimeout(function(){
-                        async.forever(jsonFetcher.run.bind(jsonFetcher), callback);
-                    },  30 * 60 * 1000 ) // 30分钟抓取
+                    async.forever(jsonFetcher.run.bind(jsonFetcher), callback);
+                    //setTimeout(function(){
+                        //async.forever(jsonFetcher.run.bind(jsonFetcher), callback);
+                    //},  30 * 60 * 1000 ) // 30分钟抓取
                 }
             }, callback);
         }
