@@ -828,6 +828,126 @@ exports = module.exports = [
     {
         active: true,
         origin: 'feed',
+        name: 'ourjs',
+        url: 'http://ourjs.com/rss',
+        linkref: 'url',
+        category: ['frontend', 'ourjs'],
+        format: 'desktop',
+        body: true,
+        template: {
+            elements: [
+                {
+                    name: 'guid',
+                    type: 'url',
+                    required: true,
+                    items: [
+                        {
+                            selector: 'guid'
+                        },
+                        {
+                            selector: 'link'
+                        },
+                        {
+                            selector: 'title',
+                            decode: true
+                        }
+                    ]
+                },
+                {
+                    name: 'title',
+                    required: true,
+                    items: [
+                        {
+                            selector: 'title',
+                            decode: true
+                        }
+                    ]
+                },
+                {
+                    name: 'url',
+                    type: 'url',
+                    required: true,
+                    items: [
+                        {
+                            selector: 'link'
+                        }
+                    ]
+                },
+                {
+                    name: 'image',
+                    type: 'url',
+                    items: [
+                        {
+                            selector: 'enclosures[0].url'
+                        }
+                    ],
+                }
+            ]
+        }
+    },
+    {
+        active: true,
+        origin: 'feed',
+        name: '科学松鼠协会',
+        url: 'http://songshuhui.net/feed',
+        linkref: 'url',
+        category: ['science', 'songshuhui'],
+        format: 'desktop',
+        body: true,
+        template: {
+            elements: [
+                {
+                    name: 'guid',
+                    type: 'url',
+                    required: true,
+                    items: [
+                        {
+                            selector: 'guid'
+                        },
+                        {
+                            selector: 'link'
+                        },
+                        {
+                            selector: 'title',
+                            decode: true
+                        }
+                    ]
+                },
+                {
+                    name: 'title',
+                    required: true,
+                    items: [
+                        {
+                            selector: 'title',
+                            decode: true
+                        }
+                    ]
+                },
+                {
+                    name: 'url',
+                    type: 'url',
+                    required: true,
+                    items: [
+                        {
+                            selector: 'link'
+                        }
+                    ]
+                },
+                {
+                    name: 'image',
+                    type: 'url',
+                    items: [
+                        {
+                            selector: 'enclosures[0].url'
+                        }
+                    ],
+                }
+            ]
+        }
+    },
+    {
+        active: true,
+        origin: 'feed',
         name: 'node weekly',
         url: 'http://nodeweekly.com/rss/16idejnb',
         linkref: 'url',

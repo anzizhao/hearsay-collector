@@ -23,7 +23,7 @@
     "congregator-sitescraper": "anzizhao/congregator-sitescraper",
     "congregator-rssreader": "anzizhao/congregator-rssreader",
     "congregator-jsonfetcher": "anzizhao/congregator-jsonfetcher",
-    "hearsay-common": "eiriklv/hearsay-common"
+    "hearsay-common": "anzizhao/hearsay-common"
   },
   "author": "Eirik Vullum <evullum@gmail.com> (http://www.evconsult.no/)"
 }
