@@ -59,6 +59,152 @@ exports = module.exports = [
         }
     },
     {
+        active: true,
+        origin: 'site',
+        name: 'segmentfault',
+        url: 'https://segmentfault.com/t/javascript/blogs?page=1',
+        linkref: 'url',
+        category: ['frontend', 'segmentfault'],
+        format: 'desktop',
+        body: true,
+        template: {
+            containers: [
+                {
+                    selector: '.stream-list_item',
+                    elements: [
+                        {
+                            name: 'guid',
+                            type: 'url',
+                            items: [
+                                {
+                                    selector: 'h2 > a',
+                                    attribute: 'href'
+                                }
+                            ]
+                        },
+                        {
+                            name: 'url',
+                            type: 'url',
+                            items: [
+                                {
+                                    selector: 'h2 > a',
+                                    attribute: 'href'
+                                }
+                            ]
+                        },
+                        {
+                            name: 'title',
+                            required: true,
+                            items: [
+                                {
+                                    selector: 'h2'
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        active: true,
+        origin: 'site',
+        name: 'segmentfault',
+        url: 'https://segmentfault.com/t/javascript/blogs?page=2',
+        linkref: 'url',
+        category: ['frontend', 'segmentfault'],
+        format: 'desktop',
+        body: true,
+        template: {
+            containers: [
+                {
+                    selector: '.stream-list__item',
+                    elements: [
+                        {
+                            name: 'guid',
+                            type: 'url',
+                            items: [
+                                {
+                                    selector: 'h2 > a',
+                                    attribute: 'href'
+                                }
+                            ]
+                        },
+                        {
+                            name: 'url',
+                            type: 'url',
+                            items: [
+                                {
+                                    selector: 'h2 > a',
+                                    attribute: 'href'
+                                }
+                            ]
+                        },
+                        {
+                            name: 'title',
+                            required: true,
+                            items: [
+                                {
+                                    selector: 'h2'
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        active: true,
+        origin: 'site',
+        name: '科学网',
+        url: 'http://news.sciencenet.cn/topnews.aspx',
+        linkref: 'url',
+        category: ['science', 'science'],
+        format: 'desktop',
+        body: true,
+        template: {
+            containers: [
+                {
+                    selector: '#DataGrid1 tr[onmouseover]',
+                    elements: [
+                        {
+                            name: 'guid',
+                            type: 'url',
+                            items: [
+                                {
+                                    selector: 'a',
+                                    attribute: 'href'
+                                }
+                            ]
+                        },
+                        {
+                            name: 'url',
+                            type: 'url',
+                            items: [
+                                {
+                                    selector: 'a',
+                                    attribute: 'href'
+                                }
+                            ]
+                        },
+                        {
+                            name: 'title',
+                            required: true,
+                            items: [
+                                {
+                                    selector: 'a',
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+
+    // 下面是暂时
+    {
         active: false,
         origin: 'site',
         name: 'Gamer.no',
@@ -189,6 +335,7 @@ exports = module.exports = [
             ]
         }
     },
+
     {
         active: false,
         origin: 'site',
