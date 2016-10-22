@@ -21,6 +21,7 @@ exports = module.exports = function (scraper, rssReader, jsonFetcher, config) {
                 runRssFeedParser: function (callback) {
                     //async.forever(rssReader.run.bind(rssReader), callback);
                     setTimeout(function(){
+
                         async.forever(rssReader.run.bind(rssReader), callback);
                     },  10 * 60 * 1000 ) // 开启后10分钟抓取
                 },
