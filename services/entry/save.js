@@ -3,6 +3,7 @@ var debug = require('debug')('hearsay:collector:services:save');
 
 exports = module.exports = function (Entry, config) {
     return function(entry, callback) {
+        debugger;
         // async control flow
         async.waterfall([
             // check if article exists
@@ -15,10 +16,10 @@ exports = module.exports = function (Entry, config) {
             function (exists, result,  callback) {
                 if (exists) {
                     if( result.content ||  !entry.content  ) {
-                        debug('exists noop %s', entry.guid )
+                        debug('noop item  %s', entry.guid )
                         callback(null, false);
                     } else {
-                        debug('exists update %s', entry.guid )
+                        debug('update item  %s', entry.guid )
                         entry.createdAt = new Date();
                         //将content title 赋值到外面的title  因为阮一峰的rss编码的原因  外面的title为乱码
                         entry.title = entry.content.title; 
@@ -28,7 +29,7 @@ exports = module.exports = function (Entry, config) {
                     } 
                 } else {
 
-                    debug('exists new %s', entry.guid )
+                    debug('new item  %s', entry.guid )
                     entry.createdAt = new Date();
                     entry.posted = new Date(); // overwrite
 

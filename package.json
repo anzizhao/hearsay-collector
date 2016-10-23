@@ -7,8 +7,8 @@
   "scripts": {
     "startServer": "node hearsay-collector.js",
     "start": "node app.js",
-    "debug": "DEBUG=hearsay:collector:services:save  node app.js",
-    "debug2": "DEBUG=*  node app.js"
+    "debug": " NODE_ENV=development  DEBUG=hearsay:collector:services:save  node app.js",
+    "debug2": "NODE_ENV=development DEBUG=*  node app.js"
   },
   "engines": {
     "node": "0.10.32"
