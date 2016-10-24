@@ -8,6 +8,7 @@ exports = module.exports = [
         category: ['technology', 'science'],
         format: 'desktop',
         body: true,
+        "fetchInterval": 1 * 2, // 单位为抓取的时间
         template: {
             containers: [
                 {
@@ -66,59 +67,12 @@ exports = module.exports = [
         linkref: 'url',
         category: ['frontend', 'segmentfault'],
         format: 'desktop',
+        "fetchInterval": 1, // 单位为抓取的时间
         body: true,
         template: {
             containers: [
                 {
                     selector: '.stream-list_item',
-                    elements: [
-                        {
-                            name: 'guid',
-                            type: 'url',
-                            items: [
-                                {
-                                    selector: 'h2 > a',
-                                    attribute: 'href'
-                                }
-                            ]
-                        },
-                        {
-                            name: 'url',
-                            type: 'url',
-                            items: [
-                                {
-                                    selector: 'h2 > a',
-                                    attribute: 'href'
-                                }
-                            ]
-                        },
-                        {
-                            name: 'title',
-                            required: true,
-                            items: [
-                                {
-                                    selector: 'h2'
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        }
-    },
-    {
-        active: true,
-        origin: 'site',
-        name: 'segmentfault',
-        url: 'https://segmentfault.com/t/javascript/blogs?page=2',
-        linkref: 'url',
-        category: ['frontend', 'segmentfault'],
-        format: 'desktop',
-        body: true,
-        template: {
-            containers: [
-                {
-                    selector: '.stream-list__item',
                     elements: [
                         {
                             name: 'guid',
@@ -163,6 +117,7 @@ exports = module.exports = [
         category: ['science', 'science'],
         format: 'desktop',
         body: true,
+        "fetchInterval": 2*2, // 单位为抓取的时间
         template: {
             containers: [
                 {

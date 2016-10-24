@@ -8,6 +8,7 @@ exports = module.exports = [
         category: ['technology', 'hackernews'],
         format: 'desktop',
         body: true,
+        "fetchInterval": 7 * 2, // 单位为抓取的时间
         template: {
             elements: [
                 {
@@ -63,6 +64,7 @@ exports = module.exports = [
         category: ['blogs', 'ruanyifeng'],
         format: 'desktop',
         body: true,
+        "fetchInterval": 3 * 2, // 单位为抓取的时间
         template: {
             elements: [
                 {
@@ -112,6 +114,7 @@ exports = module.exports = [
         category: ['blogs', 'jerryQu'],
         format: 'desktop',
         body: true,
+        "fetchInterval": 7 * 2, // 单位为抓取的时间
         template: {
             elements: [
                 {
@@ -174,6 +177,7 @@ exports = module.exports = [
         category: ['blogs', 'shinianzongji'],
         format: 'desktop',
         body: true,
+        "fetchInterval": 15 * 2, // 单位为抓取的时间
         template: {
             elements: [
                 {
@@ -225,6 +229,7 @@ exports = module.exports = [
         category: ['career', 'themuse'],
         format: 'desktop',
         body: true,
+        "fetchInterval": 1 * 2, // 单位为抓取的时间
         template: {
             elements: [
                 {
@@ -285,6 +290,7 @@ exports = module.exports = [
         linkref: 'url',
         category: ['technology', 'wired'],
         format: 'desktop',
+        "fetchInterval": 1 * 2, // 单位为抓取的时间
         body: true,
         template: {
             elements: [
@@ -347,6 +353,7 @@ exports = module.exports = [
         category: ['career', 'inc'],
         format: 'desktop',
         body: true,
+        "fetchInterval": 2 * 2, // 单位为抓取的时间
         template: {
             elements: [
                 {
@@ -408,6 +415,7 @@ exports = module.exports = [
         category: ['technology', 'arstechnica'],
         format: 'desktop',
         body: true,
+        "fetchInterval": 1 * 2, // 单位为抓取的时间
         template: {
             elements: [
                 {
@@ -469,6 +477,7 @@ exports = module.exports = [
         category: ['blogs', 'chrisdixon'],
         format: 'desktop',
         body: true,
+        "fetchInterval": 15 * 2, // 单位为抓取的时间
         template: {
             elements: [
                 {
@@ -529,6 +538,7 @@ exports = module.exports = [
         category: ['blogs', 'smashingmagazine'],
         format: 'desktop',
         body: true,
+        "fetchInterval": 1 * 2, // 单位为抓取的时间
         template: {
             elements: [
                 {
@@ -590,6 +600,7 @@ exports = module.exports = [
         category: ['technology', 'theatlantic'],
         format: 'desktop',
         body: true,
+        "fetchInterval": 1 * 2, // 单位为抓取的时间
         template: {
             elements: [
                 {
@@ -651,6 +662,7 @@ exports = module.exports = [
         category: ['career', 'entrepreneur'],
         format: 'desktop',
         body: true,
+        "fetchInterval": 1 * 2, // 单位为抓取的时间
         template: {
             elements: [
                 {
@@ -712,6 +724,7 @@ exports = module.exports = [
         category: ['blogs', 'codinghorror'],
         format: 'desktop',
         body: true,
+        "fetchInterval": 15 * 2, // 单位为抓取的时间
         template: {
             elements: [
                 {
@@ -773,6 +786,7 @@ exports = module.exports = [
         category: ['career', 'mindshift'],
         format: 'desktop',
         body: true,
+        "fetchInterval": 15 * 2, // 单位为抓取的时间
         template: {
             elements: [
                 {
@@ -834,6 +848,7 @@ exports = module.exports = [
         category: ['frontend', 'ourjs'],
         format: 'desktop',
         body: true,
+        "fetchInterval": 1 * 2, // 单位为抓取的时间
         template: {
             elements: [
                 {
@@ -894,6 +909,7 @@ exports = module.exports = [
         category: ['science', 'songshuhui'],
         format: 'desktop',
         body: true,
+        "fetchInterval": 1 * 2, // 单位为抓取的时间
         template: {
             elements: [
                 {
@@ -955,6 +971,7 @@ exports = module.exports = [
         category: ['node', 'nodeweekly'],
         format: 'desktop',
         body: true,
+        "fetchInterval": 7 * 2, // 单位为抓取的时间
         template: {
             elements: [
                 {
