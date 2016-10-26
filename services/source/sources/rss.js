@@ -288,7 +288,7 @@ exports = module.exports = [
         name: 'Wired.com',
         url: 'http://feeds.wired.com/wired/index',
         linkref: 'url',
-        category: ['technology', 'wired'],
+        category: ['science', 'wired'],
         format: 'desktop',
         "fetchInterval": 1 * 2, // 单位为抓取的时间
         body: true,
@@ -535,7 +535,7 @@ exports = module.exports = [
         name: 'Smashing Magazine',
         url: 'http://www.smashingmagazine.com/feed/',
         linkref: 'url',
-        category: ['blogs', 'smashingmagazine'],
+        category: ['frontend', 'smashingmagazine'],
         format: 'desktop',
         body: true,
         "fetchInterval": 1 * 2, // 单位为抓取的时间
@@ -968,7 +968,7 @@ exports = module.exports = [
         url: 'http://nodeweekly.com/rss/16idejnb',
         linkref: 'url',
         originContent: true,
-        category: ['node', 'nodeweekly'],
+        category: ['frontend', 'nodeweekly'],
         format: 'desktop',
         body: true,
         "fetchInterval": 7 * 2, // 单位为抓取的时间

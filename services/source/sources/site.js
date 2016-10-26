@@ -5,7 +5,7 @@ exports = module.exports = [
         name: 'Wired Science',
         url: 'http://www.wired.com/science',
         linkref: 'url',
-        category: ['technology', 'science'],
+        category: ['science', 'wired'],
         format: 'desktop',
         body: true,
         "fetchInterval": 1 * 2, // 单位为抓取的时间
