@@ -5,7 +5,7 @@
   "version": "0.3.1",
   "private": true,
   "scripts": {
-    "startServer": "DEBUG=Congregator:*,CongregatorBase:run,hearsay:collector:*  node hearsay-collector.js",
+    "startServer": "DEBUG=Congregator:*,CongregatorBase:run,hearsay:collector:* DEBUG_FD=1  node hearsay-collector.js &> debug.txt",
     "start": "node app.js",
     "debug":  "NODE_ENV=development DEBUG=Congregator:process,CongregatorBase:run node app.js",
     "debugT": " NODE_ENV=development  DEBUG=hearsay:collector:services:save  node app.js",
