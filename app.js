@@ -18,7 +18,7 @@ var services = require('./services')(models, config); // this can be mocked
 var e_waitTime ; //抓取的时间单位为: 半天
 var e_timeout; //抓取的时间单位为: 半天
 if (process.env.NODE_ENV === 'development') {
-    e_waitTime = 30 *1000; 
+    e_waitTime = 120 *1000; 
     e_timeout = 10000; 
 
 } else {

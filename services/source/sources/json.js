@@ -1,6 +1,6 @@
 exports = module.exports = [
     {
-        "active": true,
+        "active": false,
         "origin": "json",
         "name": "Mashable (must-reads)",
         "url": "http://mashable.com/category/must-reads/?format=json",
@@ -58,7 +58,7 @@ exports = module.exports = [
         }
     },
     {
-        "active": false,
+        "active": true,
         "origin": "json",
         "name": "zhihudaily",
         "url": "http://news-at.zhihu.com/api/4/news/latest",
@@ -112,7 +112,7 @@ exports = module.exports = [
         }
     },
     {
-        "active": true,
+        "active": false,
         "origin": "json",
         //"name": '稀金掘土',
         "name": 'xitu',
@@ -167,7 +167,7 @@ exports = module.exports = [
         }
     },
     {
-        "active": true,
+        "active": false,
         "origin": "json",
         "name": 'medium',
         "url": 'https://medium.com/_/api/tags/javascript/stream',
