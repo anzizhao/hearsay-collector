@@ -60,6 +60,60 @@ exports = module.exports = [
     {
         "active": true,
         "origin": "json",
+        "name": "zhihudaily",
+        "url": "http://news-at.zhihu.com/api/4/news/latest",
+        "listref": "stories",
+        "linkref": "url",
+        "category": ['general', 'zhihu'],
+        "format": "desktop",
+        "body": true,
+        "fetchInterval": 1 * 2, // 抓取单位:半天  15天抓一次 
+        "template": {
+            "elements": [
+                {
+                    "name": "guid",
+                    "required": true,
+                    "items": [
+                        {
+                            "selector": "id"
+                        }
+                    ]
+                },
+                {
+                    "name": "title",
+                    "required": true,
+                    "items": [
+                        {
+                            "selector": "title"
+                        }
+                    ]
+                },
+                {
+                    "name": "url",
+                    "type": "url",
+                    "special": true,
+                    "items": [
+                        {
+                            "selector": "link"
+                        }
+                    ]
+                },
+                //{
+                    //"name": "image",
+                    //"type": "url",
+                    //"items": [
+                        //{
+                            //"selector": "images[0]"
+                        //}
+                    //],
+                    //"fallback": "http://rack.1.mshcdn.com/assets/header_share_logo.v2-11a2e0632ddb46b143c85e63f590734d.png"
+                //}
+            ]
+        }
+    },
+    {
+        "active": true,
+        "origin": "json",
         //"name": '稀金掘土',
         "name": 'xitu',
         "url": 'https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex',
@@ -148,7 +202,7 @@ exports = module.exports = [
                 {
                     "name": "url",
                     "type": "url",
-                    "required": true,
+                    "special": true,
                     "items": [
                         {
                             "selector": "uniqueSlug"
