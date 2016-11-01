@@ -17,15 +17,14 @@ exports = module.exports = function (scraper, rssReader, jsonFetcher, config) {
             async.parallel({
                 runSiteScraper: function (callback) {
                     if (process.env.NODE_ENV === 'development') {
-                        //async.forever(scraper.run.bind(scraper), callback);
+                        async.forever(scraper.run.bind(scraper), callback);
                     } else {
                         async.forever(scraper.run.bind(scraper), callback);
                     }
                 },
                 runRssFeedParser: function (callback) {
                     if (process.env.NODE_ENV === 'development') {
-
-                        //async.forever(rssReader.run.bind(rssReader), callback);
+                        async.forever(rssReader.run.bind(rssReader), callback);
                     } else {
                         setTimeout(function(){
                             async.forever(rssReader.run.bind(rssReader), callback);
