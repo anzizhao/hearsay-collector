@@ -16,12 +16,12 @@ exports = module.exports = function (scraper, rssReader, jsonFetcher, config) {
         collectAndDistributeContent: function (callback) {
             async.parallel({
                 runSiteScraper: function (callback) {
-                    async.forever(scraper.run.bind(scraper), callback);
+                    //async.forever(scraper.run.bind(scraper), callback);
                 },
                 runRssFeedParser: function (callback) {
                     if (process.env.NODE_ENV === 'development') {
 
-                        async.forever(rssReader.run.bind(rssReader), callback);
+                        //async.forever(rssReader.run.bind(rssReader), callback);
                     } else {
                         setTimeout(function(){
 
