@@ -58,7 +58,7 @@ exports = module.exports = [
         }
     },
     {
-        "active": true,
+        "active": false,
         "origin": "json",
         "name": "zhihudaily",
         "url": "http://news-at.zhihu.com/api/4/news/latest",
@@ -112,7 +112,7 @@ exports = module.exports = [
         }
     },
     {
-        "active": false,
+        "active": true,
         "origin": "json",
         //"name": '稀金掘土',
         "name": 'xitu',
