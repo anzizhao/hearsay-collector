@@ -169,6 +169,50 @@ exports = module.exports = [
     {
         "active": true,
         "origin": "json",
+        "name": 'sitepoint',
+        "url": 'https://www.sitepoint.com/wp-admin/admin-ajax.php ?action=sp_api_posts&offset=0&per_page=24&category=javascript',
+        "listref": "",
+        "linkref": "url",
+        "category": ['frontend', 'sitepoint'],
+        "format": "desktop",
+        "body": true,
+        "fetchInterval": 2, // 单位为抓取的时间
+        "template": {
+            "elements": [
+                {
+                    "name": "guid",
+                    "required": true,
+                    "items": [
+                        {
+                            "selector": "id"
+                        }
+                    ]
+                },
+                {
+                    "name": "title",
+                    "required": true,
+                    "items": [
+                        {
+                            "selector": "title"
+                        }
+                    ]
+                },
+                {
+                    "name": "url",
+                    "type": "url",
+                    "required": true,
+                    "items": [
+                        {
+                            "selector": "link"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "active": true,
+        "origin": "json",
         "name": 'medium',
         "url": 'https://medium.com/_/api/tags/javascript/stream',
         "outside": true,
