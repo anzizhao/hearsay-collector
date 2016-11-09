@@ -201,6 +201,16 @@ exports = module.exports = [
                                     attribute: 'title'
                                 }
                             ]
+                        },
+                        {
+                            name: 'image',
+                            type: 'url',
+                            items: [
+                                {
+                                    selector: 'img',
+                                    attribute: 'src'
+                                }
+                            ]
                         }
                     ]
                 }
@@ -249,6 +259,16 @@ exports = module.exports = [
                                 {
                                     selector: '.archive-title',
                                     attribute: 'title'
+                                }
+                            ]
+                        },
+                        {
+                            name: 'image',
+                            type: 'url',
+                            items: [
+                                {
+                                    selector: 'img',
+                                    attribute: 'src'
                                 }
                             ]
                         }

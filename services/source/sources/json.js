@@ -98,16 +98,15 @@ exports = module.exports = [
                         }
                     ]
                 },
-                //{
-                    //"name": "image",
-                    //"type": "url",
-                    //"items": [
-                        //{
-                            //"selector": "images[0]"
-                        //}
-                    //],
-                    //"fallback": "http://rack.1.mshcdn.com/assets/header_share_logo.v2-11a2e0632ddb46b143c85e63f590734d.png"
-                //}
+                {
+                    "name": "image",
+                    "type": "url",
+                    "items": [
+                        {
+                            "selector": "images[0]"
+                        }
+                    ],
+                }
             ]
         }
     },
