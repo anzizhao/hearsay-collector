@@ -98,16 +98,15 @@ exports = module.exports = [
                         }
                     ]
                 },
-                //{
-                    //"name": "image",
-                    //"type": "url",
-                    //"items": [
-                        //{
-                            //"selector": "images[0]"
-                        //}
-                    //],
-                    //"fallback": "http://rack.1.mshcdn.com/assets/header_share_logo.v2-11a2e0632ddb46b143c85e63f590734d.png"
-                //}
+                {
+                    "name": "image",
+                    "type": "url",
+                    "items": [
+                        {
+                            "selector": "images[0]"
+                        }
+                    ],
+                }
             ]
         }
     },
@@ -160,6 +159,50 @@ exports = module.exports = [
                     "items": [
                         {
                             "selector": "screenshot.url"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "active": true,
+        "origin": "json",
+        "name": 'sitepoint',
+        "url": 'https://www.sitepoint.com/wp-admin/admin-ajax.php ?action=sp_api_posts&offset=0&per_page=24&category=javascript',
+        "listref": "",
+        "linkref": "url",
+        "category": ['frontend', 'sitepoint'],
+        "format": "desktop",
+        "body": true,
+        "fetchInterval": 2, // 单位为抓取的时间
+        "template": {
+            "elements": [
+                {
+                    "name": "guid",
+                    "required": true,
+                    "items": [
+                        {
+                            "selector": "id"
+                        }
+                    ]
+                },
+                {
+                    "name": "title",
+                    "required": true,
+                    "items": [
+                        {
+                            "selector": "title"
+                        }
+                    ]
+                },
+                {
+                    "name": "url",
+                    "type": "url",
+                    "required": true,
+                    "items": [
+                        {
+                            "selector": "link"
                         }
                     ]
                 }
