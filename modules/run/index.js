@@ -24,7 +24,7 @@ exports = module.exports = function (scraper, rssReader, jsonFetcher, config) {
                 },
                 runRssFeedParser: function (callback) {
                     if (process.env.NODE_ENV === 'development') {
-                        //async.forever(rssReader.run.bind(rssReader), callback);
+                        async.forever(rssReader.run.bind(rssReader), callback);
                     } else {
                         setTimeout(function(){
                             async.forever(rssReader.run.bind(rssReader), callback);
@@ -34,7 +34,7 @@ exports = module.exports = function (scraper, rssReader, jsonFetcher, config) {
                 },
                 runJsonFetcherAndMapper: function (callback) {
                     if (process.env.NODE_ENV === 'development') {
-                        //async.forever(jsonFetcher.run.bind(jsonFetcher), callback);
+                        async.forever(jsonFetcher.run.bind(jsonFetcher), callback);
                     } else {
                         setTimeout(function(){
                             async.forever(jsonFetcher.run.bind(jsonFetcher), callback);
