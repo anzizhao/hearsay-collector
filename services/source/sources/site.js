@@ -1,6 +1,6 @@
 exports = module.exports = [
     {
-        active: true,
+        active: false,
         origin: 'site',
         name: 'Wired Science',
         url: 'http://www.wired.com/science',
@@ -72,7 +72,7 @@ exports = module.exports = [
         template: {
             containers: [
                 {
-                    selector: '.stream-list_item',
+                    selector: '.stream-list__item',
                     elements: [
                         {
                             name: 'guid',
@@ -99,7 +99,7 @@ exports = module.exports = [
                             required: true,
                             items: [
                                 {
-                                    selector: 'h2'
+                                    selector: 'h2 > a'
                                 }
                             ]
                         }
@@ -160,7 +160,7 @@ exports = module.exports = [
     {
         active: false,
         origin: 'site',
-        name: '伯乐在线',
+        name: 'bole',
         url: 'http://web.jobbole.com/all-posts/',
         linkref: 'url',
         category: ['frontend', 'bole'],
@@ -220,7 +220,7 @@ exports = module.exports = [
     {
         active: false,
         origin: 'site',
-        name: '伯乐在线',
+        name: 'bole',
         url: 'http://blog.jobbole.com/all-posts/',
         linkref: 'url',
         category: ['frontend', 'bole'],

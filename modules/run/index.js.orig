@@ -34,10 +34,14 @@ exports = module.exports = function (scraper, rssReader, jsonFetcher, config) {
                 },
                 runJsonFetcherAndMapper: function (callback) {
                     if (process.env.NODE_ENV === 'development') {
+<<<<<<< HEAD
+                        //async.forever(jsonFetcher.run.bind(jsonFetcher), callback);
                         //setTimeout(function(){
                             //async.forever(jsonFetcher.run.bind(jsonFetcher), callback);
                         //},  10 * 60 * 1000 ) // 30分钟抓取
+=======
                         async.forever(jsonFetcher.run.bind(jsonFetcher), callback);
+>>>>>>> origin/master
                     } else {
                         setTimeout(function(){
                             async.forever(jsonFetcher.run.bind(jsonFetcher), callback);
