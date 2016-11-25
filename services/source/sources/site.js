@@ -60,7 +60,7 @@ exports = module.exports = [
         }
     },
     {
-        active: true,
+        active: false,
         origin: 'site',
         name: 'segmentfault',
         url: 'https://segmentfault.com/t/javascript/blogs?page=1',
@@ -109,7 +109,7 @@ exports = module.exports = [
         }
     },
     {
-        active: true,
+        active: false,
         origin: 'site',
         name: '科学网',
         url: 'http://news.sciencenet.cn/topnews.aspx',
@@ -158,7 +158,7 @@ exports = module.exports = [
         }
     },
     {
-        active: true,
+        active: false,
         origin: 'site',
         name: '伯乐在线',
         url: 'http://web.jobbole.com/all-posts/',
@@ -218,7 +218,7 @@ exports = module.exports = [
         }
     },
     {
-        active: true,
+        active: false,
         origin: 'site',
         name: '伯乐在线',
         url: 'http://blog.jobbole.com/all-posts/',
