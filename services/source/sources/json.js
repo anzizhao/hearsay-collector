@@ -2,7 +2,7 @@ exports = module.exports = [
     {
         "active": true,
         "origin": "json",
-        "name": "Mashable (must-reads)",
+        "name": "Mashable",
         "url": "http://mashable.com/category/must-reads/?format=json",
         "listref": "data",
         "linkref": "url",

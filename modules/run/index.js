@@ -37,7 +37,7 @@ exports = module.exports = function (scraper, rssReader, jsonFetcher, config) {
                         //setTimeout(function(){
                             //async.forever(jsonFetcher.run.bind(jsonFetcher), callback);
                         //},  10 * 60 * 1000 ) // 30分钟抓取
-                        async.forever(jsonFetcher.run.bind(jsonFetcher), callback);
+                        //async.forever(jsonFetcher.run.bind(jsonFetcher), callback);
                     } else {
                         setTimeout(function(){
                             async.forever(jsonFetcher.run.bind(jsonFetcher), callback);
