@@ -1,986 +1,0 @@
-<<<<<<< HEAD
-Wed, 26 Oct 2016 06:16:21 GMT congregator:fetch [33mbeginning fetch from scraper: [39m[35mWired Science[39m
-Wed, 26 Oct 2016 06:16:21 GMT congregator:fetch [33mbeginning fetch from scraper: [39m[35msegmentfault[39m
-Wed, 26 Oct 2016 06:16:21 GMT congregator:fetch [33mbeginning fetch from scraper: [39m[35m科学网[39m
-Wed, 26 Oct 2016 06:16:21 GMT hearsay:collector:setup connected to mongo server.
-Wed, 26 Oct 2016 06:16:21 GMT hearsay:collector:setup open connection to mongo server.
-Wed, 26 Oct 2016 06:16:22 GMT Congregator:process [36mprocessing [39m0[36m posts for mapping [39m[35msegmentfault[39m[32m(initial)[39m
-Wed, 26 Oct 2016 06:16:22 GMT Congregator:process [36msegmentfault[39m[32m(initial)[39m[90m - [39m updated: [33m0[39m new: [35m0[39m
-Wed, 26 Oct 2016 06:16:22 GMT congregator:distribution [36mrealtime distribution for: [39msegmentfault
-Wed, 26 Oct 2016 06:16:22 GMT congregator:distribution [36msegmentfault[39m[34m(distribution)[39m[90m - [39m[33m distributed: [39m[32m0[39m
-Wed, 26 Oct 2016 06:16:22 GMT Congregator:process [36mprocessing [39m0[36m posts for mapping [39m[35msegmentfault[39m[32m(content)[39m
-Wed, 26 Oct 2016 06:16:22 GMT Congregator:process [36msegmentfault[39m[32m(content)[39m[90m - [39m updated: [33m0[39m new: [35m0[39m
-Wed, 26 Oct 2016 06:16:22 GMT Congregator:process [36mprocessing [39m30[36m posts for mapping [39m[35m科学网[39m[32m(initial)[39m
-Wed, 26 Oct 2016 06:16:22 GMT mquery findOne entries { guid: 'http://news.sciencenet.cn/htmlnews/2016/10/359247.shtm' } { fields: undefined }
-Wed, 26 Oct 2016 06:16:22 GMT hearsay:collector:services:save noop item  http://news.sciencenet.cn/htmlnews/2016/10/359247.shtm
-Wed, 26 Oct 2016 06:16:22 GMT mquery findOne entries { guid: 'http://news.sciencenet.cn/htmlnews/2016/10/359252.shtm' } { fields: undefined }
-Wed, 26 Oct 2016 06:16:22 GMT hearsay:collector:services:save noop item  http://news.sciencenet.cn/htmlnews/2016/10/359252.shtm
-Wed, 26 Oct 2016 06:16:22 GMT mquery findOne entries { guid: 'http://news.sciencenet.cn/htmlnews/2016/10/359180.shtm' } { fields: undefined }
-Wed, 26 Oct 2016 06:16:22 GMT hearsay:collector:services:save noop item  http://news.sciencenet.cn/htmlnews/2016/10/359180.shtm
-Wed, 26 Oct 2016 06:16:22 GMT mquery findOne entries { guid: 'http://news.sciencenet.cn/htmlnews/2016/10/359166.shtm' } { fields: undefined }
-Wed, 26 Oct 2016 06:16:22 GMT hearsay:collector:services:save noop item  http://news.sciencenet.cn/htmlnews/2016/10/359166.shtm
-Wed, 26 Oct 2016 06:16:22 GMT mquery findOne entries { guid: 'http://news.sciencenet.cn/htmlnews/2016/10/359119.shtm' } { fields: undefined }
-Wed, 26 Oct 2016 06:16:22 GMT hearsay:collector:services:save noop item  http://news.sciencenet.cn/htmlnews/2016/10/359119.shtm
-Wed, 26 Oct 2016 06:16:22 GMT mquery findOne entries { guid: 'http://news.sciencenet.cn/htmlnews/2016/10/359117.shtm' } { fields: undefined }
-Wed, 26 Oct 2016 06:16:22 GMT hearsay:collector:services:save noop item  http://news.sciencenet.cn/htmlnews/2016/10/359117.shtm
-Wed, 26 Oct 2016 06:16:22 GMT mquery findOne entries { guid: 'http://news.sciencenet.cn/htmlnews/2016/10/359115.shtm' } { fields: undefined }
-Wed, 26 Oct 2016 06:16:22 GMT hearsay:collector:services:save noop item  http://news.sciencenet.cn/htmlnews/2016/10/359115.shtm
-Wed, 26 Oct 2016 06:16:22 GMT mquery findOne entries { guid: 'http://news.sciencenet.cn/htmlnews/2016/10/359091.shtm' } { fields: undefined }
-Wed, 26 Oct 2016 06:16:22 GMT hearsay:collector:services:save noop item  http://news.sciencenet.cn/htmlnews/2016/10/359091.shtm
-Wed, 26 Oct 2016 06:16:22 GMT mquery findOne entries { guid: 'http://news.sciencenet.cn/htmlnews/2016/10/359059.shtm' } { fields: undefined }
-Wed, 26 Oct 2016 06:16:22 GMT hearsay:collector:services:save noop item  http://news.sciencenet.cn/htmlnews/2016/10/359059.shtm
-Wed, 26 Oct 2016 06:16:22 GMT mquery findOne entries { guid: 'http://news.sciencenet.cn/htmlnews/2016/10/359016.shtm' } { fields: undefined }
-Wed, 26 Oct 2016 06:16:22 GMT hearsay:collector:services:save noop item  http://news.sciencenet.cn/htmlnews/2016/10/359016.shtm
-Wed, 26 Oct 2016 06:16:22 GMT mquery findOne entries { guid: 'http://news.sciencenet.cn/htmlnews/2016/10/358976.shtm' } { fields: undefined }
-Wed, 26 Oct 2016 06:16:22 GMT hearsay:collector:services:save noop item  http://news.sciencenet.cn/htmlnews/2016/10/358976.shtm
-Wed, 26 Oct 2016 06:16:22 GMT mquery findOne entries { guid: 'http://news.sciencenet.cn/htmlnews/2016/10/358975.shtm' } { fields: undefined }
-Wed, 26 Oct 2016 06:16:22 GMT hearsay:collector:services:save noop item  http://news.sciencenet.cn/htmlnews/2016/10/358975.shtm
-Wed, 26 Oct 2016 06:16:22 GMT mquery findOne entries { guid: 'http://news.sciencenet.cn/htmlnews/2016/10/358964.shtm' } { fields: undefined }
-Wed, 26 Oct 2016 06:16:22 GMT hearsay:collector:services:save noop item  http://news.sciencenet.cn/htmlnews/2016/10/358964.shtm
-Wed, 26 Oct 2016 06:16:22 GMT mquery findOne entries { guid: 'http://news.sciencenet.cn/htmlnews/2016/10/358966.shtm' } { fields: undefined }
-Wed, 26 Oct 2016 06:16:22 GMT hearsay:collector:services:save noop item  http://news.sciencenet.cn/htmlnews/2016/10/358966.shtm
-Wed, 26 Oct 2016 06:16:22 GMT mquery findOne entries { guid: 'http://news.sciencenet.cn/htmlnews/2016/10/358951.shtm' } { fields: undefined }
-Wed, 26 Oct 2016 06:16:22 GMT hearsay:collector:services:save noop item  http://news.sciencenet.cn/htmlnews/2016/10/358951.shtm
-Wed, 26 Oct 2016 06:16:22 GMT mquery findOne entries { guid: 'http://news.sciencenet.cn/htmlnews/2016/10/358952.shtm' } { fields: undefined }
-Wed, 26 Oct 2016 06:16:22 GMT hearsay:collector:services:save noop item  http://news.sciencenet.cn/htmlnews/2016/10/358952.shtm
-Wed, 26 Oct 2016 06:16:22 GMT mquery findOne entries { guid: 'http://news.sciencenet.cn/htmlnews/2016/10/358920.shtm' } { fields: undefined }
-Wed, 26 Oct 2016 06:16:22 GMT hearsay:collector:services:save noop item  http://news.sciencenet.cn/htmlnews/2016/10/358920.shtm
-Wed, 26 Oct 2016 06:16:22 GMT mquery findOne entries { guid: 'http://news.sciencenet.cn/htmlnews/2016/10/358915.shtm' } { fields: undefined }
-Wed, 26 Oct 2016 06:16:22 GMT hearsay:collector:services:save noop item  http://news.sciencenet.cn/htmlnews/2016/10/358915.shtm
-Wed, 26 Oct 2016 06:16:22 GMT mquery findOne entries { guid: 'http://news.sciencenet.cn/htmlnews/2016/10/358871.shtm' } { fields: undefined }
-Wed, 26 Oct 2016 06:16:22 GMT hearsay:collector:services:save noop item  http://news.sciencenet.cn/htmlnews/2016/10/358871.shtm
-Wed, 26 Oct 2016 06:16:22 GMT mquery findOne entries { guid: 'http://news.sciencenet.cn/htmlnews/2016/10/358867.shtm' } { fields: undefined }
-Wed, 26 Oct 2016 06:16:22 GMT hearsay:collector:services:save noop item  http://news.sciencenet.cn/htmlnews/2016/10/358867.shtm
-Wed, 26 Oct 2016 06:16:22 GMT mquery findOne entries { guid: 'http://news.sciencenet.cn/htmlnews/2016/10/358854.shtm' } { fields: undefined }
-Wed, 26 Oct 2016 06:16:22 GMT hearsay:collector:services:save noop item  http://news.sciencenet.cn/htmlnews/2016/10/358854.shtm
-Wed, 26 Oct 2016 06:16:22 GMT mquery findOne entries { guid: 'http://news.sciencenet.cn/htmlnews/2016/10/358844.shtm' } { fields: undefined }
-Wed, 26 Oct 2016 06:16:22 GMT hearsay:collector:services:save noop item  http://news.sciencenet.cn/htmlnews/2016/10/358844.shtm
-Wed, 26 Oct 2016 06:16:22 GMT mquery findOne entries { guid: 'http://news.sciencenet.cn/htmlnews/2016/10/358811.shtm' } { fields: undefined }
-Wed, 26 Oct 2016 06:16:22 GMT hearsay:collector:services:save noop item  http://news.sciencenet.cn/htmlnews/2016/10/358811.shtm
-Wed, 26 Oct 2016 06:16:22 GMT mquery findOne entries { guid: 'http://news.sciencenet.cn/htmlnews/2016/10/358803.shtm' } { fields: undefined }
-Wed, 26 Oct 2016 06:16:22 GMT hearsay:collector:services:save noop item  http://news.sciencenet.cn/htmlnews/2016/10/358803.shtm
-Wed, 26 Oct 2016 06:16:22 GMT mquery findOne entries { guid: 'http://news.sciencenet.cn/htmlnews/2016/10/358802.shtm' } { fields: undefined }
-Wed, 26 Oct 2016 06:16:22 GMT hearsay:collector:services:save noop item  http://news.sciencenet.cn/htmlnews/2016/10/358802.shtm
-Wed, 26 Oct 2016 06:16:22 GMT mquery findOne entries { guid: 'http://news.sciencenet.cn/htmlnews/2016/10/358711.shtm' } { fields: undefined }
-Wed, 26 Oct 2016 06:16:22 GMT hearsay:collector:services:save noop item  http://news.sciencenet.cn/htmlnews/2016/10/358711.shtm
-Wed, 26 Oct 2016 06:16:22 GMT mquery findOne entries { guid: 'http://news.sciencenet.cn/htmlnews/2016/10/358688.shtm' } { fields: undefined }
-Wed, 26 Oct 2016 06:16:22 GMT hearsay:collector:services:save noop item  http://news.sciencenet.cn/htmlnews/2016/10/358688.shtm
-Wed, 26 Oct 2016 06:16:22 GMT mquery findOne entries { guid: 'http://news.sciencenet.cn/htmlnews/2016/10/358636.shtm' } { fields: undefined }
-Wed, 26 Oct 2016 06:16:22 GMT hearsay:collector:services:save noop item  http://news.sciencenet.cn/htmlnews/2016/10/358636.shtm
-Wed, 26 Oct 2016 06:16:22 GMT mquery findOne entries { guid: 'http://news.sciencenet.cn/htmlnews/2016/10/358629.shtm' } { fields: undefined }
-Wed, 26 Oct 2016 06:16:22 GMT hearsay:collector:services:save noop item  http://news.sciencenet.cn/htmlnews/2016/10/358629.shtm
-Wed, 26 Oct 2016 06:16:22 GMT mquery findOne entries { guid: 'http://news.sciencenet.cn/htmlnews/2016/10/358618.shtm' } { fields: undefined }
-Wed, 26 Oct 2016 06:16:22 GMT hearsay:collector:services:save noop item  http://news.sciencenet.cn/htmlnews/2016/10/358618.shtm
-Wed, 26 Oct 2016 06:16:22 GMT Congregator:process [36m科学网[39m[32m(initial)[39m[90m - [39m updated: [33m30[39m new: [35m0[39m
-Wed, 26 Oct 2016 06:16:22 GMT congregator:distribution [36mrealtime distribution for: [39m科学网
-Wed, 26 Oct 2016 06:16:22 GMT congregator:distribution [36m科学网[39m[34m(distribution)[39m[90m - [39m[33m distributed: [39m[32m0[39m
-Wed, 26 Oct 2016 06:16:22 GMT Congregator:process [36mprocessing [39m0[36m posts for mapping [39m[35m科学网[39m[32m(content)[39m
-Wed, 26 Oct 2016 06:16:22 GMT Congregator:process [36m科学网[39m[32m(content)[39m[90m - [39m updated: [33m0[39m new: [35m0[39m
-Wed, 26 Oct 2016 06:16:41 GMT Congregator:process [36mprocessing [39m8[36m posts for mapping [39m[35mWired Science[39m[32m(initial)[39m
-Wed, 26 Oct 2016 06:16:41 GMT mquery findOne entries { guid: 'https://www.wired.com/2016/10/nasa-celebrates-10-years-staring-damn-sun/' } { fields: undefined }
-Wed, 26 Oct 2016 06:16:41 GMT hearsay:collector:services:save noop item  https://www.wired.com/2016/10/nasa-celebrates-10-years-staring-damn-sun/
-Wed, 26 Oct 2016 06:16:41 GMT mquery findOne entries { guid: 'https://www.wired.com/2016/10/people-prosthetics-first-cyborg-olympics/' } { fields: undefined }
-Wed, 26 Oct 2016 06:16:41 GMT hearsay:collector:services:save noop item  https://www.wired.com/2016/10/people-prosthetics-first-cyborg-olympics/
-Wed, 26 Oct 2016 06:16:41 GMT mquery findOne entries { guid: 'https://www.wired.com/2016/10/klinenberg-transforming-communities-to-survive-climate-change/' } { fields: undefined }
-Wed, 26 Oct 2016 06:16:41 GMT hearsay:collector:services:save noop item  https://www.wired.com/2016/10/klinenberg-transforming-communities-to-survive-climate-change/
-Wed, 26 Oct 2016 06:16:41 GMT mquery findOne entries { guid: 'https://www.wired.com/2016/10/wasp-that-brainwashed-the-caterpillar/' } { fields: undefined }
-Wed, 26 Oct 2016 06:16:41 GMT hearsay:collector:services:save noop item  https://www.wired.com/2016/10/wasp-that-brainwashed-the-caterpillar/
-Wed, 26 Oct 2016 06:16:41 GMT mquery findOne entries { guid: 'https://www.wired.com/2016/10/lava-doesnt-erupt-anymore/' } { fields: undefined }
-Wed, 26 Oct 2016 06:16:41 GMT hearsay:collector:services:save noop item  https://www.wired.com/2016/10/lava-doesnt-erupt-anymore/
-Wed, 26 Oct 2016 06:16:41 GMT mquery findOne entries { guid: 'https://www.wired.com/2016/10/paris-climate-agreement-key-us-foreign-policy/' } { fields: undefined }
-Wed, 26 Oct 2016 06:16:41 GMT hearsay:collector:services:save noop item  https://www.wired.com/2016/10/paris-climate-agreement-key-us-foreign-policy/
-Wed, 26 Oct 2016 06:16:41 GMT mquery findOne entries { guid: 'https://www.wired.com/2016/10/how-to-feed-everyone-on-earth/' } { fields: undefined }
-Wed, 26 Oct 2016 06:16:41 GMT hearsay:collector:services:save noop item  https://www.wired.com/2016/10/how-to-feed-everyone-on-earth/
-Wed, 26 Oct 2016 06:16:41 GMT mquery findOne entries { guid: 'https://www.wired.com/2016/10/falling-wormhole-connecting-physics-education/' } { fields: undefined }
-Wed, 26 Oct 2016 06:16:41 GMT hearsay:collector:services:save noop item  https://www.wired.com/2016/10/falling-wormhole-connecting-physics-education/
-Wed, 26 Oct 2016 06:16:41 GMT Congregator:process [36mWired Science[39m[32m(initial)[39m[90m - [39m updated: [33m8[39m new: [35m0[39m
-Wed, 26 Oct 2016 06:16:41 GMT congregator:distribution [36mrealtime distribution for: [39mWired Science
-Wed, 26 Oct 2016 06:16:41 GMT congregator:distribution [36mWired Science[39m[34m(distribution)[39m[90m - [39m[33m distributed: [39m[32m0[39m
-Wed, 26 Oct 2016 06:16:41 GMT Congregator:process [36mprocessing [39m0[36m posts for mapping [39m[35mWired Science[39m[32m(content)[39m
-Wed, 26 Oct 2016 06:16:41 GMT Congregator:process [36mWired Science[39m[32m(content)[39m[90m - [39m updated: [33m0[39m new: [35m0[39m
-Wed, 26 Oct 2016 06:16:41 GMT CongregatorBase:run [32mall mappings done...[39m
-Wed, 26 Oct 2016 06:26:22 GMT congregator:fetch [33mbeginning fetch from jsonfetcher: [39m[35mHacker News[39m
-Wed, 26 Oct 2016 06:26:22 GMT congregator:fetch [33mbeginning fetch from jsonfetcher: [39m[35m阮一峰网络日志[39m
-Wed, 26 Oct 2016 06:26:22 GMT congregator:fetch [33mbeginning fetch from jsonfetcher: [39m[35m屈光宇的博客[39m
-Wed, 26 Oct 2016 06:26:22 GMT congregator:fetch [33mbeginning fetch from jsonfetcher: [39m[35m十年踪迹博客[39m
-Wed, 26 Oct 2016 06:26:22 GMT congregator:fetch [33mbeginning fetch from jsonfetcher: [39m[35mThe Muse - Career[39m
-Wed, 26 Oct 2016 06:26:22 GMT congregator:fetch [33mbeginning fetch from jsonfetcher: [39m[35mWired.com[39m
-Wed, 26 Oct 2016 06:26:22 GMT congregator:fetch [33mbeginning fetch from jsonfetcher: [39m[35mInc.com[39m
-Wed, 26 Oct 2016 06:26:22 GMT congregator:fetch [33mbeginning fetch from jsonfetcher: [39m[35mArs Technica[39m
-Wed, 26 Oct 2016 06:26:22 GMT congregator:fetch [33mbeginning fetch from jsonfetcher: [39m[35mChris Dixon[39m
-Wed, 26 Oct 2016 06:26:22 GMT congregator:fetch [33mbeginning fetch from jsonfetcher: [39m[35mSmashing Magazine[39m
-Wed, 26 Oct 2016 06:26:22 GMT congregator:fetch [33mbeginning fetch from jsonfetcher: [39m[35mTheAtlantic - Technology[39m
-Wed, 26 Oct 2016 06:26:22 GMT congregator:fetch [33mbeginning fetch from jsonfetcher: [39m[35mEntrepreneur.com[39m
-Wed, 26 Oct 2016 06:26:22 GMT congregator:fetch [33mbeginning fetch from jsonfetcher: [39m[35mCoding Horror (Jeff Atwood)[39m
-Wed, 26 Oct 2016 06:26:22 GMT congregator:fetch [33mbeginning fetch from jsonfetcher: [39m[35mKQED MindShift[39m
-Wed, 26 Oct 2016 06:26:22 GMT congregator:fetch [33mbeginning fetch from jsonfetcher: [39m[35mourjs[39m
-Wed, 26 Oct 2016 06:26:22 GMT congregator:fetch [33mbeginning fetch from jsonfetcher: [39m[35m科学松鼠协会[39m
-Wed, 26 Oct 2016 06:26:22 GMT congregator:fetch [33mbeginning fetch from jsonfetcher: [39m[35mnode weekly[39m
-Wed, 26 Oct 2016 06:26:22 GMT rssreader:fetch <- charset is not utf-8, converting ->
-Wed, 26 Oct 2016 06:26:22 GMT Congregator:process [36mprocessing [39m15[36m posts for mapping [39m[35m阮一峰网络日志[39m[32m(initial)[39m
-Wed, 26 Oct 2016 06:26:22 GMT mquery findOne entries { guid: 'tag:www.ruanyifeng.com/,2016/blog//1.1913' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:22 GMT hearsay:collector:services:save noop item  tag:www.ruanyifeng.com/,2016/blog//1.1913
-Wed, 26 Oct 2016 06:26:22 GMT mquery findOne entries { guid: 'tag:www.ruanyifeng.com/,2016/blog//1.1912' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:22 GMT hearsay:collector:services:save noop item  tag:www.ruanyifeng.com/,2016/blog//1.1912
-Wed, 26 Oct 2016 06:26:22 GMT mquery findOne entries { guid: 'tag:www.ruanyifeng.com/,2016/blog//1.1911' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:22 GMT hearsay:collector:services:save noop item  tag:www.ruanyifeng.com/,2016/blog//1.1911
-Wed, 26 Oct 2016 06:26:22 GMT mquery findOne entries { guid: 'tag:www.ruanyifeng.com/,2016/blog//1.1910' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:22 GMT hearsay:collector:services:save noop item  tag:www.ruanyifeng.com/,2016/blog//1.1910
-Wed, 26 Oct 2016 06:26:22 GMT mquery findOne entries { guid: 'tag:www.ruanyifeng.com/,2016/blog//1.1909' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:22 GMT hearsay:collector:services:save noop item  tag:www.ruanyifeng.com/,2016/blog//1.1909
-Wed, 26 Oct 2016 06:26:22 GMT mquery findOne entries { guid: 'tag:www.ruanyifeng.com/,2016/blog//1.1908' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:22 GMT hearsay:collector:services:save noop item  tag:www.ruanyifeng.com/,2016/blog//1.1908
-Wed, 26 Oct 2016 06:26:22 GMT mquery findOne entries { guid: 'tag:www.ruanyifeng.com/,2016/blog//1.1907' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:22 GMT hearsay:collector:services:save noop item  tag:www.ruanyifeng.com/,2016/blog//1.1907
-Wed, 26 Oct 2016 06:26:22 GMT mquery findOne entries { guid: 'tag:www.ruanyifeng.com/,2016/blog//1.1906' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:22 GMT hearsay:collector:services:save noop item  tag:www.ruanyifeng.com/,2016/blog//1.1906
-Wed, 26 Oct 2016 06:26:22 GMT mquery findOne entries { guid: 'tag:www.ruanyifeng.com/,2016/blog//1.1904' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:22 GMT hearsay:collector:services:save noop item  tag:www.ruanyifeng.com/,2016/blog//1.1904
-Wed, 26 Oct 2016 06:26:22 GMT mquery findOne entries { guid: 'tag:www.ruanyifeng.com/,2016/blog//1.1903' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:22 GMT hearsay:collector:services:save noop item  tag:www.ruanyifeng.com/,2016/blog//1.1903
-Wed, 26 Oct 2016 06:26:22 GMT mquery findOne entries { guid: 'tag:www.ruanyifeng.com/,2016/blog//1.1902' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:22 GMT hearsay:collector:services:save noop item  tag:www.ruanyifeng.com/,2016/blog//1.1902
-Wed, 26 Oct 2016 06:26:22 GMT mquery findOne entries { guid: 'tag:www.ruanyifeng.com/,2016/blog//1.1901' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:22 GMT hearsay:collector:services:save noop item  tag:www.ruanyifeng.com/,2016/blog//1.1901
-Wed, 26 Oct 2016 06:26:22 GMT mquery findOne entries { guid: 'tag:www.ruanyifeng.com/,2016/blog//1.1900' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:22 GMT hearsay:collector:services:save noop item  tag:www.ruanyifeng.com/,2016/blog//1.1900
-Wed, 26 Oct 2016 06:26:22 GMT mquery findOne entries { guid: 'tag:www.ruanyifeng.com/,2016/blog//1.1899' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:22 GMT hearsay:collector:services:save noop item  tag:www.ruanyifeng.com/,2016/blog//1.1899
-Wed, 26 Oct 2016 06:26:22 GMT mquery findOne entries { guid: 'tag:www.ruanyifeng.com/,2016/blog//1.1898' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:22 GMT hearsay:collector:services:save noop item  tag:www.ruanyifeng.com/,2016/blog//1.1898
-Wed, 26 Oct 2016 06:26:22 GMT Congregator:process [36m阮一峰网络日志[39m[32m(initial)[39m[90m - [39m updated: [33m15[39m new: [35m0[39m
-Wed, 26 Oct 2016 06:26:22 GMT congregator:distribution [36mrealtime distribution for: [39m阮一峰网络日志
-Wed, 26 Oct 2016 06:26:22 GMT congregator:distribution [36m阮一峰网络日志[39m[34m(distribution)[39m[90m - [39m[33m distributed: [39m[32m0[39m
-Wed, 26 Oct 2016 06:26:22 GMT Congregator:process [36mprocessing [39m0[36m posts for mapping [39m[35m阮一峰网络日志[39m[32m(content)[39m
-Wed, 26 Oct 2016 06:26:22 GMT Congregator:process [36m阮一峰网络日志[39m[32m(content)[39m[90m - [39m updated: [33m0[39m new: [35m0[39m
-Wed, 26 Oct 2016 06:26:23 GMT Congregator:process [36mprocessing [39m10[36m posts for mapping [39m[35m屈光宇的博客[39m[32m(initial)[39m
-Wed, 26 Oct 2016 06:26:23 GMT mquery findOne entries { guid: 'https://imququ.com/post/new-video-policies-for-ios10.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:23 GMT hearsay:collector:services:save noop item  https://imququ.com/post/new-video-policies-for-ios10.html
-Wed, 26 Oct 2016 06:26:23 GMT mquery findOne entries { guid: 'https://imququ.com/post/ecc-certificate.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:23 GMT hearsay:collector:services:save noop item  https://imququ.com/post/ecc-certificate.html
-Wed, 26 Oct 2016 06:26:23 GMT mquery findOne entries { guid: 'https://imququ.com/post/http-alt-svc.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:23 GMT hearsay:collector:services:save noop item  https://imququ.com/post/http-alt-svc.html
-Wed, 26 Oct 2016 06:26:23 GMT mquery findOne entries { guid: 'https://imququ.com/post/nginx-http2-post-bug.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:23 GMT hearsay:collector:services:save noop item  https://imququ.com/post/nginx-http2-post-bug.html
-Wed, 26 Oct 2016 06:26:23 GMT mquery findOne entries { guid: 'https://imququ.com/post/use-docker.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:23 GMT hearsay:collector:services:save noop item  https://imququ.com/post/use-docker.html
-Wed, 26 Oct 2016 06:26:23 GMT mquery findOne entries { guid: 'https://imququ.com/post/wpo-of-mobile-web-2.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:23 GMT hearsay:collector:services:save noop item  https://imququ.com/post/wpo-of-mobile-web-2.html
-Wed, 26 Oct 2016 06:26:23 GMT mquery findOne entries { guid: 'https://imququ.com/post/first-half-of-2016-blog-analytics.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:23 GMT hearsay:collector:services:save noop item  https://imququ.com/post/first-half-of-2016-blog-analytics.html
-Wed, 26 Oct 2016 06:26:23 GMT mquery findOne entries { guid: 'https://imququ.com/post/enable-alpn-asap.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:23 GMT hearsay:collector:services:save noop item  https://imququ.com/post/enable-alpn-asap.html
-Wed, 26 Oct 2016 06:26:23 GMT mquery findOne entries { guid: 'https://imququ.com/post/moving-to-https-asap.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:23 GMT hearsay:collector:services:save noop item  https://imququ.com/post/moving-to-https-asap.html
-Wed, 26 Oct 2016 06:26:23 GMT mquery findOne entries { guid: 'https://imququ.com/post/sth-about-switch-to-https-3.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:23 GMT hearsay:collector:services:save noop item  https://imququ.com/post/sth-about-switch-to-https-3.html
-Wed, 26 Oct 2016 06:26:23 GMT Congregator:process [36m屈光宇的博客[39m[32m(initial)[39m[90m - [39m updated: [33m10[39m new: [35m0[39m
-Wed, 26 Oct 2016 06:26:23 GMT congregator:distribution [36mrealtime distribution for: [39m屈光宇的博客
-Wed, 26 Oct 2016 06:26:23 GMT congregator:distribution [36m屈光宇的博客[39m[34m(distribution)[39m[90m - [39m[33m distributed: [39m[32m0[39m
-Wed, 26 Oct 2016 06:26:23 GMT Congregator:process [36mprocessing [39m0[36m posts for mapping [39m[35m屈光宇的博客[39m[32m(content)[39m
-Wed, 26 Oct 2016 06:26:23 GMT Congregator:process [36m屈光宇的博客[39m[32m(content)[39m[90m - [39m updated: [33m0[39m new: [35m0[39m
-Wed, 26 Oct 2016 06:26:27 GMT Congregator:process [36mprocessing [39m10[36m posts for mapping [39m[35m十年踪迹博客[39m[32m(initial)[39m
-Wed, 26 Oct 2016 06:26:27 GMT mquery findOne entries { guid: 'https://www.h5jun.com/post/front-end-is-and-javascript-is.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:27 GMT hearsay:collector:services:save noop item  https://www.h5jun.com/post/front-end-is-and-javascript-is.html
-Wed, 26 Oct 2016 06:26:27 GMT mquery findOne entries { guid: 'https://www.h5jun.com/post/multiply7.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:27 GMT hearsay:collector:services:save noop item  https://www.h5jun.com/post/multiply7.html
-Wed, 26 Oct 2016 06:26:27 GMT mquery findOne entries { guid: 'https://www.h5jun.com/post/what-makes-a-good-developer-great.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:27 GMT hearsay:collector:services:save noop item  https://www.h5jun.com/post/what-makes-a-good-developer-great.html
-Wed, 26 Oct 2016 06:26:27 GMT mquery findOne entries { guid: 'https://www.h5jun.com/post/chrome-039-s-v8-javascript-engine-gets-a-tuneup-infoworld.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:27 GMT hearsay:collector:services:save noop item  https://www.h5jun.com/post/chrome-039-s-v8-javascript-engine-gets-a-tuneup-infoworld.html
-Wed, 26 Oct 2016 06:26:27 GMT mquery findOne entries { guid: 'https://www.h5jun.com/post/writing-less-damn-code-medium.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:27 GMT hearsay:collector:services:save noop item  https://www.h5jun.com/post/writing-less-damn-code-medium.html
-Wed, 26 Oct 2016 06:26:27 GMT mquery findOne entries { guid: 'https://www.h5jun.com/post/what-does-a-startup-cto-actually-do.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:27 GMT hearsay:collector:services:save noop item  https://www.h5jun.com/post/what-does-a-startup-cto-actually-do.html
-Wed, 26 Oct 2016 06:26:27 GMT mquery findOne entries { guid: 'https://www.h5jun.com/post/hover-is-dead-long-live-hover.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:27 GMT hearsay:collector:services:save noop item  https://www.h5jun.com/post/hover-is-dead-long-live-hover.html
-Wed, 26 Oct 2016 06:26:27 GMT mquery findOne entries { guid: 'https://www.h5jun.com/post/pi-led16x16.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:27 GMT hearsay:collector:services:save noop item  https://www.h5jun.com/post/pi-led16x16.html
-Wed, 26 Oct 2016 06:26:27 GMT mquery findOne entries { guid: 'https://www.h5jun.com/post/why-object-literals-in-javascript-are-cool.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:27 GMT hearsay:collector:services:save noop item  https://www.h5jun.com/post/why-object-literals-in-javascript-are-cool.html
-Wed, 26 Oct 2016 06:26:27 GMT mquery findOne entries { guid: 'https://www.h5jun.com/post/pi-num8.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:27 GMT hearsay:collector:services:save noop item  https://www.h5jun.com/post/pi-num8.html
-Wed, 26 Oct 2016 06:26:27 GMT Congregator:process [36m十年踪迹博客[39m[32m(initial)[39m[90m - [39m updated: [33m10[39m new: [35m0[39m
-Wed, 26 Oct 2016 06:26:27 GMT congregator:distribution [36mrealtime distribution for: [39m十年踪迹博客
-Wed, 26 Oct 2016 06:26:27 GMT congregator:distribution [36m十年踪迹博客[39m[34m(distribution)[39m[90m - [39m[33m distributed: [39m[32m0[39m
-Wed, 26 Oct 2016 06:26:27 GMT Congregator:process [36mprocessing [39m0[36m posts for mapping [39m[35m十年踪迹博客[39m[32m(content)[39m
-Wed, 26 Oct 2016 06:26:27 GMT Congregator:process [36m十年踪迹博客[39m[32m(content)[39m[90m - [39m updated: [33m0[39m new: [35m0[39m
-Wed, 26 Oct 2016 06:26:33 GMT rssreader:fetch <- charset is not utf-8, converting ->
-Wed, 26 Oct 2016 06:26:33 GMT Congregator:process [36mprocessing [39m0[36m posts for mapping [39m[35mHacker News[39m[32m(initial)[39m
-Wed, 26 Oct 2016 06:26:33 GMT Congregator:process [36mHacker News[39m[32m(initial)[39m[90m - [39m updated: [33m0[39m new: [35m0[39m
-Wed, 26 Oct 2016 06:26:33 GMT congregator:distribution [36mrealtime distribution for: [39mHacker News
-Wed, 26 Oct 2016 06:26:33 GMT congregator:distribution [36mHacker News[39m[34m(distribution)[39m[90m - [39m[33m distributed: [39m[32m0[39m
-Wed, 26 Oct 2016 06:26:33 GMT Congregator:process [36mprocessing [39m0[36m posts for mapping [39m[35mHacker News[39m[32m(content)[39m
-Wed, 26 Oct 2016 06:26:33 GMT Congregator:process [36mHacker News[39m[32m(content)[39m[90m - [39m updated: [33m0[39m new: [35m0[39m
-Wed, 26 Oct 2016 06:26:36 GMT Congregator:process [36mprocessing [39m20[36m posts for mapping [39m[35mArs Technica[39m[32m(initial)[39m
-Wed, 26 Oct 2016 06:26:36 GMT mquery findOne entries { guid: 'https://arstechnica.com/?p=982359' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:36 GMT hearsay:collector:services:save noop item  https://arstechnica.com/?p=982359
-Wed, 26 Oct 2016 06:26:36 GMT mquery findOne entries { guid: 'https://arstechnica.com/?p=981831' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:36 GMT hearsay:collector:services:save noop item  https://arstechnica.com/?p=981831
-Wed, 26 Oct 2016 06:26:36 GMT mquery findOne entries { guid: 'https://arstechnica.com/?p=982299' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:36 GMT hearsay:collector:services:save noop item  https://arstechnica.com/?p=982299
-Wed, 26 Oct 2016 06:26:36 GMT mquery findOne entries { guid: 'https://arstechnica.com/?p=982239' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:36 GMT hearsay:collector:services:save noop item  https://arstechnica.com/?p=982239
-Wed, 26 Oct 2016 06:26:36 GMT mquery findOne entries { guid: 'https://arstechnica.com/?p=982235' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:36 GMT hearsay:collector:services:save noop item  https://arstechnica.com/?p=982235
-Wed, 26 Oct 2016 06:26:36 GMT mquery findOne entries { guid: 'https://arstechnica.com/?p=982029' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:36 GMT hearsay:collector:services:save noop item  https://arstechnica.com/?p=982029
-Wed, 26 Oct 2016 06:26:36 GMT mquery findOne entries { guid: 'http://arstechnica.com/?p=981883' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:36 GMT hearsay:collector:services:save noop item  http://arstechnica.com/?p=981883
-Wed, 26 Oct 2016 06:26:36 GMT mquery findOne entries { guid: 'https://arstechnica.com/?p=981757' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:36 GMT hearsay:collector:services:save noop item  https://arstechnica.com/?p=981757
-Wed, 26 Oct 2016 06:26:36 GMT mquery findOne entries { guid: 'https://arstechnica.com/?p=981389' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:36 GMT hearsay:collector:services:save noop item  https://arstechnica.com/?p=981389
-Wed, 26 Oct 2016 06:26:36 GMT mquery findOne entries { guid: 'https://arstechnica.com/?p=981135' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:36 GMT hearsay:collector:services:save noop item  https://arstechnica.com/?p=981135
-Wed, 26 Oct 2016 06:26:36 GMT mquery findOne entries { guid: 'http://arstechnica.com/?p=981109' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:36 GMT hearsay:collector:services:save noop item  http://arstechnica.com/?p=981109
-Wed, 26 Oct 2016 06:26:36 GMT mquery findOne entries { guid: 'https://arstechnica.com/?p=981027' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:36 GMT hearsay:collector:services:save noop item  https://arstechnica.com/?p=981027
-Wed, 26 Oct 2016 06:26:36 GMT mquery findOne entries { guid: 'https://arstechnica.com/?p=980979' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:36 GMT hearsay:collector:services:save noop item  https://arstechnica.com/?p=980979
-Wed, 26 Oct 2016 06:26:36 GMT mquery findOne entries { guid: 'https://arstechnica.com/?p=980093' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:36 GMT hearsay:collector:services:save noop item  https://arstechnica.com/?p=980093
-Wed, 26 Oct 2016 06:26:36 GMT mquery findOne entries { guid: 'https://arstechnica.com/?p=980405' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:36 GMT hearsay:collector:services:save noop item  https://arstechnica.com/?p=980405
-Wed, 26 Oct 2016 06:26:36 GMT mquery findOne entries { guid: 'https://arstechnica.com/?p=980123' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:36 GMT hearsay:collector:services:save noop item  https://arstechnica.com/?p=980123
-Wed, 26 Oct 2016 06:26:36 GMT mquery findOne entries { guid: 'https://arstechnica.com/?p=979953' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:36 GMT hearsay:collector:services:save noop item  https://arstechnica.com/?p=979953
-Wed, 26 Oct 2016 06:26:36 GMT mquery findOne entries { guid: 'https://arstechnica.com/?p=979945' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:36 GMT hearsay:collector:services:save noop item  https://arstechnica.com/?p=979945
-Wed, 26 Oct 2016 06:26:36 GMT mquery findOne entries { guid: 'https://arstechnica.com/?p=979901' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:36 GMT hearsay:collector:services:save noop item  https://arstechnica.com/?p=979901
-Wed, 26 Oct 2016 06:26:36 GMT mquery findOne entries { guid: 'https://arstechnica.com/?p=979479' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:36 GMT hearsay:collector:services:save noop item  https://arstechnica.com/?p=979479
-Wed, 26 Oct 2016 06:26:36 GMT Congregator:process [36mArs Technica[39m[32m(initial)[39m[90m - [39m updated: [33m20[39m new: [35m0[39m
-Wed, 26 Oct 2016 06:26:36 GMT congregator:distribution [36mrealtime distribution for: [39mArs Technica
-Wed, 26 Oct 2016 06:26:36 GMT congregator:distribution [36mArs Technica[39m[34m(distribution)[39m[90m - [39m[33m distributed: [39m[32m0[39m
-Wed, 26 Oct 2016 06:26:36 GMT Congregator:process [36mprocessing [39m0[36m posts for mapping [39m[35mArs Technica[39m[32m(content)[39m
-Wed, 26 Oct 2016 06:26:36 GMT Congregator:process [36mArs Technica[39m[32m(content)[39m[90m - [39m updated: [33m0[39m new: [35m0[39m
-Wed, 26 Oct 2016 06:26:37 GMT CongregatorBase:run [31merror: [39m{ [Error: getaddrinfo ENOTFOUND www.themuse.com www.themuse.com:443]
-  code: 'ENOTFOUND',
-  errno: 'ENOTFOUND',
-  syscall: 'getaddrinfo',
-  hostname: 'www.themuse.com',
-  host: 'www.themuse.com',
-  port: 443 }
-Wed, 26 Oct 2016 06:26:42 GMT Congregator:process [36mprocessing [39m40[36m posts for mapping [39m[35mInc.com[39m[32m(initial)[39m
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/minda-zetlin/marijuana-group-sues-florida-county-over-missing-amendment-on-ballots.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save new item  http://www.inc.com/minda-zetlin/marijuana-group-sues-florida-county-over-missing-amendment-on-ballots.html
-Wed, 26 Oct 2016 06:26:42 GMT Congregator:process processed new entry with guid: [33mhttp://www.inc.com/minda-zetlin/marijuana-group-sues-florida-county-over-missing-amendment-on-ballots.html[39m
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/damon-brown/you-absolutely-save-the-most-money-flying-these-special-days.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save new item  http://www.inc.com/damon-brown/you-absolutely-save-the-most-money-flying-these-special-days.html
-Wed, 26 Oct 2016 06:26:42 GMT Congregator:process processed new entry with guid: [33mhttp://www.inc.com/damon-brown/you-absolutely-save-the-most-money-flying-these-special-days.html[39m
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/geoffrey-james/the-dyn-hack-proves-the-internet-of-things-is-a-really-lame-idea.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save new item  http://www.inc.com/geoffrey-james/the-dyn-hack-proves-the-internet-of-things-is-a-really-lame-idea.html
-Wed, 26 Oct 2016 06:26:42 GMT Congregator:process processed new entry with guid: [33mhttp://www.inc.com/geoffrey-james/the-dyn-hack-proves-the-internet-of-things-is-a-really-lame-idea.html[39m
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/bill-murphy-jr/next-time-you-screw-up-and-face-a-tough-time-remember-the-lessons-from-this-litt.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save noop item  http://www.inc.com/bill-murphy-jr/next-time-you-screw-up-and-face-a-tough-time-remember-the-lessons-from-this-litt.html
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/leonard-kim/why-this-mens-retailer-is-using-personal-branding-to-sell-pants.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save noop item  http://www.inc.com/leonard-kim/why-this-mens-retailer-is-using-personal-branding-to-sell-pants.html
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/minda-zetlin/5-questions-that-will-help-you-hire-the-perfect-pr-team-for-your-company.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save noop item  http://www.inc.com/minda-zetlin/5-questions-that-will-help-you-hire-the-perfect-pr-team-for-your-company.html
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/joelle-k-jay/balance-isnt-a-myth-3-ways-for-women-leaders-to-get-their-work-life-balance-back.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save noop item  http://www.inc.com/joelle-k-jay/balance-isnt-a-myth-3-ways-for-women-leaders-to-get-their-work-life-balance-back.html
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/will-yakowicz/sheldon-adelson-bets-against-marijuana.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save noop item  http://www.inc.com/will-yakowicz/sheldon-adelson-bets-against-marijuana.html
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/jessica-stillman/dream-job-or-sweatshop-12-things-to-look-for-when-you-interview.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save noop item  http://www.inc.com/jessica-stillman/dream-job-or-sweatshop-12-things-to-look-for-when-you-interview.html
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/sujan-patel/how-to-recruit-world-class-speakers-for-your-conference.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save noop item  http://www.inc.com/sujan-patel/how-to-recruit-world-class-speakers-for-your-conference.html
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/chris-matyszczyk/want-to-be-a-repeat-success-stephen-curry-reveals-the-secret.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save noop item  http://www.inc.com/chris-matyszczyk/want-to-be-a-repeat-success-stephen-curry-reveals-the-secret.html
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/kevin-j-ryan/google-creating-augmented-reality-headset-that-tracks-eyes.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save noop item  http://www.inc.com/kevin-j-ryan/google-creating-augmented-reality-headset-that-tracks-eyes.html
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/erik-sherman/apple-earnings-are-iphones-poised-for-a-big-rebound.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save noop item  http://www.inc.com/erik-sherman/apple-earnings-are-iphones-poised-for-a-big-rebound.html
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/bradley-tusk/heres-what-happens-when-technology-companies-and-governments-work-together.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save noop item  http://www.inc.com/bradley-tusk/heres-what-happens-when-technology-companies-and-governments-work-together.html
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/associated-press/chipotle-misses-quarterly-revenue-profit-forecast.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save noop item  http://www.inc.com/associated-press/chipotle-misses-quarterly-revenue-profit-forecast.html
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/associated-press/apple-quarterly-profits-revenue-beats-market-forecasts.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save noop item  http://www.inc.com/associated-press/apple-quarterly-profits-revenue-beats-market-forecasts.html
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/steve-cody/four-putin-proof-tips-for-minimizing-cyberattacks-on-your-business.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save noop item  http://www.inc.com/steve-cody/four-putin-proof-tips-for-minimizing-cyberattacks-on-your-business.html
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/associated-press/fanduel-draftkings-reach-lawsuit-settlement-new-york-12-million.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save noop item  http://www.inc.com/associated-press/fanduel-draftkings-reach-lawsuit-settlement-new-york-12-million.html
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/nina-ojeda/how-to-build-an-amazing-startup-team.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save noop item  http://www.inc.com/nina-ojeda/how-to-build-an-amazing-startup-team.html
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/john-boitnott/the-many-benefits-of-being-a-vulnerable-transparent-leader.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save noop item  http://www.inc.com/john-boitnott/the-many-benefits-of-being-a-vulnerable-transparent-leader.html
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/john-white/10-ways-to-avoid-being-labeled-a-complainer-at-work.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save noop item  http://www.inc.com/john-white/10-ways-to-avoid-being-labeled-a-complainer-at-work.html
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/zoe-henry/rent-the-runway-hillary-clinton-positive-shift-for-women-entrepreneurs.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save noop item  http://www.inc.com/zoe-henry/rent-the-runway-hillary-clinton-positive-shift-for-women-entrepreneurs.html
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/dustin-mckissen/what-do-you-call-a-leader-without-followers-you-call-them-a-leader.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save noop item  http://www.inc.com/dustin-mckissen/what-do-you-call-a-leader-without-followers-you-call-them-a-leader.html
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/andrew-thomas/7-mistakes-you-must-avoid-to-make-a-great-first-impression.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save noop item  http://www.inc.com/andrew-thomas/7-mistakes-you-must-avoid-to-make-a-great-first-impression.html
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/linkedin/craig-newmark/new-poll-shows-trust-online-declines-despite-rise-social-newmark.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save noop item  http://www.inc.com/linkedin/craig-newmark/new-poll-shows-trust-online-declines-despite-rise-social-newmark.html
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/linkedin/sramana-mitra/netflix-benefits-from-international-growth-sramana-mitra.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save noop item  http://www.inc.com/linkedin/sramana-mitra/netflix-benefits-from-international-growth-sramana-mitra.html
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/linkedin/gretchen-rubin/stage-fright-speech-presentation.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save noop item  http://www.inc.com/linkedin/gretchen-rubin/stage-fright-speech-presentation.html
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/kevin-j-ryan/artificial-intelligence-judges-human-rights-trials.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save noop item  http://www.inc.com/kevin-j-ryan/artificial-intelligence-judges-human-rights-trials.html
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/nir-eyal/3-secrets-of-the-most-successful-tech-products.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save noop item  http://www.inc.com/nir-eyal/3-secrets-of-the-most-successful-tech-products.html
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/bartie-scott/martha-stewart-tips-for-makers-biggest-investments.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save noop item  http://www.inc.com/bartie-scott/martha-stewart-tips-for-makers-biggest-investments.html
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/the-fiscal-times/silicon-valley-is-making-peter-thiel-pay-for-supporting-donald-trump.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save noop item  http://www.inc.com/the-fiscal-times/silicon-valley-is-making-peter-thiel-pay-for-supporting-donald-trump.html
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/business-insider/9-tech-trends-will-make-billions-starting-2017.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save noop item  http://www.inc.com/business-insider/9-tech-trends-will-make-billions-starting-2017.html
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/joseph-steinberg/how-to-successfully-livestream-to-grow-your-business.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save noop item  http://www.inc.com/joseph-steinberg/how-to-successfully-livestream-to-grow-your-business.html
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/joel-comm/3-quick-habits-to-boost-your-energy-levels.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save noop item  http://www.inc.com/joel-comm/3-quick-habits-to-boost-your-energy-levels.html
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/jessica-stillman/bookworm-in-chief-obama-cant-stop-recommending-great-reads.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save noop item  http://www.inc.com/jessica-stillman/bookworm-in-chief-obama-cant-stop-recommending-great-reads.html
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/ryan-jenkins/this-story-poetically-depicts-how-to-smash-stagnation.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save noop item  http://www.inc.com/ryan-jenkins/this-story-poetically-depicts-how-to-smash-stagnation.html
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/jessica-stillman/your-employees-would-probably-trade-pay-for-family-friendly-policies-study-shows.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save noop item  http://www.inc.com/jessica-stillman/your-employees-would-probably-trade-pay-for-family-friendly-policies-study-shows.html
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/molly-reynolds/4-ways-to-use-elegant-simplicity-in-your-branding.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save noop item  http://www.inc.com/molly-reynolds/4-ways-to-use-elegant-simplicity-in-your-branding.html
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/ryan-caldbeck/circleup-founder-on-how-to-raise-money.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save noop item  http://www.inc.com/ryan-caldbeck/circleup-founder-on-how-to-raise-money.html
-Wed, 26 Oct 2016 06:26:42 GMT mquery findOne entries { guid: 'http://www.inc.com/james-kerr/the-next-practices-of-strategy-setting.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:42 GMT hearsay:collector:services:save noop item  http://www.inc.com/james-kerr/the-next-practices-of-strategy-setting.html
-Wed, 26 Oct 2016 06:26:42 GMT Congregator:process [36mInc.com[39m[32m(initial)[39m[90m - [39m updated: [33m37[39m new: [35m3[39m
-Wed, 26 Oct 2016 06:26:42 GMT congregator:distribution [36mrealtime distribution for: [39mInc.com
-Wed, 26 Oct 2016 06:26:42 GMT congregator:distribution [36mInc.com[39m[34m(distribution)[39m[90m - [39m[33m distributed: [39m[32m0[39m
-Wed, 26 Oct 2016 06:26:44 GMT Congregator:process [36mprocessing [39m4[36m posts for mapping [39m[35mnode weekly[39m[32m(initial)[39m
-Wed, 26 Oct 2016 06:26:44 GMT mquery findOne entries { guid: 'http://nodeweekly.com/issues/160' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:44 GMT hearsay:collector:services:save noop item  http://nodeweekly.com/issues/160
-Wed, 26 Oct 2016 06:26:44 GMT mquery findOne entries { guid: 'http://nodeweekly.com/issues/159' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:44 GMT hearsay:collector:services:save noop item  http://nodeweekly.com/issues/159
-Wed, 26 Oct 2016 06:26:44 GMT mquery findOne entries { guid: 'http://nodeweekly.com/issues/158' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:44 GMT hearsay:collector:services:save noop item  http://nodeweekly.com/issues/158
-Wed, 26 Oct 2016 06:26:44 GMT mquery findOne entries { guid: 'http://nodeweekly.com/issues/157' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:44 GMT hearsay:collector:services:save noop item  http://nodeweekly.com/issues/157
-Wed, 26 Oct 2016 06:26:44 GMT Congregator:process [36mnode weekly[39m[32m(initial)[39m[90m - [39m updated: [33m4[39m new: [35m0[39m
-Wed, 26 Oct 2016 06:26:44 GMT congregator:distribution [36mrealtime distribution for: [39mnode weekly
-Wed, 26 Oct 2016 06:26:44 GMT congregator:distribution [36mnode weekly[39m[34m(distribution)[39m[90m - [39m[33m distributed: [39m[32m0[39m
-Wed, 26 Oct 2016 06:26:44 GMT Congregator:process [36mprocessing [39m0[36m posts for mapping [39m[35mnode weekly[39m[32m(content)[39m
-Wed, 26 Oct 2016 06:26:44 GMT Congregator:process [36mnode weekly[39m[32m(content)[39m[90m - [39m updated: [33m0[39m new: [35m0[39m
-Wed, 26 Oct 2016 06:26:45 GMT Congregator:process [36mprocessing [39m10[36m posts for mapping [39m[35mourjs[39m[32m(initial)[39m
-Wed, 26 Oct 2016 06:26:45 GMT mquery findOne entries { guid: 'http://ourjs.com/detail/580ef56371e01c68e9619124' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:45 GMT hearsay:collector:services:save noop item  http://ourjs.com/detail/580ef56371e01c68e9619124
-Wed, 26 Oct 2016 06:26:45 GMT mquery findOne entries { guid: 'http://ourjs.com/detail/580ac5de71e01c68e9619119' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:45 GMT hearsay:collector:services:save noop item  http://ourjs.com/detail/580ac5de71e01c68e9619119
-Wed, 26 Oct 2016 06:26:45 GMT mquery findOne entries { guid: 'http://ourjs.com/detail/580c147e71e01c68e961911c' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:45 GMT hearsay:collector:services:save noop item  http://ourjs.com/detail/580c147e71e01c68e961911c
-Wed, 26 Oct 2016 06:26:45 GMT mquery findOne entries { guid: 'http://ourjs.com/detail/57fd75943048f85d45ff3f2d' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:45 GMT hearsay:collector:services:save noop item  http://ourjs.com/detail/57fd75943048f85d45ff3f2d
-Wed, 26 Oct 2016 06:26:45 GMT mquery findOne entries { guid: 'http://ourjs.com/detail/57fc2c983048f85d45ff3f29' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:45 GMT hearsay:collector:services:save noop item  http://ourjs.com/detail/57fc2c983048f85d45ff3f29
-Wed, 26 Oct 2016 06:26:45 GMT mquery findOne entries { guid: 'http://ourjs.com/detail/57f7bcd29b7ca511ccbf4aa1' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:45 GMT hearsay:collector:services:save noop item  http://ourjs.com/detail/57f7bcd29b7ca511ccbf4aa1
-Wed, 26 Oct 2016 06:26:45 GMT mquery findOne entries { guid: 'http://ourjs.com/detail/57ef7be29b7ca511ccbf4a9b' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:45 GMT hearsay:collector:services:save noop item  http://ourjs.com/detail/57ef7be29b7ca511ccbf4a9b
-Wed, 26 Oct 2016 06:26:45 GMT mquery findOne entries { guid: 'http://ourjs.com/detail/57dfa94e696ab502edd8eaaf' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:45 GMT hearsay:collector:services:save noop item  http://ourjs.com/detail/57dfa94e696ab502edd8eaaf
-Wed, 26 Oct 2016 06:26:45 GMT mquery findOne entries { guid: 'http://ourjs.com/detail/57da765a696ab502edd8eaa3' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:45 GMT hearsay:collector:services:save noop item  http://ourjs.com/detail/57da765a696ab502edd8eaa3
-Wed, 26 Oct 2016 06:26:45 GMT mquery findOne entries { guid: 'http://ourjs.com/detail/57cf6b79696ab502edd8ea82' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:45 GMT hearsay:collector:services:save noop item  http://ourjs.com/detail/57cf6b79696ab502edd8ea82
-Wed, 26 Oct 2016 06:26:45 GMT Congregator:process [36mourjs[39m[32m(initial)[39m[90m - [39m updated: [33m10[39m new: [35m0[39m
-Wed, 26 Oct 2016 06:26:45 GMT congregator:distribution [36mrealtime distribution for: [39mourjs
-Wed, 26 Oct 2016 06:26:45 GMT congregator:distribution [36mourjs[39m[34m(distribution)[39m[90m - [39m[33m distributed: [39m[32m0[39m
-Wed, 26 Oct 2016 06:26:45 GMT Congregator:process [36mprocessing [39m0[36m posts for mapping [39m[35mourjs[39m[32m(content)[39m
-Wed, 26 Oct 2016 06:26:45 GMT Congregator:process [36mourjs[39m[32m(content)[39m[90m - [39m updated: [33m0[39m new: [35m0[39m
-Wed, 26 Oct 2016 06:26:50 GMT Congregator:process [36mprocessing [39m10[36m posts for mapping [39m[35mWired.com[39m[32m(initial)[39m
-Wed, 26 Oct 2016 06:26:50 GMT mquery findOne entries { guid: 'https://www.wired.com/?p=2112625' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:50 GMT hearsay:collector:services:save new item  https://www.wired.com/?p=2112625
-Wed, 26 Oct 2016 06:26:50 GMT Congregator:process processed new entry with guid: [33mhttps://www.wired.com/?p=2112625[39m
-Wed, 26 Oct 2016 06:26:50 GMT mquery findOne entries { guid: 'https://www.wired.com/?p=2111192' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:50 GMT hearsay:collector:services:save noop item  https://www.wired.com/?p=2111192
-Wed, 26 Oct 2016 06:26:50 GMT mquery findOne entries { guid: 'https://www.wired.com/?p=2113130' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:50 GMT hearsay:collector:services:save noop item  https://www.wired.com/?p=2113130
-Wed, 26 Oct 2016 06:26:50 GMT mquery findOne entries { guid: 'https://www.wired.com/?p=2112744' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:50 GMT hearsay:collector:services:save noop item  https://www.wired.com/?p=2112744
-Wed, 26 Oct 2016 06:26:50 GMT mquery findOne entries { guid: 'https://www.wired.com/?p=2112886' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:50 GMT hearsay:collector:services:save noop item  https://www.wired.com/?p=2112886
-Wed, 26 Oct 2016 06:26:50 GMT mquery findOne entries { guid: 'https://www.wired.com/?p=2112916' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:50 GMT hearsay:collector:services:save noop item  https://www.wired.com/?p=2112916
-Wed, 26 Oct 2016 06:26:50 GMT mquery findOne entries { guid: 'https://www.wired.com/?p=2112401' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:50 GMT hearsay:collector:services:save noop item  https://www.wired.com/?p=2112401
-Wed, 26 Oct 2016 06:26:50 GMT mquery findOne entries { guid: 'https://www.wired.com/?p=2112908' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:50 GMT hearsay:collector:services:save noop item  https://www.wired.com/?p=2112908
-Wed, 26 Oct 2016 06:26:50 GMT mquery findOne entries { guid: 'https://www.wired.com/?p=2112593' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:50 GMT hearsay:collector:services:save noop item  https://www.wired.com/?p=2112593
-Wed, 26 Oct 2016 06:26:50 GMT mquery findOne entries { guid: 'https://www.wired.com/?p=2085850' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:50 GMT hearsay:collector:services:save noop item  https://www.wired.com/?p=2085850
-Wed, 26 Oct 2016 06:26:50 GMT Congregator:process [36mWired.com[39m[32m(initial)[39m[90m - [39m updated: [33m9[39m new: [35m1[39m
-Wed, 26 Oct 2016 06:26:50 GMT congregator:distribution [36mrealtime distribution for: [39mWired.com
-Wed, 26 Oct 2016 06:26:50 GMT congregator:distribution [36mWired.com[39m[34m(distribution)[39m[90m - [39m[33m distributed: [39m[32m0[39m
-Wed, 26 Oct 2016 06:26:51 GMT Congregator:process [36mprocessing [39m20[36m posts for mapping [39m[35mSmashing Magazine[39m[32m(initial)[39m
-Wed, 26 Oct 2016 06:26:51 GMT mquery findOne entries { guid: 'https://www.smashingmagazine.com/?p=267377' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:51 GMT hearsay:collector:services:save noop item  https://www.smashingmagazine.com/?p=267377
-Wed, 26 Oct 2016 06:26:51 GMT mquery findOne entries { guid: 'https://www.smashingmagazine.com/?p=271009' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:51 GMT hearsay:collector:services:save noop item  https://www.smashingmagazine.com/?p=271009
-Wed, 26 Oct 2016 06:26:51 GMT mquery findOne entries { guid: 'https://www.smashingmagazine.com/?p=271016' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:51 GMT hearsay:collector:services:save noop item  https://www.smashingmagazine.com/?p=271016
-Wed, 26 Oct 2016 06:26:51 GMT mquery findOne entries { guid: 'https://www.smashingmagazine.com/?p=265136' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:51 GMT hearsay:collector:services:save noop item  https://www.smashingmagazine.com/?p=265136
-Wed, 26 Oct 2016 06:26:51 GMT mquery findOne entries { guid: 'https://www.smashingmagazine.com/?p=266695' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:51 GMT hearsay:collector:services:save noop item  https://www.smashingmagazine.com/?p=266695
-Wed, 26 Oct 2016 06:26:51 GMT mquery findOne entries { guid: 'https://www.smashingmagazine.com/?p=268614' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:51 GMT hearsay:collector:services:save noop item  https://www.smashingmagazine.com/?p=268614
-Wed, 26 Oct 2016 06:26:51 GMT mquery findOne entries { guid: 'https://www.smashingmagazine.com/?p=266959' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:51 GMT hearsay:collector:services:save noop item  https://www.smashingmagazine.com/?p=266959
-Wed, 26 Oct 2016 06:26:51 GMT mquery findOne entries { guid: 'https://www.smashingmagazine.com/?p=269676' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:51 GMT hearsay:collector:services:save noop item  https://www.smashingmagazine.com/?p=269676
-Wed, 26 Oct 2016 06:26:51 GMT mquery findOne entries { guid: 'https://www.smashingmagazine.com/?p=267131' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:51 GMT hearsay:collector:services:save noop item  https://www.smashingmagazine.com/?p=267131
-Wed, 26 Oct 2016 06:26:51 GMT mquery findOne entries { guid: 'https://www.smashingmagazine.com/?p=265138' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:51 GMT hearsay:collector:services:save noop item  https://www.smashingmagazine.com/?p=265138
-Wed, 26 Oct 2016 06:26:51 GMT mquery findOne entries { guid: 'https://www.smashingmagazine.com/?p=268447' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:51 GMT hearsay:collector:services:save noop item  https://www.smashingmagazine.com/?p=268447
-Wed, 26 Oct 2016 06:26:51 GMT mquery findOne entries { guid: 'https://www.smashingmagazine.com/?p=265134' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:51 GMT hearsay:collector:services:save noop item  https://www.smashingmagazine.com/?p=265134
-Wed, 26 Oct 2016 06:26:51 GMT mquery findOne entries { guid: 'https://www.smashingmagazine.com/?p=266761' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:51 GMT hearsay:collector:services:save noop item  https://www.smashingmagazine.com/?p=266761
-Wed, 26 Oct 2016 06:26:51 GMT mquery findOne entries { guid: 'https://www.smashingmagazine.com/?p=267556' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:51 GMT hearsay:collector:services:save noop item  https://www.smashingmagazine.com/?p=267556
-Wed, 26 Oct 2016 06:26:51 GMT mquery findOne entries { guid: 'https://www.smashingmagazine.com/?p=266643' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:51 GMT hearsay:collector:services:save noop item  https://www.smashingmagazine.com/?p=266643
-Wed, 26 Oct 2016 06:26:51 GMT mquery findOne entries { guid: 'https://www.smashingmagazine.com/?p=266487' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:51 GMT hearsay:collector:services:save noop item  https://www.smashingmagazine.com/?p=266487
-Wed, 26 Oct 2016 06:26:51 GMT mquery findOne entries { guid: 'https://www.smashingmagazine.com/?p=269278' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:51 GMT hearsay:collector:services:save noop item  https://www.smashingmagazine.com/?p=269278
-Wed, 26 Oct 2016 06:26:51 GMT mquery findOne entries { guid: 'https://www.smashingmagazine.com/?p=266250' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:51 GMT hearsay:collector:services:save noop item  https://www.smashingmagazine.com/?p=266250
-Wed, 26 Oct 2016 06:26:51 GMT mquery findOne entries { guid: 'https://www.smashingmagazine.com/?p=266580' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:51 GMT hearsay:collector:services:save noop item  https://www.smashingmagazine.com/?p=266580
-Wed, 26 Oct 2016 06:26:51 GMT mquery findOne entries { guid: 'https://www.smashingmagazine.com/?p=267070' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:51 GMT hearsay:collector:services:save noop item  https://www.smashingmagazine.com/?p=267070
-Wed, 26 Oct 2016 06:26:51 GMT Congregator:process [36mSmashing Magazine[39m[32m(initial)[39m[90m - [39m updated: [33m20[39m new: [35m0[39m
-Wed, 26 Oct 2016 06:26:51 GMT congregator:distribution [36mrealtime distribution for: [39mSmashing Magazine
-Wed, 26 Oct 2016 06:26:51 GMT congregator:distribution [36mSmashing Magazine[39m[34m(distribution)[39m[90m - [39m[33m distributed: [39m[32m0[39m
-Wed, 26 Oct 2016 06:26:51 GMT Congregator:process [36mprocessing [39m0[36m posts for mapping [39m[35mSmashing Magazine[39m[32m(content)[39m
-Wed, 26 Oct 2016 06:26:51 GMT Congregator:process [36mSmashing Magazine[39m[32m(content)[39m[90m - [39m updated: [33m0[39m new: [35m0[39m
-Wed, 26 Oct 2016 06:26:52 GMT Congregator:process [36mprocessing [39m1[36m posts for mapping [39m[35mWired.com[39m[32m(content)[39m
-Wed, 26 Oct 2016 06:26:52 GMT mquery findOne entries { guid: 'https://www.wired.com/?p=2112625' } { fields: undefined }
-Wed, 26 Oct 2016 06:26:52 GMT hearsay:collector:services:save update item  https://www.wired.com/?p=2112625
-Wed, 26 Oct 2016 06:26:52 GMT mquery update entries { guid: 'https://www.wired.com/?p=2112625' } { '$set': 
-   { content: 
-      { title: 'WIRED Liveblog: Microsoft Surface 2016 Event',
-        body: '<article class="content link-underline relative body-copy" data-js="content" itemprop="articleBody"> <p>The wizards at Microsoft have new hardware! And new software! They’ll start unveiling at at 10 am Eastern, showing off what we hear is the next bit of Surface hardware and the next version of Windows 10. Microsoft will provide a live video stream, and we will liveblog it all. Why liveblog if there’s a live stream? Because we love to liveblog! It’s the best way to offer commentary and real-time analysis of all the announcements.</p> <p>Join WIRED’s Tim Moynihan and Brian Barrett about 30 minutes before the start of the event. They’ll have their hot takes simmering by 9 am. When the liveblog starts, this message will disappear and you’ll just see live updates.</p> <p>So—what’s coming? Glad you asked. We’ll see the enhancements coming to Windows 10 “Redstone 2,” the update expected in March. Rumors of a new Surface Pro and Surface Book seem sketchy. More likely is a new all-in-one, something we’re calling the Surface PC for now. Imagine something like an iMac designed by Microsoft and optimized to show off the best of Windows 10. Look for another HoloLens demo that shows how it works with Xbox.</p> <p>Another possibility—a speaker with Cortana inside, which sounds nutty but would follow the trend of stand-alone hardware with voice-assistant powers like Amazon Echo and Google Home. Cortana, show me the WIRED liveblog!</p> <a class="visually-hidden skip-to-text-link focusable bg-white" href="https://www.wired.com/2016/10/liveblog-microsoft-surface-event/#start-of-content">Go Back to Top. Skip To: Start of Article.</a> <ul id="article-tags" aria-label="Tags for this Story." class="list-none center metadata marg-t-50 pad-b-med border-t border-b" data-js="articleTags"> <li class="no-underline pad-t-med pad-r-sm no-marg" itemprop="articleSection"><a href="https://www.wired.com/tag/liveblog/" rel="tag">liveblog</a></li><li class="no-underline pad-t-med pad-r-sm no-marg" itemprop="articleSection"><a href="https://www.wired.com/tag/microsoft/" rel="tag">microsoft</a></li><li class="no-underline pad-t-med pad-r-sm no-marg" itemprop="articleSection"><a href="https://www.wired.com/tag/surface/" rel="tag">Surface</a></li><li class="no-underline pad-t-med pad-r-sm no-marg" itemprop="articleSection"><a href="https://www.wired.com/tag/windows/" rel="tag">Windows</a></li></ul> </article>',
-        image: 'https://www.wired.com/wp-content/uploads/2016/10/Satya-Nadella_HP_GettyImages-522765524-1-1-1200x630-e1477439132286.jpg' },
-     category: [ 'science', 'wired' ],
-     createdAt: Wed Oct 26 2016 14:26:52 GMT+0800 (CST),
-     posted: Wed Oct 26 2016 14:26:50 GMT+0800 (CST),
-     image: 'http://www.wired.com/wp-content/themes/wired/assets/images/post_wired_logo_150x60.gif',
-     url: 'https://www.wired.com/2016/10/liveblog-microsoft-surface-event/',
-     title: 'WIRED Liveblog: Microsoft Surface 2016 Event',
-     guid: 'https://www.wired.com/?p=2112625',
-     ranking: 1,
-     host: 'www.wired.com',
-     source: 'https://www.wired.com',
-     origin: 'feed' } } { upsert: true }
-Wed, 26 Oct 2016 06:26:52 GMT Congregator:process [36mWired.com[39m[32m(content)[39m[90m - [39m updated: [33m1[39m new: [35m0[39m
-Wed, 26 Oct 2016 06:28:52 GMT congregator:content got error for guid: http://www.inc.com/minda-zetlin/marijuana-group-sues-florida-county-over-missing-amendment-on-ballots.html - { [Error: connect ETIMEDOUT 216.58.196.243:80]
-  code: 'ETIMEDOUT',
-  errno: 'ETIMEDOUT',
-  syscall: 'connect',
-  address: '216.58.196.243',
-  port: 80 }
-Wed, 26 Oct 2016 06:28:52 GMT congregator:content got error for guid: http://www.inc.com/damon-brown/you-absolutely-save-the-most-money-flying-these-special-days.html - { [Error: connect ETIMEDOUT 216.58.196.243:80]
-  code: 'ETIMEDOUT',
-  errno: 'ETIMEDOUT',
-  syscall: 'connect',
-  address: '216.58.196.243',
-  port: 80 }
-Wed, 26 Oct 2016 06:28:52 GMT congregator:content got error for guid: http://www.inc.com/geoffrey-james/the-dyn-hack-proves-the-internet-of-things-is-a-really-lame-idea.html - { [Error: connect ETIMEDOUT 216.58.196.243:80]
-  code: 'ETIMEDOUT',
-  errno: 'ETIMEDOUT',
-  syscall: 'connect',
-  address: '216.58.196.243',
-  port: 80 }
-Wed, 26 Oct 2016 06:28:52 GMT Congregator:process [36mprocessing [39m0[36m posts for mapping [39m[35mInc.com[39m[32m(content)[39m
-Wed, 26 Oct 2016 06:28:52 GMT Congregator:process [36mInc.com[39m[32m(content)[39m[90m - [39m updated: [33m0[39m new: [35m0[39m
-Wed, 26 Oct 2016 06:46:22 GMT congregator:fetch [33mbeginning fetch from jsonfetcher: [39m[35mMashable (must-reads)[39m
-Wed, 26 Oct 2016 06:46:22 GMT congregator:fetch [33mbeginning fetch from jsonfetcher: [39m[35mxitu[39m
-1476806400014
-Wed, 26 Oct 2016 06:46:22 GMT congregator:fetch [33mbeginning fetch from jsonfetcher: [39m[35mmedium[39m
-Wed, 26 Oct 2016 06:46:22 GMT jsonfetcher:fetch export https_proxy=https://127.0.0.1:8087;curl -k https://medium.com/_/api/tags/javascript/stream
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT congregator:handler https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex
-Wed, 26 Oct 2016 06:46:22 GMT Congregator:process [36mprocessing [39m100[36m posts for mapping [39m[35mxitu[39m[32m(initial)[39m
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580cdbeec4c9710058943151/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580cdbeec4c9710058943151/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580a37cf8ac247005b4763d2/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580a37cf8ac247005b4763d2/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/58085b3267f3560057a0053a/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/58085b3267f3560057a0053a/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://aotu.io/notes/2016/10/13/vue2/?o2src=juejin&o2layout=compat' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://aotu.io/notes/2016/10/13/vue2/?o2src=juejin&o2layout=compat
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/58075857570c35006b8595c7/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/58075857570c35006b8595c7/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/58076f83bf22ec0064fa630b/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/58076f83bf22ec0064fa630b/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/5809991d8ac247005b4295aa/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/5809991d8ac247005b4295aa/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'http://zhuanlan.zhihu.com/p/23134551' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  http://zhuanlan.zhihu.com/p/23134551
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'http://evankarageorgos.github.io/hue/grid.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  http://evankarageorgos.github.io/hue/grid.html
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/58072e74a0bb9f0058a137ed/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/58072e74a0bb9f0058a137ed/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580da43ba0bb9f0061c84913/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580da43ba0bb9f0061c84913/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580af0a5da2f60004f297af8/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580af0a5da2f60004f297af8/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580f527e8ac247005b652b36/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580f527e8ac247005b652b36/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/5809d2d6bf22ec00581a6658/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/5809d2d6bf22ec00581a6658/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580caba6a22b9d0063815d4e/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580caba6a22b9d0063815d4e/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/5808a768a0bb9f0061ab95f2/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/5808a768a0bb9f0061ab95f2/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580abf90da2f60004f282a95/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580abf90da2f60004f282a95/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580eb1685bbb50005b64eccc/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580eb1685bbb50005b64eccc/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580b28a8a0bb9f0061b9c9bb/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580b28a8a0bb9f0061b9c9bb/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/5809fbfea22b9d0063710c28/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/5809fbfea22b9d0063710c28/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580732fa128fe10054cdf62d/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580732fa128fe10054cdf62d/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580d5f54bf22ec00582f32d2/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580d5f54bf22ec00582f32d2/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/58086fc4a0bb9f0061aa036b/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/58086fc4a0bb9f0061aa036b/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/5808ed82570c350068d93a86/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/5808ed82570c350068d93a86/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580f24402e958a0055160852/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580f24402e958a0055160852/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580e18948ac247005b5e6df6/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580e18948ac247005b5e6df6/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580f4eb4a22b9d00639108bf/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save new item  https://gold.xitu.io/entry/580f4eb4a22b9d00639108bf/view
-Wed, 26 Oct 2016 06:46:22 GMT Congregator:process processed new entry with guid: [33mhttps://gold.xitu.io/entry/580f4eb4a22b9d00639108bf/view[39m
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580af4420bd1d00057e44757/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580af4420bd1d00057e44757/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580995acda2f60004f218012/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580995acda2f60004f218012/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580f1fbaa0bb9f0061d13851/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580f1fbaa0bb9f0061d13851/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580f1d48570c350068fcf832/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580f1d48570c350068fcf832/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580874ee67f3560057a0c8c8/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580874ee67f3560057a0c8c8/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580d6d4ebf22ec00582f902e/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580d6d4ebf22ec00582f902e/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580daa7c8ac247005b5abdd8/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580daa7c8ac247005b5abdd8/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/58098f4a0bd1d00057dc1aef/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/58098f4a0bd1d00057dc1aef/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580c2aefda2f60004f30f94f/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580c2aefda2f60004f30f94f/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580b5553570c350068e6c2d6/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580b5553570c350068e6c2d6/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'http://imweb.io/topic/5643850eed18cc424277050e' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  http://imweb.io/topic/5643850eed18cc424277050e
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580a201f128fe1005fc7f6e9/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580a201f128fe1005fc7f6e9/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/58071277da2f60004ffd0050/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/58071277da2f60004ffd0050/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://github.com/joggerplus/awesome-weex' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://github.com/joggerplus/awesome-weex
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580bb9438ac247005b504265/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580bb9438ac247005b504265/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580af4cbbf22ec005820c884/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580af4cbbf22ec005820c884/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580da21d570c350068f3e525/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580da21d570c350068f3e525/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/5806eb15a0bb9f00589eb8ac/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/5806eb15a0bb9f00589eb8ac/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580c38f9bf22ec005828a95b/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580c38f9bf22ec005828a95b/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/581020b62f301e005c541af4/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/581020b62f301e005c541af4/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580da7d3570c350068f410c8/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580da7d3570c350068f410c8/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/58096ab5da2f60004f2075b7/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/58096ab5da2f60004f2075b7/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/58070ce7d20309006863a6a5/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/58070ce7d20309006863a6a5/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580c2af32f301e005c3cb9a7/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580c2af32f301e005c3cb9a7/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580f63a20ce4630031964ec8/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580f63a20ce4630031964ec8/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/58096dda67f3560057a5b54b/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/58096dda67f3560057a5b54b/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580f4ffd5bbb50005b6c847b/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save new item  https://gold.xitu.io/entry/580f4ffd5bbb50005b6c847b/view
-Wed, 26 Oct 2016 06:46:22 GMT Congregator:process processed new entry with guid: [33mhttps://gold.xitu.io/entry/580f4ffd5bbb50005b6c847b/view[39m
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/5808754ca0bb9f0061aa2a25/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/5808754ca0bb9f0061aa2a25/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/58087685128fe1005fbdfab6/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/58087685128fe1005fbdfab6/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580873d5da2f60004f1b9967/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580873d5da2f60004f1b9967/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580da29e5bbb50005b59a1e0/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580da29e5bbb50005b59a1e0/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'http://www.cnblogs.com/libin-1/p/5999197.html' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  http://www.cnblogs.com/libin-1/p/5999197.html
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580994e3128fe1005fc3d453/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580994e3128fe1005fc3d453/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580da84ba0bb9f0061c861e5/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580da84ba0bb9f0061c861e5/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580871dc2f301e005c27325d/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580871dc2f301e005c27325d/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580b20bda22b9d0063779875/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580b20bda22b9d0063779875/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/5806efac67f3560058d8a46c/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/5806efac67f3560058d8a46c/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580872c7d2030900656f6d02/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580872c7d2030900656f6d02/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/58073325570c35006b84713c/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/58073325570c35006b84713c/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/5808eda45bbb50005b26d241/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/5808eda45bbb50005b26d241/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580de578bf22ec0058330692/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580de578bf22ec0058330692/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://coyee.com/article/11322-how-to-make-html-disappear-completely' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://coyee.com/article/11322-how-to-make-html-disappear-completely
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580ee1798ac247005b61b4d9/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580ee1798ac247005b61b4d9/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580b28b05bbb50005b3efae4/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580b28b05bbb50005b3efae4/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580ae697a22b9d006375d7c5/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580ae697a22b9d006375d7c5/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580eeb79128fe1005fe38cf6/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580eeb79128fe1005fe38cf6/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/58073c3067f3560058db7bf9/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/58073c3067f3560058db7bf9/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/5807046aa0bb9f00589fbe22/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/5807046aa0bb9f00589fbe22/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580da7ab2f301e005c458b18/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580da7ab2f301e005c458b18/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580ce27f570c350068f0bb74/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580ce27f570c350068f0bb74/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580f0fbc2e958a0055155915/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580f0fbc2e958a0055155915/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580874a6a0bb9f0061aa25a3/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580874a6a0bb9f0061aa25a3/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580c6a785bbb50005b4cd35f/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580c6a785bbb50005b4cd35f/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'http://www.graphicsjs.org/' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  http://www.graphicsjs.org/
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580d512abf22ec00582ef1ce/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580d512abf22ec00582ef1ce/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/58070c47a34131005ff78ba2/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/58070c47a34131005ff78ba2/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580b7ce42f301e005c39af5e/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580b7ce42f301e005c39af5e/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/58087276570c350068d5bb94/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/58087276570c350068d5bb94/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580b2966bf22ec0058227c85/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580b2966bf22ec0058227c85/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580d878567f3560057be38f1/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580d878567f3560057be38f1/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580af4b20bd1d00057e44a8d/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580af4b20bd1d00057e44a8d/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/5808a56a2f301e005c28a8c5/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/5808a56a2f301e005c28a8c5/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580da7f15bbb50005b59e885/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580da7f15bbb50005b59e885/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/5807045067f3560058d98093/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/5807045067f3560058d98093/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580df14d5bbb50005b5dc13f/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580df14d5bbb50005b5dc13f/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/5809c569da2f60004f22bcf6/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/5809c569da2f60004f22bcf6/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580f64a167f3560057ca6d72/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580f64a167f3560057ca6d72/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580b555cc4c97100588a6ed9/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580b555cc4c97100588a6ed9/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/5809d43ec4c9710058810082/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/5809d43ec4c9710058810082/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580890b30e3dd90058a06fce/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580890b30e3dd90058a06fce/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/5806e4bb8ac24700581ade9e/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/5806e4bb8ac24700581ade9e/view
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'http://blog.csdn.net/crper/article/details/50722753' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  http://blog.csdn.net/crper/article/details/50722753
-Wed, 26 Oct 2016 06:46:22 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580872432e958a0055ee9ab0/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:22 GMT hearsay:collector:services:save noop item  https://gold.xitu.io/entry/580872432e958a0055ee9ab0/view
-Wed, 26 Oct 2016 06:46:22 GMT Congregator:process [36mxitu[39m[32m(initial)[39m[90m - [39m updated: [33m98[39m new: [35m2[39m
-Wed, 26 Oct 2016 06:46:22 GMT congregator:distribution [36mrealtime distribution for: [39mxitu
-Wed, 26 Oct 2016 06:46:22 GMT congregator:distribution [36mxitu[39m[34m(distribution)[39m[90m - [39m[33m distributed: [39m[32m0[39m
-Wed, 26 Oct 2016 06:46:30 GMT congregator:handler http://mashable.com/category/must-reads/?format=json
-Wed, 26 Oct 2016 06:46:30 GMT congregator:handler http://mashable.com/category/must-reads/?format=json
-Wed, 26 Oct 2016 06:46:30 GMT congregator:handler http://mashable.com/category/must-reads/?format=json
-Wed, 26 Oct 2016 06:46:30 GMT congregator:handler http://mashable.com/category/must-reads/?format=json
-Wed, 26 Oct 2016 06:46:30 GMT congregator:handler http://mashable.com/category/must-reads/?format=json
-Wed, 26 Oct 2016 06:46:30 GMT congregator:handler http://mashable.com/category/must-reads/?format=json
-Wed, 26 Oct 2016 06:46:30 GMT congregator:handler http://mashable.com/category/must-reads/?format=json
-Wed, 26 Oct 2016 06:46:30 GMT congregator:handler http://mashable.com/category/must-reads/?format=json
-Wed, 26 Oct 2016 06:46:30 GMT congregator:handler http://mashable.com/category/must-reads/?format=json
-Wed, 26 Oct 2016 06:46:30 GMT congregator:handler http://mashable.com/category/must-reads/?format=json
-Wed, 26 Oct 2016 06:46:30 GMT congregator:handler http://mashable.com/category/must-reads/?format=json
-Wed, 26 Oct 2016 06:46:30 GMT congregator:handler http://mashable.com/category/must-reads/?format=json
-Wed, 26 Oct 2016 06:46:30 GMT congregator:handler http://mashable.com/category/must-reads/?format=json
-Wed, 26 Oct 2016 06:46:30 GMT congregator:handler http://mashable.com/category/must-reads/?format=json
-Wed, 26 Oct 2016 06:46:30 GMT congregator:handler http://mashable.com/category/must-reads/?format=json
-Wed, 26 Oct 2016 06:46:30 GMT congregator:handler http://mashable.com/category/must-reads/?format=json
-Wed, 26 Oct 2016 06:46:30 GMT congregator:handler http://mashable.com/category/must-reads/?format=json
-Wed, 26 Oct 2016 06:46:30 GMT congregator:handler http://mashable.com/category/must-reads/?format=json
-Wed, 26 Oct 2016 06:46:30 GMT congregator:handler http://mashable.com/category/must-reads/?format=json
-Wed, 26 Oct 2016 06:46:30 GMT congregator:handler http://mashable.com/category/must-reads/?format=json
-Wed, 26 Oct 2016 06:46:30 GMT congregator:handler http://mashable.com/category/must-reads/?format=json
-Wed, 26 Oct 2016 06:46:30 GMT congregator:handler http://mashable.com/category/must-reads/?format=json
-Wed, 26 Oct 2016 06:46:30 GMT congregator:handler http://mashable.com/category/must-reads/?format=json
-Wed, 26 Oct 2016 06:46:30 GMT congregator:handler http://mashable.com/category/must-reads/?format=json
-Wed, 26 Oct 2016 06:46:30 GMT congregator:handler http://mashable.com/category/must-reads/?format=json
-Wed, 26 Oct 2016 06:46:30 GMT congregator:handler http://mashable.com/category/must-reads/?format=json
-Wed, 26 Oct 2016 06:46:30 GMT congregator:handler http://mashable.com/category/must-reads/?format=json
-Wed, 26 Oct 2016 06:46:30 GMT congregator:handler http://mashable.com/category/must-reads/?format=json
-Wed, 26 Oct 2016 06:46:30 GMT congregator:handler http://mashable.com/category/must-reads/?format=json
-Wed, 26 Oct 2016 06:46:30 GMT congregator:handler http://mashable.com/category/must-reads/?format=json
-Wed, 26 Oct 2016 06:46:30 GMT congregator:handler http://mashable.com/category/must-reads/?format=json
-Wed, 26 Oct 2016 06:46:30 GMT congregator:handler http://mashable.com/category/must-reads/?format=json
-Wed, 26 Oct 2016 06:46:30 GMT congregator:handler http://mashable.com/category/must-reads/?format=json
-Wed, 26 Oct 2016 06:46:30 GMT congregator:handler http://mashable.com/category/must-reads/?format=json
-Wed, 26 Oct 2016 06:46:30 GMT Congregator:process [36mprocessing [39m34[36m posts for mapping [39m[35mMashable (must-reads)[39m[32m(initial)[39m
-Wed, 26 Oct 2016 06:46:30 GMT mquery findOne entries { guid: 'http://mashable.com/2016/09/16/iphone-8-rumors/' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:30 GMT hearsay:collector:services:save noop item  http://mashable.com/2016/09/16/iphone-8-rumors/
-Wed, 26 Oct 2016 06:46:30 GMT mquery findOne entries { guid: 'http://mashable.com/2016/09/16/dyson-supersonic-review/' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:30 GMT hearsay:collector:services:save noop item  http://mashable.com/2016/09/16/dyson-supersonic-review/
-Wed, 26 Oct 2016 06:46:30 GMT mquery findOne entries { guid: 'http://mashable.com/2016/09/16/iphone-7-headphone-jack-replacement/' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:30 GMT hearsay:collector:services:save noop item  http://mashable.com/2016/09/16/iphone-7-headphone-jack-replacement/
-Wed, 26 Oct 2016 06:46:30 GMT mquery findOne entries { guid: 'http://mashable.com/2016/09/15/ios-10-siri-apps-how-to/' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:30 GMT hearsay:collector:services:save noop item  http://mashable.com/2016/09/15/ios-10-siri-apps-how-to/
-Wed, 26 Oct 2016 06:46:30 GMT mquery findOne entries { guid: 'http://mashable.com/2016/09/15/iphone7-launch-global/' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:30 GMT hearsay:collector:services:save noop item  http://mashable.com/2016/09/15/iphone7-launch-global/
-Wed, 26 Oct 2016 06:46:30 GMT mquery findOne entries { guid: 'http://mashable.com/2016/09/15/official-samsung-galaxy-note7-recall/' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:30 GMT hearsay:collector:services:save noop item  http://mashable.com/2016/09/15/official-samsung-galaxy-note7-recall/
-Wed, 26 Oct 2016 06:46:30 GMT mquery findOne entries { guid: 'http://mashable.com/2016/09/15/ios-10-emoji/' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:30 GMT hearsay:collector:services:save noop item  http://mashable.com/2016/09/15/ios-10-emoji/
-Wed, 26 Oct 2016 06:46:30 GMT mquery findOne entries { guid: 'http://mashable.com/2016/09/14/imessage-invisible-ink-how-to/' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:30 GMT hearsay:collector:services:save noop item  http://mashable.com/2016/09/14/imessage-invisible-ink-how-to/
-Wed, 26 Oct 2016 06:46:30 GMT mquery findOne entries { guid: 'http://mashable.com/2016/09/14/nine-reasons-download-ios10/' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:30 GMT hearsay:collector:services:save noop item  http://mashable.com/2016/09/14/nine-reasons-download-ios10/
-Wed, 26 Oct 2016 06:46:30 GMT mquery findOne entries { guid: 'http://mashable.com/2016/09/14/apple-watch-series-2-review/' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:30 GMT hearsay:collector:services:save noop item  http://mashable.com/2016/09/14/apple-watch-series-2-review/
-Wed, 26 Oct 2016 06:46:30 GMT mquery findOne entries { guid: 'http://mashable.com/2016/09/13/apple-iphone-7-review/' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:30 GMT hearsay:collector:services:save noop item  http://mashable.com/2016/09/13/apple-iphone-7-review/
-Wed, 26 Oct 2016 06:46:30 GMT mquery findOne entries { guid: 'http://mashable.com/2016/09/13/apple-airpods-review/' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:30 GMT hearsay:collector:services:save noop item  http://mashable.com/2016/09/13/apple-airpods-review/
-Wed, 26 Oct 2016 06:46:30 GMT mquery findOne entries { guid: 'http://mashable.com/2016/09/07/apple-airpods-hands-on/' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:30 GMT hearsay:collector:services:save noop item  http://mashable.com/2016/09/07/apple-airpods-hands-on/
-Wed, 26 Oct 2016 06:46:30 GMT mquery findOne entries { guid: 'http://mashable.com/2016/09/07/iphone-headphone-jack-courage/' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:30 GMT hearsay:collector:services:save noop item  http://mashable.com/2016/09/07/iphone-headphone-jack-courage/
-Wed, 26 Oct 2016 06:46:30 GMT mquery findOne entries { guid: 'http://mashable.com/2016/09/07/iphone-7-apple-event-highlights/' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:30 GMT hearsay:collector:services:save noop item  http://mashable.com/2016/09/07/iphone-7-apple-event-highlights/
-Wed, 26 Oct 2016 06:46:30 GMT mquery findOne entries { guid: 'http://mashable.com/2016/09/06/apple-iphone-7-headphone-jack/' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:30 GMT hearsay:collector:services:save noop item  http://mashable.com/2016/09/06/apple-iphone-7-headphone-jack/
-Wed, 26 Oct 2016 06:46:30 GMT mquery findOne entries { guid: 'http://mashable.com/2016/09/06/apple-new-iphone-7-event/' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:30 GMT hearsay:collector:services:save noop item  http://mashable.com/2016/09/06/apple-new-iphone-7-event/
-Wed, 26 Oct 2016 06:46:30 GMT mquery findOne entries { guid: 'http://mashable.com/2016/09/06/apple-iphone-7-all-rumors/' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:30 GMT hearsay:collector:services:save noop item  http://mashable.com/2016/09/06/apple-iphone-7-all-rumors/
-Wed, 26 Oct 2016 06:46:30 GMT mquery findOne entries { guid: 'http://mashable.com/2016/08/16/samsung-galaxy-note7-review/' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:30 GMT hearsay:collector:services:save noop item  http://mashable.com/2016/08/16/samsung-galaxy-note7-review/
-Wed, 26 Oct 2016 06:46:30 GMT mquery findOne entries { guid: 'http://mashable.com/2016/07/16/pokemon-go-embarrassed/' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:30 GMT hearsay:collector:services:save noop item  http://mashable.com/2016/07/16/pokemon-go-embarrassed/
-Wed, 26 Oct 2016 06:46:30 GMT mquery findOne entries { guid: 'http://mashable.com/2016/07/13/pokemon-go-used-more-than-facebook/' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:30 GMT hearsay:collector:services:save noop item  http://mashable.com/2016/07/13/pokemon-go-used-more-than-facebook/
-Wed, 26 Oct 2016 06:46:30 GMT mquery findOne entries { guid: 'http://mashable.com/2016/07/13/facebook-data-center-ai/' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:30 GMT hearsay:collector:services:save noop item  http://mashable.com/2016/07/13/facebook-data-center-ai/
-Wed, 26 Oct 2016 06:46:30 GMT mquery findOne entries { guid: 'http://mashable.com/2016/07/11/8-pokemon-go-tricks/' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:30 GMT hearsay:collector:services:save noop item  http://mashable.com/2016/07/11/8-pokemon-go-tricks/
-Wed, 26 Oct 2016 06:46:30 GMT mquery findOne entries { guid: 'http://mashable.com/2016/07/10/prisma-app-photo-art/' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:30 GMT hearsay:collector:services:save noop item  http://mashable.com/2016/07/10/prisma-app-photo-art/
-Wed, 26 Oct 2016 06:46:30 GMT mquery findOne entries { guid: 'http://mashable.com/2016/07/10/baton-rouge-protester-photo-riot-gear/' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:30 GMT hearsay:collector:services:save noop item  http://mashable.com/2016/07/10/baton-rouge-protester-photo-riot-gear/
-Wed, 26 Oct 2016 06:46:30 GMT mquery findOne entries { guid: 'http://mashable.com/2016/07/10/apple-ios-10-gifs/' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:30 GMT hearsay:collector:services:save noop item  http://mashable.com/2016/07/10/apple-ios-10-gifs/
-Wed, 26 Oct 2016 06:46:30 GMT mquery findOne entries { guid: 'http://mashable.com/2016/07/08/dallas-police-shooting-robot-analysis/' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:30 GMT hearsay:collector:services:save noop item  http://mashable.com/2016/07/08/dallas-police-shooting-robot-analysis/
-Wed, 26 Oct 2016 06:46:30 GMT mquery findOne entries { guid: 'http://mashable.com/2016/07/08/how-to-use-snapchat-memories/' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:30 GMT hearsay:collector:services:save noop item  http://mashable.com/2016/07/08/how-to-use-snapchat-memories/
-Wed, 26 Oct 2016 06:46:30 GMT mquery findOne entries { guid: 'http://mashable.com/2016/07/08/tablets-are-over/' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:30 GMT hearsay:collector:services:save noop item  http://mashable.com/2016/07/08/tablets-are-over/
-Wed, 26 Oct 2016 06:46:30 GMT mquery findOne entries { guid: 'http://mashable.com/2016/07/07/evolv-sentry/' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:30 GMT hearsay:collector:services:save noop item  http://mashable.com/2016/07/07/evolv-sentry/
-Wed, 26 Oct 2016 06:46:30 GMT mquery findOne entries { guid: 'http://mashable.com/2016/07/06/snapchat-memories-feature/' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:30 GMT hearsay:collector:services:save noop item  http://mashable.com/2016/07/06/snapchat-memories-feature/
-Wed, 26 Oct 2016 06:46:30 GMT mquery findOne entries { guid: 'http://mashable.com/2016/07/06/hoverboard-recall-opinion/' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:30 GMT hearsay:collector:services:save noop item  http://mashable.com/2016/07/06/hoverboard-recall-opinion/
-Wed, 26 Oct 2016 06:46:30 GMT mquery findOne entries { guid: 'http://mashable.com/2016/07/06/hoverboard-recall/' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:30 GMT hearsay:collector:services:save noop item  http://mashable.com/2016/07/06/hoverboard-recall/
-Wed, 26 Oct 2016 06:46:30 GMT mquery findOne entries { guid: 'http://mashable.com/2016/07/05/snapchat-after-parents/' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:30 GMT hearsay:collector:services:save noop item  http://mashable.com/2016/07/05/snapchat-after-parents/
-Wed, 26 Oct 2016 06:46:30 GMT Congregator:process [36mMashable (must-reads)[39m[32m(initial)[39m[90m - [39m updated: [33m34[39m new: [35m0[39m
-Wed, 26 Oct 2016 06:46:30 GMT congregator:distribution [36mrealtime distribution for: [39mMashable (must-reads)
-Wed, 26 Oct 2016 06:46:30 GMT congregator:distribution [36mMashable (must-reads)[39m[34m(distribution)[39m[90m - [39m[33m distributed: [39m[32m0[39m
-Wed, 26 Oct 2016 06:46:30 GMT Congregator:process [36mprocessing [39m0[36m posts for mapping [39m[35mMashable (must-reads)[39m[32m(content)[39m
-Wed, 26 Oct 2016 06:46:30 GMT Congregator:process [36mMashable (must-reads)[39m[32m(content)[39m[90m - [39m updated: [33m0[39m new: [35m0[39m
-Wed, 26 Oct 2016 06:46:30 GMT Congregator:process [36mprocessing [39m2[36m posts for mapping [39m[35mxitu[39m[32m(content)[39m
-Wed, 26 Oct 2016 06:46:30 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580f4ffd5bbb50005b6c847b/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:30 GMT hearsay:collector:services:save update item  https://gold.xitu.io/entry/580f4ffd5bbb50005b6c847b/view
-Wed, 26 Oct 2016 06:46:30 GMT mquery update entries { guid: 'https://gold.xitu.io/entry/580f4ffd5bbb50005b6c847b/view' } { '$set': 
-   { content: 
-      { title: '[英] JavaScript ES6 核心功能一览',
-        body: '<p>JavaScript has changed quite a bit in the last years. These are 12 new features that you can start using today!</p><h1>JavaScript History<a href="https://gold.xitu.io/entry/580f4ffd5bbb50005b6c847b/view#JavaScript-History" title="JavaScript History"></a></h1><p>The new additions to the language are called ECMAScript 6. It is also referred as ES6 or ES2015+.</p><p>Since JavaScript conception on 1995, it has been evolving slowly. New additions happened every few years. ECMAScript came to be in 1997 to guide the path of JavaScript. It has been releasing versions such as ES3, ES5, ES6 and so on.</p><img src="https://gold.xitu.io/images/loading.png" title="History of JavaScript Evolution" data-src="http://adrianmejia.com/images/history-javascript-evolution-es6.png"><p>As you can see, there are gaps of 10 and 6 years between the ES3, ES5, and ES6. The new model is to make small incremental changes every year. Instead of doing massive changes at once like happened with ES6.</p><h1>Browsers Support<a href="https://gold.xitu.io/entry/580f4ffd5bbb50005b6c847b/view#Browsers-Support" title="Browsers Support"></a></h1><p>All modern browser and environments support ES6 already!</p><img src="https://gold.xitu.io/images/loading.png" title="ES6 Support" data-src="http://adrianmejia.com/images/es6-javascript-support.png"><p><small>source: <a href="https://kangax.github.io/compat-table/es6/" target="_blank" rel="external">https://kangax.github.io/compat-table/es6/</a></small></p><p>Chrome, MS Edge, Firefox, Safari, Node and many others have already built-in support for most of the features of JavaScript ES6. So, everything that you are going to learn in this tutorial you can start using it right now.</p><p>Let’s get started with ECMAScript 6!</p><h1>Core ES6 Features<a href="https://gold.xitu.io/entry/580f4ffd5bbb50005b6c847b/view#Core-ES6-Features" title="Core ES6 Features"></a></h1><p>You can test all these code snippets on your browser console!</p><img src="https://gold.xitu.io/images/loading.png" title="Testing Javascript ES6 classes on browser console" data-src="http://adrianmejia.com/images/javascript-es6-classes-on-browser-console.png"><p>So don’t take my word and test every ES5 and ES6 example. Let’s dig in 💪</p><h2>Block scope variables<a href="https://gold.xitu.io/entry/580f4ffd5bbb50005b6c847b/view#Block-scope-variables" title="Block scope variables"></a></h2><p>With ES6, we went from declaring variables with <code>var</code> to use <code>let</code>/<code>const</code>.</p><p>What was wrong with <code>var</code>?</p><p>The issue with <code>var</code> is the variable leaks into other code block such as <code>for</code> loops or <code>if</code> blocks.</p><figcaption><span>ES5</span></figcaption><pre><code>var x = \'outer\'; function test(inner) { if (inner) { var x = \'inner\'; // scope whole function return x; } return x; // gets redefined because line 4 declaration is hoisted } test(false); // undefined 😱 test(true); // inner</code></pre><p>For <code>test(false)</code> you would expect to return <code>outer</code>, BUT NO, you get <code>undefined</code>.</p><p>Why?</p><p>Because even though the if-block is not executed, the expression <code>var x</code> in line 4 is hoisted.</p><blockquote> <p>var <strong>hoisting</strong>:</p> <ul> <li><code>var</code> is function scoped. It is availble in the whole function even before being declared.</li> <li>Declarations are Hoisted. So you can use a variable before it has been declared.</li> <li>Initializations are NOT hoisted. If you are using <code>var</code> ALWAYS declare your variables at the top.</li> <li>After applying the rules of hoisting we can understand better what’s happening:<figcaption><span>ES5</span></figcaption><pre><code>var x = \'outer\'; function test(inner) { var x; // HOISTED DECLARATION if (inner) { x = \'inner\'; // INITIALIZATION NOT HOISTED return x; } return x; }</code></pre> </li> </ul> </blockquote><p>ECMAScript 2015 comes to the rescue:</p><figcaption><span>ES6</span></figcaption><pre><code>let x = \'outer\'; function test(inner) { if (inner) { let x = \'inner\'; return x; } return x; // gets result from line 1 as expected } test(false); // outer test(true); // inner</code></pre><p>Changing <code>var</code> for <code>let</code> makes things work as expected. If the <code>if</code> block is not called the variable <code>x</code> doesn’t get hoisted out of the block.</p><blockquote> <p>Let <strong>hoisting</strong> and “temporal dead zone”</p> <ul> <li>In ES6, <code>let</code> will hoist the variable to the top of the block (NOT at the top of function like ES5).</li> <li>However, referencing the variable in the block before the variable declaration results in a <code>ReferenceError</code>.</li> <li><code>let</code> is blocked scoped. You cannot use it before it is declared.</li> <li>“Temporal dead zone” is the zone from the start of the block until the variable is declared.</li> </ul> </blockquote><p><strong>IIFE</strong></p><p>Let’s show an example before explaining <abbr title="immediately-invoked function expressionn">IIFE</abbr>. Take a look here:</p><figcaption><span>ES5</span></figcaption><pre><code>{ var private = 1; } console.log(private); // 1</code></pre><p>As you can see, <code>private</code> leaks out. You need to use <abbr title="immediately-invoked function expressionn">IIFE</abbr> (immediately-invoked function expression) to contain it:</p><figcaption><span>ES5</span></figcaption><pre><code>(function(){ var private2 = 1; })(); console.log(private2); // Uncaught ReferenceError</code></pre><p>If you take a look at jQuery/lodash or other open source projects you will notice they have <abbr title="immediately-invoked function expression">IIFE</abbr> to avoid polluting the global environment and just defining on global such as <code>_</code>, <code>$</code> or <code>jQuery</code>.</p><p>On ES6 is much cleaner, We also don’t need to use <abbr title="immediately-invoked function expression">IIFE</abbr> anymore when we can just use blocks and <code>let</code>:</p><figcaption><span>ES6</span></figcaption><pre><code>{ let private3 = 1; } console.log(private3); // Uncaught ReferenceError</code></pre><p><strong>Const</strong></p><p>You can also use <code>const</code> if you don’t want a variable to change at all.</p><img src="https://gold.xitu.io/images/loading.png" title="const variable example" data-src="http://adrianmejia.com/images/javascript-es6-const-variables-example.png"><blockquote> <p>Bottom line: ditch <code>var</code> for <code>let</code> and <code>const</code>.</p> <ul> <li>Use <code>const</code> for all your references; avoid using <code>var</code>.</li> <li>If you must reassign references, use <code>let</code> instead of <code>const</code>.</li> </ul> </blockquote><h2>Template Literals<a href="https://gold.xitu.io/entry/580f4ffd5bbb50005b6c847b/view#Template-Literals" title="Template Literals"></a></h2><p>We don’t have to do more nesting concatenations when we have template literals. Take a look:</p><figcaption><span>ES5</span></figcaption><pre><code>var first = \'Adrian\'; var last = \'Mejia\'; console.log(\'Your name is \' + first + \' \' + last + \'.\');</code></pre><p>Now you can use backtick (`) and string interpolation <code>${}</code>:</p><figcaption><span>ES6</span></figcaption><pre><code>const first = \'Adrian\'; const last = \'Mejia\'; console.log(`Your name is ${first} ${last}.`);</code></pre><h2>Multi-line strings<a href="https://gold.xitu.io/entry/580f4ffd5bbb50005b6c847b/view#Multi-line-strings" title="Multi-line strings"></a></h2><p>We don’t have to concatenate strings + <code>\\n</code> anymore like this:</p><figcaption><span>ES5</span></figcaption><pre><code>var template = \'<li *ngfor="let todo of todos" [ngclass]="{completed: todo.isDone}">\\n\'</li> + \' <div class="view">\\n\' + \' <input class="toggle" type="checkbox" [checked]="todo.isDone">\\n\' + \' <label></label>\\n\' + \' <button class="destroy"></button>\\n\' + \' \\n\' + \' <input class="edit" value="">\\n\' + \'\'; console.log(template);</code></pre><p>On ES6 we can use the backtick again to solve this:</p><figcaption><span>ES6</span></figcaption><pre><code>const template = `<li *ngFor="let todo of todos" [ngClass]="{completed: todo.isDone}" > <div class="view"> <input class="toggle" type="checkbox" [checked]="todo.isDone"> <label></label> <button class="destroy"></button> <input class="edit" value=""> </li>`; console.log(template);</code></pre><p>Both pieces of code will have exactly the same result.</p><h2>Destructuring Assignment<a href="https://gold.xitu.io/entry/580f4ffd5bbb50005b6c847b/view#Destructuring-Assignment" title="Destructuring Assignment"></a></h2><p>ES6 desctructing is very useful and consise. Follow this examples:</p><p><strong>Getting elements from an arrays</strong></p><figcaption><span>ES5</span></figcaption><pre><code>var array = [1, 2, 3, 4]; var first = array[0]; var third = array[2]; console.log(first, third); // 1 3</code></pre><p>Same as:</p><figcaption><span>ES6</span></figcaption><pre><code>const array = [1, 2, 3, 4]; const [first, ,third] = array; console.log(first, third); // 1 3</code></pre><p><strong>Swapping values</strong></p><figcaption><span>ES5</span></figcaption><pre><code>var a = 1; var b = 2; var tmp = a; a = b; b = tmp; console.log(a, b); // 2 1</code></pre><p>same as</p><figcaption><span>ES6</span></figcaption><pre><code>let a = 1; let b = 2; [a, b] = [b, a]; console.log(a, b); // 2 1</code></pre><p><strong>Destructuring for multiple return values</strong></p><figcaption><span>ES5</span></figcaption><pre><code>function margin() { var left=1, right=2, top=3, bottom=4; return { left: left, right: right, top: top, bottom: bottom }; } var data = margin(); var left = data.left; var bottom = data.bottom; console.log(left, bottom); // 1 4</code></pre><p>In line 3, you could also return it in an array like this (and save some typing):</p><pre><code>return [left, right, top, bottom];</code></pre><p>but then, the caller needs to think about the order of return data.</p><pre><code>var left = data[0]; var bottom = data[3];</code></pre><p>With ES6, the caller selects only the data they need (line 6):</p><figcaption><span>ES6</span></figcaption><pre><code>function margin() { const left=1, right=2, top=3, bottom=4; return { left, right, top, bottom }; } const { left, bottom } = margin(); console.log(left, bottom); // 1 4</code></pre><p><em>Notice:</em> Line 3, we have some other ES6 features going on. We can compact <code>{ left: left }</code> to just <code>{ left }</code>. Look how much concise it is compare to the ES5 version. Isn’t that cool?</p><p><strong>Destructuring for parameters matching</strong></p><figcaption><span>ES5</span></figcaption><pre><code>var user = {firstName: \'Adrian\', lastName: \'Mejia\'}; function getFullName(user) { var firstName = user.firstName; var lastName = user.lastName; return firstName + \' \' + lastName; } console.log(getFullName(user)); // Adrian Mejia</code></pre><p>Same as (but more concise):</p><figcaption><span>ES6</span></figcaption><pre><code>const user = {firstName: \'Adrian\', lastName: \'Mejia\'}; function getFullName({ firstName, lastName }) { return `${firstName} ${lastName}`; } console.log(getFullName(user)); // Adrian Mejia</code></pre><p><strong>Deep Matching</strong></p><figcaption><span>ES5</span></figcaption><pre><code>function settings() { return { display: { color: \'red\' }, keyboard: { layout: \'querty\'} }; } var tmp = settings(); var displayColor = tmp.display.color; var keyboardLayout = tmp.keyboard.layout; console.log(displayColor, keyboardLayout); // red querty</code></pre><p>Same as (but more concise):</p><figcaption><span>ES6</span></figcaption><pre><code>function settings() { return { display: { color: \'red\' }, keyboard: { layout: \'querty\'} }; } const { display: { color: displayColor }, keyboard: { layout: keyboardLayout }} = settings(); console.log(displayColor, keyboardLayout); // red querty</code></pre><p>This is also called object destructing.</p><p>As you can see, destructing is very useful and encourages good coding styles.</p><blockquote> <p>Best practices:</p> <ul> <li>Use array destructing to get elements out or swap variables. It saves you from creating temporary references.</li> <li>Don’t use array destructuring for multiple return values, instead use object destructuring</li> </ul> </blockquote><h2>Classes and Objects<a href="https://gold.xitu.io/entry/580f4ffd5bbb50005b6c847b/view#Classes-and-Objects" title="Classes and Objects"></a></h2><p>With ECMAScript 6, We went from “constructor functions” 🔨 to “classes” 🍸.</p><blockquote> <p>In JavaScript every single object has a prototype, which is another object. All JavaScript objects inherit their methods and properties from their prototype.</p> </blockquote><p>In ES5, we did Object Oriented programming (<abbr title="Object-Oriented Programming">OOP</abbr>) using constructor functions to create objects as follows:</p><figcaption><span>ES5</span></figcaption><pre><code>var Animal = (function () { function MyConstructor(name) { this.name = name; } MyConstructor.prototype.speak = function speak() { console.log(this.name + \' makes a noise.\'); }; return MyConstructor; })(); var animal = new Animal(\'animal\'); animal.speak(); // animal makes a noise.</code></pre><p>In ES6, we have some syntax sugar. We can do the same with less boiler plate and new keywords such as <code>class</code> and <code>constructor</code>. Also, notice how clearly we define methods <code>constructor.prototype.speak = function ()</code> vs <code>speak()</code>:</p><figcaption><span>ES6</span></figcaption><pre><code>class Animal { constructor(name) { this.name = name; } speak() { console.log(this.name + \' makes a noise.\'); } } const animal = new Animal(\'animal\'); animal.speak(); // animal makes a noise.</code></pre><p>As we saw, both styles (ES5/6) produces the same results behind the scenes and are used in the same way.</p><blockquote> <p>Best practices:</p> <ul> <li>Always use <code>class</code> syntax and avoid manipulating the <code>prototype</code> directly. Why? because it makes the code more concise and easier to understand.</li> <li>Avoid having an empty constructor. Classes have a default constructor if one is not specified.</li> </ul> </blockquote><h2>Inheritance<a href="https://gold.xitu.io/entry/580f4ffd5bbb50005b6c847b/view#Inheritance" title="Inheritance"></a></h2><p>Building on the previous <code>Animal</code> class. Let’s say we want to extend it and define a <code>Lion</code> class</p><p>In ES5, It’s a little more involved with prototypal inheritance.</p><figcaption><span>ES5</span></figcaption><pre><code>var Lion = (function () { function MyConstructor(name){ Animal.call(this, name); } // prototypal inheritance MyConstructor.prototype = Object.create(Animal.prototype); MyConstructor.prototype.constructor = Animal; MyConstructor.prototype.speak = function speak() { Animal.prototype.speak.call(this); console.log(this.name + \' roars 🦁\'); }; return MyConstructor; })(); var lion = new Lion(\'Simba\'); lion.speak(); // Simba makes a noise. // Simba roars.</code></pre><p>I won’t go over all details but notice:</p><ul> <li>Line 3, we explicitly call <code>Animal</code> constructor with the parameters.</li> <li>Line 7-8, we assigned the <code>Lion</code> prototype to <code>Animal</code>‘s prototype.</li> <li>Line 11, we call the <code>speak</code> method from the parent class <code>Animal</code>.</li> </ul><p>In ES6, we have a new keywords <code>extends</code> and <code>super</code> <img src="https://gold.xitu.io/images/loading.png" width="25" height="25" alt="superman shield" data-src="http://adrianmejia.com/images/superman_shield.svg">.</p><figcaption><span>ES6</span></figcaption><pre><code>class Lion extends Animal { speak() { super.speak(); console.log(this.name + \' roars 🦁\'); } } const lion = new Lion(\'Simba\'); lion.speak(); // Simba makes a noise. // Simba roars.</code></pre><p>Looks how legible this ES6 code looks compared with ES5 and they do exactly the same. Win!</p><blockquote> <p>Best practices:</p> <ul> <li>Use the built-in way for inherintance with <code>extends</code>.</li> </ul> </blockquote><h2>Native Promises<a href="https://gold.xitu.io/entry/580f4ffd5bbb50005b6c847b/view#Native-Promises" title="Native Promises"></a></h2><p>We went from callback hell 👹 to promises 🙏</p><figcaption><span>ES5</span></figcaption><pre><code>function printAfterTimeout(string, timeout, done){ setTimeout(function(){ done(string); }, timeout); } printAfterTimeout(\'Hello \', 2e3, function(result){ console.log(result); // nested callback printAfterTimeout(result + \'Reader\', 2e3, function(result){ console.log(result); }); });</code></pre><p>We have one function that receives a callback to execute when is <code>done</code>. We have to execute it twice one after another. That’s why we called the 2nd time <code>printAfterTimeout</code> in the callback.</p><p>This can get messy pretty quickly if you need a 3rd or 4th callback. Let’s see how we can do it with promises:</p><figcaption><span>ES6</span></figcaption><pre><code>function printAfterTimeout(string, timeout){ return new Promise((resolve, reject) => { setTimeout(function(){ resolve(string); }, timeout); }); } printAfterTimeout(\'Hello \', 2e3).then((result) => { console.log(result); return printAfterTimeout(result + \'Reader\', 2e3); }).then((result) => { console.log(result); });</code></pre><p>As you can see, with promises we can use <code>then</code> to do something after another function is done. No more need to keep nesting functions.</p><h2>Arrow functions<a href="https://gold.xitu.io/entry/580f4ffd5bbb50005b6c847b/view#Arrow-functions" title="Arrow functions"></a></h2><p>ES5 didn’t remove the function expressions but it added a new one called arrow functions.</p><p>In ES5, we have some issues with <code>this</code>:</p><figcaption><span>ES5</span></figcaption><pre><code>var _this = this; // need to hold a reference $(\'.btn\').click(function(event){ _this.sendData(); // reference outer this }); $(\'.input\').on(\'change\',function(event){ this.sendData(); // reference outer this }.bind(this)); // bind to outer this</code></pre><p>You need to use a temporary <code>this</code> to reference inside a function or use <code>bind</code>. In ES6, you can use the arrow function!</p><figcaption><span>ES6</span></figcaption><pre><code>// this will reference the outer one $(\'.btn\').click((event) => this.sendData()); // implicit returns const ids = [291, 288, 984]; const messages = ids.map(value => `ID is ${value}`);</code></pre><h2>For…of<a href="https://gold.xitu.io/entry/580f4ffd5bbb50005b6c847b/view#For…of" title="For…of"></a></h2><p>We went from <code>for</code> to <code>forEach</code> and then to <code>for...of</code>:</p><figcaption><span>ES5</span></figcaption><pre><code>// for var array = [\'a\', \'b\', \'c\', \'d\']; for (var i = 0; i < array.length; i++) { var element = array[i]; console.log(element); } // forEach array.forEach(function (element) { console.log(element); });</code></pre><p>The ES6 for…of also allow us to do iterations.</p><figcaption><span>ES6</span></figcaption><pre><code>// for ...of const array = [\'a\', \'b\', \'c\', \'d\']; for (const element of array) { console.log(element); }</code></pre><h2>Default parameters<a href="https://gold.xitu.io/entry/580f4ffd5bbb50005b6c847b/view#Default-parameters" title="Default parameters"></a></h2><p>We went from checking if the variable was defined to assign a value to <code>default parameters</code>. Have you done something like this before?</p><figcaption><span>ES5</span></figcaption><pre><code>function point(x, y, isFlag){ x = x || 0; y = y || -1; isFlag = isFlag || true; console.log(x,y, isFlag); } point(0, 0) // 0 -1 true 😱 point(0, 0, false) // 0 -1 true 😱😱 point(1) // 1 -1 true point() // 0 -1 true</code></pre><p>Probably yes, it’s a common pattern to check is the variable has a value or assign a default. Yet, notice there are some issues:</p><ul> <li>Line 8, we pass <code>0, 0</code> and get <code>0, -1</code></li> <li>Line 9, we pass <code>false</code> but get <code>true</code>.</li> </ul><p>If you have a boolean as a default parameter or set the value to zero, it doesn’t work. Do you know why??? I’ll tell you after the ES6 example ;)</p><p>With ES6, Now you can do better with less code!</p><figcaption><span>ES6</span></figcaption><pre><code>function point(x = 0, y = -1, isFlag = true){ console.log(x,y, isFlag); } point(0, 0) // 0 0 true point(0, 0, false) // 0 0 false point(1) // 1 -1 true point() // 0 -1 true</code></pre><p>Notice line 5 and 6 we get the expected results. The ES5 example didn’t work. We have to check for <code>undefined</code> first since <code>false</code>, <code>null</code>, <code>undefined</code> and <code>0</code> are falsy values. We can get away with numbers:</p><figcaption><span>ES5</span></figcaption><pre><code>function point(x, y, isFlag){ x = x || 0; y = typeof(y) === \'undefined\' ? -1 : y; isFlag = typeof(isFlag) === \'undefined\' ? true : isFlag; console.log(x,y, isFlag); } point(0, 0) // 0 0 true point(0, 0, false) // 0 0 false point(1) // 1 -1 true point() // 0 -1 true</code></pre><p>Now it works as expected when we check for <code>undefined</code>.</p><h2>Rest parameters<a href="https://gold.xitu.io/entry/580f4ffd5bbb50005b6c847b/view#Rest-parameters" title="Rest parameters"></a></h2><p>We went from arguments to rest parameters and spread operator.</p><p>On ES5, it’s clumpsy to get an arbitrary number of arguments: </p><figcaption><span>ES5</span></figcaption><pre><code>function printf(format) { var params = [].slice.call(arguments, 1); console.log(\'params: \', params); console.log(\'format: \', format); } printf(\'%s %d %.2f\', \'adrian\', 321, Math.PI);</code></pre><p></p><p>We can do the same using the rest operator <code>...</code>.</p><figcaption><span>ES6</span></figcaption><pre><code>function printf(format, ...params) { console.log(\'params: \', params); console.log(\'format: \', format); } printf(\'%s %d %.2f\', \'adrian\', 321, Math.PI);</code></pre><h2>Spread operator<a href="https://gold.xitu.io/entry/580f4ffd5bbb50005b6c847b/view#Spread-operator" title="Spread operator"></a></h2><p>We went from <code>apply()</code> to the spread operator. Again we have <code>...</code> to the rescue:</p><blockquote> <p>Reminder: we use <code>apply()</code> to convert an array into a list of arguments. For instance, <code>Math.max()</code> takes a list of parameters, but if we have an array we can use <code>apply</code> to make it work.</p> </blockquote><img src="https://gold.xitu.io/images/loading.png" title="JavaScript Math apply for arrays" data-src="http://adrianmejia.com/images/javascript-math-apply-arrays.png"><p>As we saw in earlier, we can use <code>apply</code> to pass arrays as list of arguments:</p><figcaption><span>ES5</span></figcaption><pre><code>Math.max.apply(Math, [2,100,1,6,43]) // 100</code></pre><p>In ES6, you can use the spread operator:</p><figcaption><span>ES6</span></figcaption><pre><code>Math.max(...[2,100,1,6,43]) // 100</code></pre><p>Also, we went from <code>concat</code> arrays to use spread operator:</p><figcaption><span>ES5</span></figcaption><pre><code>var array1 = [2,100,1,6,43]; var array2 = [\'a\', \'b\', \'c\', \'d\']; var array3 = [false, true, null, undefined]; console.log(array1.concat(array2, array3));</code></pre><p>In ES6, you can flatten nested arrays using the spread operator:</p><figcaption><span>ES6</span></figcaption><pre><code>const array1 = [2,100,1,6,43]; const array2 = [\'a\', \'b\', \'c\', \'d\']; const array3 = [false, true, null, undefined]; console.log([...array1, ...array2, ...array3]);</code></pre><h1>Conclusion<a href="https://gold.xitu.io/entry/580f4ffd5bbb50005b6c847b/view#Conclusion" title="Conclusion"></a></h1><p>JavaScript has gone through a lot of changes. This article covers most of the core features that every JavaScript developer should know. Also, we cover some best practices to make your code more concise and easier to reason about.</p><p>If you think there are some other MUST KNOW feature let me know in the comments below and I will update this article.</p>',
-        image: undefined },
-     category: [ 'frontend', 'xitu' ],
-     createdAt: Wed Oct 26 2016 14:46:30 GMT+0800 (CST),
-     posted: Wed Oct 26 2016 14:46:22 GMT+0800 (CST),
-     image: 'http://ac-mhke0kuv.clouddn.com/8c8a371cea1b260af9a9.png',
-     url: 'https://gold.xitu.io/entry/580f4ffd5bbb50005b6c847b/view',
-     title: '[英] JavaScript ES6 核心功能一览',
-     guid: 'https://gold.xitu.io/entry/580f4ffd5bbb50005b6c847b/view',
-     ranking: 54,
-     host: 'api.leancloud.cn',
-     source: 'https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex',
-     origin: 'json' } } { upsert: true }
-Wed, 26 Oct 2016 06:46:30 GMT mquery findOne entries { guid: 'https://gold.xitu.io/entry/580f4eb4a22b9d00639108bf/view' } { fields: undefined }
-Wed, 26 Oct 2016 06:46:30 GMT hearsay:collector:services:save update item  https://gold.xitu.io/entry/580f4eb4a22b9d00639108bf/view
-Wed, 26 Oct 2016 06:46:30 GMT mquery update entries { guid: 'https://gold.xitu.io/entry/580f4eb4a22b9d00639108bf/view' } { '$set': 
-   { content: 
-      { title: '爬了知乎日报十多万条数据然后分析了一遍',
-        body: '<h2 class="entry-title">爬了知乎日报十多万条数据然后分析了一遍</h2><div class="entry-content"> <p>爬取了从 20150519 以来所有的文章、点赞数、评论数和部分评论内容</p> <p>感觉数据挺多，简单的<a href="http://zhihu.ccforward.net/statistics">统计</a>了下，还挺有趣的。</p> <p>具体的数据统计和分析移步到我在<a href="https://www.zhihu.com/question/27621722/answer/128272747">知乎上的回答</a></p> <h2>线上地址</h2> <ul> <li>GitHub仓库: <a href="https://github.com/ccforward/zhihu">https://github.com/ccforward/zhihu</a> </li> <li>日报首页: <a href="http://zhihu.ccforward.net/">http://zhihu.ccforward.net</a> </li> <li>数据统计: <a href="http://zhihu.ccforward.net/statistics">http://zhihu.ccforward.net/statistics</a> </li> </ul> <h2>技术栈</h2> <p>Node.js + Vue.js + MongoDB</p> <ul> <li>Node.js做爬虫、express搭建web框架</li> <li>MongoDB 存储所有爬取的历史数据和定时任务爬取的新数据</li> <li>Vue2.0全家桶 + ES6 + stylus + webpack 做前端开发和构建</li> <li>ES6 + echarts 做数据统计页面</li> <li>知乎的图片做了防盗链，部署了一个php服务来代理图片</li> <li>整个项目托管在了百度云-BAE上面</li> </ul> <h2>功能</h2> <h3>爬虫任务</h3> <ol> <li>爬取所有历史记录，包括：文章标题、正文、评论、点赞相关的数据</li> <li>每天 07:30 - 21:30 每两个小时爬取一次最新数据</li> <li>每天 23:30 爬取当天的数据</li> <li>每周三、日 00:30 更新前7天的评论点赞数</li> </ol> <h3>展示页面</h3> <ol> <li><p><a href="http://zhihu.ccforward.net/statistics">统计入口页面</a></p></li> <li> <p><a href="http://zhihu.ccforward.net/">首页</a><br> 顶部是每天最新数据，点赞大于 1000 的做了高亮标红处理</p> <p>下面是历史每日数据</p> <p><a href="https://raw.githubusercontent.com/ccforward/cc/master/Blog/pic/zh-index.png" target="_blank"><img src="https://gold.xitu.io/images/loading.png" alt="" data-src="https://raw.githubusercontent.com/ccforward/cc/master/Blog/pic/zh-index.png"></a></p> </li> <li> <p><a href="http://zhihuhu.duapp.com/#/detail?aid=7643974">文章详情页</a> - 下面是2015年评论 TOP 1 的文章</p> <p><a href="https://raw.githubusercontent.com/ccforward/cc/master/Blog/pic/zh-detail.png" target="_blank"><img src="https://gold.xitu.io/images/loading.png" alt="" data-src="https://raw.githubusercontent.com/ccforward/cc/master/Blog/pic/zh-detail.png"></a></p> </li> <li> <p>文章的部分评论也爬了下来 </p> <p>在页面最底部点开</p> <p><a href="https://raw.githubusercontent.com/ccforward/cc/master/Blog/pic/zh-comments.png" target="_blank"><img src="https://gold.xitu.io/images/loading.png" alt="" data-src="https://raw.githubusercontent.com/ccforward/cc/master/Blog/pic/zh-comments.png"></a></p> </li> <li> <p>按日期查看每日历史文章</p> <p>可以查看历史每一天的所有文章，主要用在统计页面上，后面做个日历入口方便跳转，链接如下：</p> <p><a href="http://zhihu.ccforward.net/#/date?dtime=20161001">http://zhihu.ccforward.net/#/date?dtime=20161001</a></p> <p><a href="https://raw.githubusercontent.com/ccforward/cc/master/Blog/pic/zh-date.png" target="_blank"><img src="https://gold.xitu.io/images/loading.png" alt="" data-src="https://raw.githubusercontent.com/ccforward/cc/master/Blog/pic/zh-date.png"></a></p> </li> </ol> <p>PS: <a href="http://zhihu.ccforward.net/#/detail?aid=3">知乎日报第一篇文章</a></p> </div>',
-        image: undefined },
-     category: [ 'frontend', 'xitu' ],
-     createdAt: Wed Oct 26 2016 14:46:30 GMT+0800 (CST),
-     posted: Wed Oct 26 2016 14:46:22 GMT+0800 (CST),
-     image: 'http://ac-mhke0kuv.clouddn.com/d7995cc4f87d0134fb1f.png',
-     url: 'https://gold.xitu.io/entry/580f4eb4a22b9d00639108bf/view',
-     title: '爬了知乎日报十多万条数据然后分析了一遍',
-     guid: 'https://gold.xitu.io/entry/580f4eb4a22b9d00639108bf/view',
-     ranking: 27,
-     host: 'api.leancloud.cn',
-     source: 'https://api.leancloud.cn/1.1/classes/Entry?&where=%7B%22category%22%3A%22frontend%22%2C%22createdAt%22%3A%7B%22%24gte%22%3A%7B%22__type%22%3A%22Date%22%2C%22iso%22%3A%222016-10-16T13%3A01%3A33.238Z%22%7D%7D%7D&include=user&order=-hotIndex',
-     origin: 'json' } } { upsert: true }
-Wed, 26 Oct 2016 06:46:30 GMT Congregator:process [36mxitu[39m[32m(content)[39m[90m - [39m updated: [33m2[39m new: [35m0[39m
-Wed, 26 Oct 2016 06:48:10 GMT CongregatorBase:run [31merror: [39m{ [Error: Command failed: /bin/sh -c export https_proxy=https://127.0.0.1:8087;curl -k https://medium.com/_/api/tags/javascript/stream
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:11 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:12 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:13 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:14 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:15 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:16 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:17 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:18 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:19 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:20 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:21 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:22 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:23 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:24 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:25 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:26 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:27 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:28 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:29 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:30 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:31 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:32 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:33 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:34 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:35 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:36 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:37 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:38 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:39 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:40 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:41 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:42 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:43 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:44 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:45 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:46 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:47 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:48 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:49 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:50 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:51 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:52 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:53 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:54 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:55 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:56 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:57 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:58 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:59 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:00 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:09 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:10 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:11 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:12 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:13 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:14 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:15 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:16 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:17 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:18 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:19 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:20 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:21 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:22 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:23 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:24 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:25 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:26 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:27 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:28 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:29 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:30 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:31 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:32 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:33 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:34 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:35 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:36 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:37 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:38 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:39 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:40 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:41 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:42 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:43 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:44 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:45 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:46 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:47 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:48 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:48 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:48 --:--:--     0
-curl: (56) Recv failure: Connection reset by peer
-]
-  killed: false,
-  code: 56,
-  signal: null,
-  cmd: '/bin/sh -c export https_proxy=https://127.0.0.1:8087;curl -k https://medium.com/_/api/tags/javascript/stream' }
-Wed, 26 Oct 2016 06:48:10 GMT hearsay:collector:configuration Caught exception without specific handler: [Error: Callback was already called.]
-Wed, 26 Oct 2016 06:48:10 GMT hearsay:collector:configuration Error: Callback was already called.
-    at /home/zja/Workspace/congregator-base/node_modules/.npminstall/async/2.1.2/async/dist/async.js:985:32
-    at /home/zja/Workspace/congregator-jsonfetcher/lib/fetch.js:68:13
-    at ChildProcess.exithandler (child_process.js:221:5)
-    at emitTwo (events.js:88:13)
-    at ChildProcess.emit (events.js:173:7)
-    at maybeClose (internal/child_process.js:819:16)
-    at Socket.<anonymous> (internal/child_process.js:320:11)
-    at emitOne (events.js:78:13)
-    at Socket.emit (events.js:170:7)
-    at Pipe._onclose (net.js:470:12) error
-=======
->>>>>>> origin/master

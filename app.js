@@ -18,12 +18,12 @@ var services = require('./services')(models, config); // this can be mocked
 var e_waitTime ; //抓取的时间单位为: 半天
 var e_timeout; //抓取的时间单位为: 半天
 
-var c_imageServer = '//image.anzizhao.com/api/v1/picture/fetch'
+var c_imageServer = 'https://image.anzizhao.com/api/v1/picture/fetch'
 
 if (process.env.NODE_ENV === 'development') {
     e_waitTime = 600 *1000; 
     e_timeout = 10000; 
-    c_imageServer = '//localhost:8111/api/v1/picture/fetch';
+    c_imageServer = 'http://localhost:8111/api/v1/picture/fetch';
 
 } else {
     e_waitTime = 12 * 3600 *1000; //抓取的时间单位为: 半天
