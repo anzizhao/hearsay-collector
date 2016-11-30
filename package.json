@@ -7,6 +7,7 @@
   "scripts": {
     "startServer": "DEBUG=Congregator:*,CongregatorBase:run,hearsay:collector:* DEBUG_FD=1  node hearsay-collector.js &> debug.txt",
     "start": "node app.js",
+    "orig": "find .  -maxdepth 6  -name '*.orig'  -type f ",
     "debug":  "NODE_ENV=development DEBUG=Congregator:process,CongregatorBase:run node app.js",
     "debugT": " NODE_ENV=development  DEBUG=hearsay:collector:services:save  node app.js",
     "debugA": "NODE_ENV=development DEBUG=*  node app.js"
