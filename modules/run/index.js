@@ -17,7 +17,7 @@ exports = module.exports = function (scraper, rssReader, jsonFetcher, config) {
             async.parallel({
                 runSiteScraper: function (callback) {
                     if (process.env.NODE_ENV === 'development') {
-                        //async.forever(scraper.run.bind(scraper), callback);
+                        async.forever(scraper.run.bind(scraper), callback);
                     } else {
                         async.forever(scraper.run.bind(scraper), callback);
                     }
@@ -37,7 +37,7 @@ exports = module.exports = function (scraper, rssReader, jsonFetcher, config) {
                         //setTimeout(function(){
                             //async.forever(jsonFetcher.run.bind(jsonFetcher), callback);
                         //},  10 * 60 * 1000 ) // 30分钟抓取
-                        //async.forever(jsonFetcher.run.bind(jsonFetcher), callback);
+                        async.forever(jsonFetcher.run.bind(jsonFetcher), callback);
                     } else {
                         setTimeout(function(){
                             async.forever(jsonFetcher.run.bind(jsonFetcher), callback);

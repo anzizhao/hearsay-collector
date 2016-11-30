@@ -3,7 +3,6 @@ var debug = require('debug')('hearsay:collector:services:save');
 
 exports = module.exports = function (Entry, config) {
     return function(entry, callback) {
-        debugger;
         // async control flow
         async.waterfall([
             // check if article exists
