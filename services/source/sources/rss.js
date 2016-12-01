@@ -285,7 +285,7 @@ exports = module.exports = [
     {
         active: true,
         origin: 'feed',
-        name: 'Wired.com',
+        name: 'Wired Science',
         url: 'http://feeds.wired.com/wired/index',
         linkref: 'url',
         category: ['science', 'wired'],
@@ -463,7 +463,6 @@ exports = module.exports = [
                             selector: 'enclosures[0].url'
                         }
                     ],
-                    fallback: 'http://cdn.arstechnica.net/wp-content/themes/arstechnica/assets/images/logo.png'
                 }
             ]
         }
